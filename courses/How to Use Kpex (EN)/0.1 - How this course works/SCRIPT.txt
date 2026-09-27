@@ -1,0 +1,15 @@
+Welcome to the official Kpex course. I'm Carlos Fuenmayor, and I'll guide you step by step as you learn to use CAF Corporation's CAPEX cost intelligence platform. In the next few minutes I'll explain how the course works.
+
+By the end, you'll be able to find your way around the whole platform, build an estimate from start to finish, from Class five to Class two, and use the calibration tools that keep every figure in today's money and in your location. You don't need any previous Kpex experience: every concept is explained the first time it comes up.
+
+The course has nine modules and moves from the general to the specific. First you get to know the platform and the AACE estimate classes. Then you build your first complete estimate. After that, you go deeper into the cost modules, the Module Z tools and the reports.
+
+Each lesson combines reading with real Kpex screenshots and, in many lessons, a video like this one. Almost every lesson ends with a Try it in Kpex task: a short exercise inside the platform. Each module closes with a quiz, and at the end there is a final exam that opens the door to your certificate.
+
+My advice: follow the order, because the modules build on each other. Always do the exercises: reading about a tool is not the same as using it. And answer every quiz, because every question comes with its explanation. That way you learn from your mistakes too.
+
+Your enrolment includes a Kpex account for fifteen days, counted from your purchase. It's your lab for every exercise, so activate it in the next lesson and plan your study to make the most of it. The course lessons stay available afterwards.
+
+And when you complete the course and pass the final exam, you'll receive your certificate, verifiable by QR code, and a discount on your Kpex membership so you can keep using it on your projects.
+
+That's all to get started. In the next lesson, we'll activate your Kpex account together. See you there.

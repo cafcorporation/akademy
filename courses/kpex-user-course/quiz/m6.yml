@@ -1,0 +1,99 @@
+# Module 6 quiz — "Module Z: the Calibration Tools" / "Módulo Z: las herramientas de calibración"
+# Passing grade 70%. The first option in the source is NOT always correct: `answer` is the index (0-based).
+id: m6
+passing_grade: 70
+duration_min: 10
+
+questions:
+  - type: single
+    question:
+      es: "¿Qué incluye la tarifa de cuadrilla \"totalmente cargada\" de Z.2?"
+      en: "What does Z.2's \"fully-loaded\" crew rate include?"
+    options:
+      es: ["Solo el salario directo", "Salarios directos, cargas sociales, alojamiento en obra y supervisión", "El alquiler de la maquinaria de la cuadrilla", "Los honorarios de ingeniería de la oficina central"]
+      en: ["Direct wages only", "Direct wages, social charges, site accommodation and supervision", "Rental of the crew's machinery", "Home-office engineering fees"]
+    answer: 1
+    explanation:
+      es: "La tarifa totalmente cargada suma salarios directos + cargas sociales + alojamiento en obra + supervisión, por hora-hombre o por día-cuadrilla."
+      en: "The fully-loaded rate adds direct wages + social charges + site accommodation + supervision, per man-hour or per crew-day."
+
+  - type: single
+    question:
+      es: "¿A partir de qué construye Z.3 las tarifas de alquiler por hora, día, semana y mes?"
+      en: "What does Z.3 build hourly, daily, weekly and monthly rental rates from?"
+    options:
+      es: ["De cotizaciones de proveedores locales", "De un porcentaje fijo del costo del proyecto", "Del LFI del país de destino únicamente", "Del costo de inversión de la máquina (propiedad + operación)"]
+      en: ["Local vendor quotes", "A fixed percentage of project cost", "The destination country's LFI only", "The machine's investment cost (ownership + operating)"]
+    answer: 3
+    explanation:
+      es: "La sesión de tarifa de Z.3 parte del costo de inversión (propiedad + operación), con opciones de capacidad/especificación, escalación por familia y ajuste por territorio."
+      en: "A Z.3 rate session starts from the investment cost (ownership + operating), with capacity/spec options, per-family escalation and territory adjustment."
+
+  - type: single
+    question:
+      es: "En la fórmula del LFI, E = A × (B + C + D) / 3, ¿qué representa C?"
+      en: "In the LFI formula E = A × (B + C + D) / 3, what does C represent?"
+    options:
+      es: ["Mano de obra", "Factores del país", "Compras, aranceles y flete", "Ingeniería"]
+      en: ["Labour", "Country drivers", "Procurement, duty and freight", "Engineering"]
+    answer: 0
+    explanation:
+      es: "A = factores del país, B = compras/aranceles/flete, C = mano de obra, D = ingeniería."
+      en: "A = country drivers, B = procurement/duty/freight, C = labour, D = engineering."
+
+  - type: single
+    question:
+      es: "Un modelo calibrado en un país con LFI 1,20 se lleva a un proyecto en un país con LFI 0,90. ¿Qué factor aplica Kpex? (valores ilustrativos)"
+      en: "A model calibrated in a country with LFI 1.20 is moved to a project in a country with LFI 0.90. What factor does Kpex apply? (illustrative values)"
+    options:
+      es: ["0,90", "1,20", "0,75", "1,08"]
+      en: ["0.90", "1.20", "0.75", "1.08"]
+    answer: 2
+    explanation:
+      es: "El factor aplicado es LFI(destino) ÷ LFI(origen) = 0,90 ÷ 1,20 = 0,75."
+      en: "The applied factor is LFI(destination) ÷ LFI(origin) = 0.90 ÷ 1.20 = 0.75."
+
+  - type: true_false
+    question:
+      es: "Para escalar los precios del catálogo al mes actual hay que ejecutar manualmente el Escalation Calculator del Cost Index."
+      en: "To escalate catalogue prices to the current month you must run the Cost Index Escalation Calculator manually."
+    answer: false
+    explanation:
+      es: "Falso: la escalación se aplica automáticamente al leer; el catálogo muestra los precios \"current to\" el mes actual."
+      en: "False: escalation is applied automatically on read; the catalogue shows prices \"current to\" this month."
+
+  - type: multi
+    question:
+      es: "¿Qué regiones tiene el CAF Cost Index? (elige todas las correctas)"
+      en: "Which regions does the CAF Cost Index cover? (select all that apply)"
+    options:
+      es: ["Americas", "Europe (Euro Area)", "Japan", "Antarctica"]
+      en: ["Americas", "Europe (Euro Area)", "Japan", "Antarctica"]
+    answer: [0, 1, 2]
+    explanation:
+      es: "Las regiones son Americas, Europe (Euro Area), Asia-Pacific, Japan y Middle East & Africa, todas con base 2010 = 100."
+      en: "The regions are Americas, Europe (Euro Area), Asia-Pacific, Japan and Middle East & Africa, all on a 2010 = 100 base."
+
+  - type: single
+    question:
+      es: "Un proyecto obtiene 180 puntos en el PDRI y otro 620. ¿Cuál está mejor definido?"
+      en: "One project scores 180 on the PDRI and another scores 620. Which is better defined?"
+    options:
+      es: ["El de 620", "El de 180", "Ambos igual: el PDRI no mide definición", "No se puede saber sin el PEI"]
+      en: ["The one scoring 620", "The one scoring 180", "Both equally: the PDRI does not measure definition", "Impossible to tell without the PEI"]
+    answer: 1
+    explanation:
+      es: "La escala PDRI va de 0 a 1000 y menor es mejor: 180 indica menos indefiniciones pendientes."
+      en: "The PDRI scale runs 0–1000 and lower is better: 180 means fewer open definition gaps."
+
+  - type: single
+    question:
+      es: "Tu proyecto está en una región sin factor de ubicación estándar en Z.4. ¿Qué herramienta usas?"
+      en: "Your project is in a region with no standard location factor in Z.4. Which tool do you use?"
+    options:
+      es: ["Z.6.4 CRI Assessment", "Z.6.2 PEI Assessment", "Z.6.3 PDRI Assessment", "Z.6.1 LFI Assessment"]
+      en: ["Z.6.4 CRI Assessment", "Z.6.2 PEI Assessment", "Z.6.3 PDRI Assessment", "Z.6.1 LFI Assessment"]
+    answer: 3
+    explanation:
+      es: "Z.6.1 LFI Assessment construye un LFI a medida con un cuestionario estructurado y entrega un reporte PDF."
+      en: "Z.6.1 LFI Assessment builds a custom LFI through a structured questionnaire and delivers a PDF report."

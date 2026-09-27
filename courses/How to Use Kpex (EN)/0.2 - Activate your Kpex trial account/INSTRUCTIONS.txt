@@ -1,0 +1,17 @@
+Educational video in English, 16:9, 1080p, about 2 minutes. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (8 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached image full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the image. Do not crop or distort the images.
+
+Scene 1 (paragraph 1): Layout A. Lower third: "Carlos Fuenmayor · Facilitator · CAF Corporation". Title: "Activate your Kpex account".
+Scene 2 (paragraph 2): Layout B with 02-dashboard.png. Text: "15 days from purchase" and "Chrome · Edge · Firefox · Safari".
+Scene 3 (paragraph 3): Layout B with 03-sidebar.png. Text: "Button and field names in bold, as on screen".
+Scene 4 (paragraph 4): Layout B with 04-register.png. Text items appearing in order: "Full Name", "Corporate Email", "Password · 8+ characters, 1 capital, 1 number", "☐ Accept the terms".
+Scene 5 (paragraph 5): Layout B with 05-sign-in.png. Text items in order: "6-digit code → Verify & Continue" and "Sign In".
+Scene 6 (paragraph 6): Layout B with 06-dashboard-zones.png. Text: "🔒 = a different membership tier · lesson 2.2".
+Scene 7 (paragraph 7): Layout B with 05-sign-in.png. Text items in order: "Code not arriving? Check spam", "Forgot password?" and, clearly visible when saying "the support address you see on screen": "support@caf-corporation.com".
+Scene 8 (paragraph 8): Layout A with 01-bg-dark.jpg. Text: "Your exercise: go to the Dashboard · sign out · sign back in". Closing text: "Next: Module 1 · What Kpex Is".
+
+Pronunciation: "Kpex" is the platform name (one word).

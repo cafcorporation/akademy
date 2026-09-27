@@ -1,0 +1,93 @@
+# Module 3 quiz — "AACE Classes in Kpex" / "Las clases AACE en Kpex"
+# Passing grade 70%. The first option in the source is NOT always correct: `answer` is the index (0-based).
+id: m3
+passing_grade: 70
+duration_min: 10
+
+questions:
+  - type: single
+    question:
+      es: "¿Qué rango de precisión corresponde a un estimado Clase 5 según AACE 18R-97?"
+      en: "Which accuracy range corresponds to a Class 5 estimate under AACE 18R-97?"
+    options:
+      es: ["−10% a +15%", "−20% a +30%", "−30% a +50%", "−50% a +100%"]
+      en: ["−10% to +15%", "−20% to +30%", "−30% to +50%", "−50% to +100%"]
+    answer: 3
+    explanation:
+      es: "La Clase 5 (screening / orden de magnitud) tiene un rango de −50% a +100%, con 0–2% de definición del proyecto."
+      en: "Class 5 (screening / order of magnitude) has a −50% to +100% range, with 0–2% project definition."
+
+  - type: single
+    question:
+      es: "¿Qué clase AACE se usa típicamente para la autorización y la FID (decisión final de inversión)?"
+      en: "Which AACE class is typically used for authorization and FID (Final Investment Decision)?"
+    options:
+      es: ["Clase 4", "Clase 3", "Clase 2", "Clase 1"]
+      en: ["Class 4", "Class 3", "Class 2", "Class 1"]
+    answer: 1
+    explanation:
+      es: "La Clase 3 (presupuesto / autorización, −20% a +30%) es la de autorización, FID y aprobación de presupuesto."
+      en: "Class 3 (budget / authorization, −20% to +30%) is used for authorization, FID and budget approval."
+
+  - type: single
+    question:
+      es: "En la equivalencia PMI de Kpex, ¿qué técnica del PMBOK corresponde a la Clase 4?"
+      en: "In Kpex's PMI mapping, which PMBOK technique corresponds to Class 4?"
+    options:
+      es: ["Estimación análoga", "Estimación ascendente con MTO detallado", "Estimación paramétrica", "Juicio de expertos"]
+      en: ["Analogous estimating", "Bottom-up estimating with detailed MTO", "Parametric estimating", "Expert judgement"]
+    answer: 2
+    explanation:
+      es: "Clase 5 → análoga; Clase 4 → paramétrica; Clase 3 → inicio de la ascendente; Clases 2–1 → ascendente con MTO detallado."
+      en: "Class 5 → analogous; Class 4 → parametric; Class 3 → bottom-up initiation; Classes 2–1 → bottom-up with detailed MTO."
+
+  - type: true_false
+    question:
+      es: "En Kpex, cada proyecto tiene una única clase AACE."
+      en: "In Kpex, each project has a single AACE class."
+    answer: false
+    explanation:
+      es: "Falso: la clase pertenece al estimado. Un proyecto puede tener varios estimados de distintas clases a medida que madura."
+      en: "False: the class belongs to the estimate. A project can carry several estimates at different classes as it matures."
+
+  - type: single
+    question:
+      es: "¿Cuál es la herramienta principal para construir un estimado Clase 5 en Kpex?"
+      en: "What is the primary tool for building a Class 5 estimate in Kpex?"
+    options:
+      es: ["Cost Curves (Módulo B) + modelo de facility del Módulo C", "Componentes del Módulo A sobre la WBS", "Cotizaciones de proveedores vía Kpex Exchange", "Tarifas de mano de obra Z.2"]
+      en: ["Cost Curves (Module B) + Module C facility model", "Module A components on the WBS", "Vendor quotes via Kpex Exchange", "Z.2 labour rates"]
+    answer: 0
+    explanation:
+      es: "En Clase 5 abres Intelligence → Benchmarks → Cost Curves, eliges la facility, introduces la capacidad y pulsas Calculate."
+      en: "For Class 5 you open Intelligence → Benchmarks → Cost Curves, pick the facility, enter the capacity and press Calculate."
+
+  - type: multi
+    question:
+      es: "¿Qué hace Kpex cuando seleccionas la clase AACE de un estimado nuevo? (elige todas las correctas)"
+      en: "What does Kpex do when you select the AACE class of a new estimate? (select all that apply)"
+    options:
+      es: ["Activa el conjunto de módulos adecuado", "Aplica la lista de verificación PDRI (Z.6.3)", "Etiqueta el reporte con el rango de precisión y la justificación de la clase", "Envía una RFQ automática a los proveedores"]
+      en: ["Activates the appropriate module set", "Applies the PDRI checklist (Z.6.3)", "Tags the report with the accuracy range and class justification", "Sends an automatic RFQ to vendors"]
+    answer: [0, 1, 2]
+    explanation:
+      es: "Las RFQ a proveedores se gestionan en Kpex Exchange y son propias de la Clase 2; no se envían al elegir la clase."
+      en: "Vendor RFQs are handled in Kpex Exchange and belong to Class 2; they are not sent when you pick a class."
+
+  - type: single
+    question:
+      es: "¿En qué clase el número \"deja de ser paramétrico y pasa a ser construido\", con equipos del Módulo A, asignaciones KPEX-HF y tarifas Z.1–Z.3?"
+      en: "At which class does the number \"stop being parametric and become built up\", using Module A equipment, KPEX-HF allowances and Z.1–Z.3 rates?"
+    options:
+      es: ["Clase 5", "Clase 4", "Clase 3", "Clase 1"]
+      en: ["Class 5", "Class 4", "Class 3", "Class 1"]
+    answer: 2
+
+  - type: true_false
+    question:
+      es: "El Location Factor (Z.4) y el Cost Index (Z.5) solo se aplican a partir de la Clase 3."
+      en: "The Location Factor (Z.4) and the Cost Index (Z.5) only apply from Class 3 onwards."
+    answer: false
+    explanation:
+      es: "Falso: es la misma capa de calibración en todas las clases; ambos motores están siempre activos."
+      en: "False: it is the same calibration layer at every class; both engines are always on."

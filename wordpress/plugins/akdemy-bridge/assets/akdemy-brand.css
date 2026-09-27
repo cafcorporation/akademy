@@ -1,0 +1,621 @@
+/* Akdemy — visual system mirrored from caf-corporation.com (Kpex2G layouts/landing.blade.php)
+   over Twenty Twenty-Five + LearnPress.
+   Inter · CAF Orange #F5A011 (hover #d4880a) · CAF Gray #585856 · Ink #1a1a1a · warm borders #e0dcd6/#f0ece6 */
+:root {
+  --akdemy-orange: #F5A011;
+  --akdemy-orange-dark: #d4880a;
+  --akdemy-gray: #585856;
+  --akdemy-ink: #1a1a1a;
+  --akdemy-muted: #888888;
+  --akdemy-cream: #F8F6F2;
+  --akdemy-line: #f0ece6;
+  --akdemy-line-strong: #e0dcd6;
+  --akdemy-dark-1: #1a1a18;
+  --akdemy-dark-2: #2e2e2c;
+  --akdemy-font: 'Inter', 'Calibri', Arial, sans-serif;
+
+  /* Twenty Twenty-Five presets */
+  --wp--preset--color--base: #FFFFFF;
+  --wp--preset--color--contrast: var(--akdemy-ink);
+  --wp--preset--color--accent-1: var(--akdemy-orange);
+  --wp--preset--color--accent-2: var(--akdemy-cream);
+  --wp--preset--color--accent-3: var(--akdemy-gray);
+  --wp--preset--color--accent-4: var(--akdemy-gray);
+  --wp--preset--color--accent-5: var(--akdemy-cream);
+  --wp--preset--font-family--manrope: var(--akdemy-font);
+  --wp--preset--font-family--fira-code: var(--akdemy-font);
+
+  /* LearnPress */
+  --lp-primary-color: var(--akdemy-orange);
+  --lp-secondary-color: var(--akdemy-gray);
+  --lp-font-family: var(--akdemy-font);
+}
+
+body {
+  font-family: var(--akdemy-font);
+  color: var(--akdemy-ink);
+  -webkit-font-smoothing: antialiased;
+}
+body *:not(code):not(pre):not([class*="icon"]):not([class*="lp-ico"]):not(i) { font-family: var(--akdemy-font); }
+
+h1, h2, h3, h4, h5, h6, .wp-block-post-title, .course-title, .wp-block-learnpress-course-title {
+  color: var(--akdemy-ink);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+h1, .wp-block-learnpress-course-title { font-weight: 900; letter-spacing: -0.03em; }
+
+a { color: var(--akdemy-gray); text-decoration: none; }
+a:hover, a:focus { color: var(--akdemy-orange); }
+
+/* ── HEADER (caf .ln-nav) ───────────────────────────────── */
+header.wp-block-template-part {
+  position: sticky; top: 0; z-index: 1000;
+  background: rgba(255, 255, 255, .96);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+/* 68px bar, 1200px container, 28px gutters — same as .ln-nav / .ln-nav-inner */
+header.wp-block-template-part > .wp-block-group { padding: 0 28px !important; }
+header.wp-block-template-part > .wp-block-group > .wp-block-group {
+  max-width: 1200px; margin: 0 auto;
+  min-height: 68px; padding: 0 !important;
+  align-items: center !important;
+}
+/* TT5's inner row adds 20px top/bottom — drop it so the bar is exactly 68px like caf-corporation.com */
+header.wp-block-template-part .wp-block-group.alignwide.is-content-justification-space-between {
+  padding-top: 0 !important; padding-bottom: 0 !important; min-height: 68px; align-items: center;
+}
+/* Wordmark is 4.5:1 — 38px tall ≈ 171px wide, balanced against 13px nav text */
+.akdemy-header-logo { display: flex; align-items: center; margin-right: 48px; }
+.akdemy-header-logo img { height: 38px; width: auto; display: block; }
+header .wp-block-site-logo img { height: 38px !important; width: auto !important; }
+
+header .wp-block-navigation { gap: 4px !important; flex-wrap: nowrap; }
+header .wp-block-navigation .wp-block-navigation-item__content {
+  display: inline-flex; align-items: center;
+  padding: 7px 14px; border-radius: 8px;
+  font-size: 13px; font-weight: 600; line-height: 1.2;
+  color: var(--akdemy-gray); white-space: nowrap;
+  transition: color .15s, background .15s, border-color .15s, transform .1s;
+}
+header .wp-block-navigation .wp-block-navigation-item__content:hover,
+header .wp-block-navigation .current-menu-item > .wp-block-navigation-item__content {
+  color: var(--akdemy-orange); background: rgba(245, 160, 17, .07);
+}
+/* Right-hand CTAs: .ln-btn-ghost + .ln-btn-primary */
+header .wp-block-navigation .akdemy-nav-ghost { margin-left: auto; }
+header .wp-block-navigation .akdemy-nav-ghost > .wp-block-navigation-item__content {
+  margin-left: 22px;
+  padding: 7px 16px;
+  border: 1.5px solid var(--akdemy-line-strong);
+}
+header .wp-block-navigation .akdemy-nav-ghost > .wp-block-navigation-item__content:hover {
+  border-color: var(--akdemy-orange); background: transparent;
+}
+header .wp-block-navigation .akdemy-nav-primary > .wp-block-navigation-item__content {
+  padding: 8px 20px;
+  background: var(--akdemy-orange);
+  color: #FFFFFF; font-weight: 700;
+}
+header .wp-block-navigation .akdemy-nav-primary > .wp-block-navigation-item__content:hover {
+  background: var(--akdemy-orange-dark); color: #FFFFFF; transform: translateY(-1px);
+}
+header .wp-block-navigation .akdemy-nav-primary > .wp-block-navigation-item__content::after { content: "\2192"; margin-left: 6px; }
+.single-lp_course .wp-block-learnpress-course-title,
+.single-lp_course .wp-block-learnpress-course-title * { color: #FFFFFF !important; }
+/* Medium screens: keep the CTAs, drop the external links (TT5 switches to the burger at 600px) */
+@media (max-width: 1100px) {
+  header .wp-block-navigation .akdemy-nav-secondary { display: none; }
+  .akdemy-header-logo { margin-right: 24px; }
+}
+@media (max-width: 781px) {
+  .akdemy-header-logo { margin-right: 0; }
+  .akdemy-header-logo img { height: 32px; }
+  header .wp-block-navigation .akdemy-nav-ghost > .wp-block-navigation-item__content { margin-left: 8px; }
+}
+/* Mobile overlay menu: show everything again, stacked */
+header .wp-block-navigation__responsive-container.is-menu-open .akdemy-nav-secondary { display: block; }
+header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-size: 16px; }
+
+/* Header sits flush on the dark course hero */
+.wp-site-blocks > header.wp-block-template-part + * { margin-block-start: 0 !important; }
+
+/* ── BUTTONS (caf .ln-btn-primary / .ln-btn-ghost) ──────── */
+.wp-block-button__link,
+.wp-element-button,
+.lp-button,
+button.lp-button,
+form[name="purchase-course"] button,
+form[name="enroll-course"] button,
+form[name="continue-course"] button,
+.learn-press-form button[type="submit"] {
+  background: var(--akdemy-orange) !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  letter-spacing: 0;
+  transition: background .15s, transform .1s !important;
+}
+.wp-block-button__link:hover,
+.wp-element-button:hover,
+.lp-button:hover,
+form[name="purchase-course"] button:hover,
+form[name="enroll-course"] button:hover,
+form[name="continue-course"] button:hover,
+.learn-press-form button[type="submit"]:hover {
+  background: var(--akdemy-orange-dark) !important;
+  transform: translateY(-1px);
+}
+.is-style-outline .wp-block-button__link,
+.lp-button.button-outline {
+  background: #FFFFFF !important;
+  border: 1.5px solid var(--akdemy-line-strong) !important;
+  color: var(--akdemy-gray) !important;
+}
+
+/* ── COURSE HERO: dark CAF band with orange glow ─────────── */
+/* Classroom photo (assets/hero-course.jpg, 2048×768) under a left→right CAF-dark scrim:
+   the title side stays near-solid for legibility, the instructor + Kpex screen show on the right. */
+.single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type {
+  background:
+    linear-gradient(90deg,
+      rgba(26, 26, 24, .94) 0%,
+      rgba(26, 26, 24, .86) 38%,
+      rgba(26, 26, 24, .45) 70%,
+      rgba(26, 26, 24, .20) 100%),
+    linear-gradient(0deg, rgba(26, 26, 24, .55) 0%, transparent 35%),
+    url("hero-course.jpg") center right / cover no-repeat,
+    var(--akdemy-dark-1) !important;
+  color: #FFFFFF;
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+@media (max-width: 781px) {
+  /* Narrow screens: title covers the photo, so darken evenly */
+  .single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type {
+    background:
+      linear-gradient(rgba(26, 26, 24, .82), rgba(26, 26, 24, .82)),
+      url("hero-course.jpg") 70% center / cover no-repeat,
+      var(--akdemy-dark-1) !important;
+  }
+}
+.single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type h1,
+.single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type a,
+.single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type strong { color: #FFFFFF; }
+.single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type * { color: rgba(255, 255, 255, .78); }
+.single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type h1 { color: #FFFFFF !important; }
+.single-lp_course .wp-site-blocks > .wp-block-group.has-background:first-of-type a:hover { color: var(--akdemy-orange) !important; }
+
+/* Price box / cards: white card, warm border, soft shadow */
+.lp-course-curriculum .course-section,
+.wp-block-learnpress-course-price,
+.learn-press-courses .course-item,
+.lp-archive-courses .course-item {
+  border-color: var(--akdemy-line) !important;
+}
+.learn-press-courses .course-item,
+.lp-archive-courses .course-item {
+  border-radius: 14px !important;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.learn-press-courses .course-item:hover,
+.lp-archive-courses .course-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .10);
+}
+.course-price .price,
+.wp-block-learnpress-course-price .price { color: var(--akdemy-ink); font-weight: 900; }
+.course-price .origin-price { color: var(--akdemy-muted); }
+
+/* Curriculum */
+.course-section-header { background: var(--akdemy-cream) !important; }
+.course-section-header .section-title { font-weight: 800; color: var(--akdemy-ink); }
+
+/* ── LESSON CONTENT ──────────────────────────────────────── */
+.content-item-description table,
+.entry-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.2em 0;
+  font-size: 0.93em;
+}
+.content-item-description th,
+.entry-content th {
+  background: var(--akdemy-ink);
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: left;
+  padding: 9px 12px;
+  border-bottom: 3px solid var(--akdemy-orange);
+}
+.content-item-description td,
+.entry-content td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--akdemy-line);
+  vertical-align: top;
+}
+.content-item-description tr:nth-child(even) td,
+.entry-content tr:nth-child(even) td { background: #FBFAF7; }
+
+.content-item-description blockquote,
+.entry-content blockquote {
+  background: rgba(245, 160, 17, .07);
+  border-left: 4px solid var(--akdemy-orange);
+  border-radius: 0 10px 10px 0;
+  margin: 1.4em 0;
+  padding: 14px 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+/* Lesson reading typography — CAF scale adapted to long-form text */
+.content-item-description,
+#learn-press-content-item .content-item-description {
+  font-size: 16px; line-height: 1.75; color: #3a3a38;
+}
+.content-item-description p, .content-item-description li { font-size: 16px; line-height: 1.75; }
+.content-item-description strong { color: var(--akdemy-ink); font-weight: 700; }
+.content-item-description h2 {
+  font-size: 24px; font-weight: 900; letter-spacing: -.5px; line-height: 1.2;
+  color: var(--akdemy-ink); margin: 1.9em 0 .6em;
+}
+.content-item-description h3 {
+  font-size: 18px; font-weight: 800; letter-spacing: -.3px; line-height: 1.3;
+  color: var(--akdemy-ink); margin: 1.5em 0 .5em;
+}
+/* "En esta lección / In this lesson" — first h2 as a CAF eyebrow pill */
+.content-item-description > h2:first-child {
+  display: inline-flex; font-size: 10px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase;
+  color: var(--akdemy-orange); background: rgba(245,160,17,.1); border: 1px solid rgba(245,160,17,.25);
+  border-radius: 20px; padding: 4px 12px; margin: 0 0 12px;
+}
+.content-item-description code { font-size: .9em; background: var(--akdemy-cream); padding: 1px 6px; border-radius: 4px; }
+#learn-press-content-item .course-item-title,
+.lp-course-content .course-item-title {
+  font-size: 32px; font-weight: 900; letter-spacing: -.8px; line-height: 1.15; color: var(--akdemy-ink);
+}
+
+/* ── LearnPress pages: TT5 gives <main> 22px / weight 300 — reset to the CAF body scale ── */
+body.learnpress-page main,
+body.learnpress-page main .lp-list-courses-default,
+body.learnpress-page main .lp-form-course-filter {
+  font-size: 15px; font-weight: 400; color: var(--akdemy-ink);
+}
+
+/* Slim page banner (course archive) — thinner sibling of the home hero */
+.akdemy-page-banner {
+  position: relative;
+  background:
+    linear-gradient(90deg, rgba(26,26,24,.94) 0%, rgba(26,26,24,.82) 45%, rgba(26,26,24,.45) 80%, rgba(26,26,24,.30) 100%),
+    var(--akdemy-banner-img) center 40% / cover no-repeat,
+    var(--akdemy-dark-1);
+  color: #FFFFFF;
+  border-bottom: 3px solid var(--akdemy-orange);
+}
+.akdemy-page-banner-inner { max-width: 1200px; margin: 0 auto; padding: 38px 28px 42px; }
+.akdemy-page-banner-crumbs { display: flex; gap: 8px; align-items: center; font-size: 12.5px; font-weight: 600; margin-bottom: 16px; }
+.akdemy-page-banner-crumbs a { color: rgba(255,255,255,.7); }
+.akdemy-page-banner-crumbs a:hover { color: var(--akdemy-orange); }
+.akdemy-page-banner-crumbs span { color: rgba(255,255,255,.45); }
+.akdemy-page-banner-crumbs span[aria-current] { color: #FFFFFF; }
+.akdemy-page-banner .akdemy-eyebrow { background: rgba(245,160,17,.12); border-color: rgba(245,160,17,.3); margin-bottom: 12px; }
+.akdemy-page-banner h1 {
+  color: #FFFFFF !important; font-size: 40px; font-weight: 900; letter-spacing: -1.2px; line-height: 1.08; margin: 0 0 8px;
+}
+.akdemy-page-banner p { color: #aaaaaa; font-size: 15px; line-height: 1.6; max-width: 560px; margin: 0; }
+@media (max-width: 781px) {
+  .akdemy-page-banner { background: linear-gradient(rgba(26,26,24,.85), rgba(26,26,24,.85)), var(--akdemy-banner-img) 70% center / cover no-repeat, var(--akdemy-dark-1); }
+  .akdemy-page-banner-inner { padding: 30px 22px 34px; }
+  .akdemy-page-banner h1 { font-size: 30px; }
+}
+/* Banner replaces LearnPress's breadcrumb + archive title */
+.akdemy-has-page-banner .wp-block-learnpress-breadcrumb,
+.akdemy-has-page-banner .learn-press-breadcrumb,
+.akdemy-has-page-banner .wp-block-query-title { display: none !important; }
+.akdemy-has-page-banner .wp-site-blocks > .akdemy-page-banner + .wp-block-group { padding-top: 36px; }
+
+/* Archive header: "Courses" + breadcrumb */
+body.learnpress-page .wp-block-query-title {
+  font-size: 44px; font-weight: 900; letter-spacing: -1.5px; line-height: 1.08; margin-bottom: 8px;
+}
+.learn-press-breadcrumb, .wp-block-learnpress-breadcrumb, .wp-block-learnpress-breadcrumb * {
+  font-size: 13px !important; font-weight: 600; color: var(--akdemy-muted);
+}
+.learn-press-breadcrumb a:hover, .wp-block-learnpress-breadcrumb a:hover { color: var(--akdemy-orange); }
+
+/* Search + sort */
+body.learnpress-page input[name="c_search"],
+body.learnpress-page .courses-order-by {
+  font-size: 14px !important; font-weight: 500; height: 44px; padding: 0 14px;
+  border: 1.5px solid var(--akdemy-line-strong); border-radius: 10px; background: #FFFFFF; color: var(--akdemy-ink);
+}
+body.learnpress-page input[name="c_search"]:focus,
+body.learnpress-page .courses-order-by:focus { outline: none; border-color: var(--akdemy-orange); }
+body.learnpress-page form:has(input[name="c_search"]) button {
+  height: 44px; width: 44px; border-radius: 10px; border: 1.5px solid var(--akdemy-line-strong); background: #FFFFFF;
+}
+
+/* Course cards */
+.learn-press-courses li.course {
+  border: 1px solid var(--akdemy-line) !important; border-radius: 14px !important; overflow: hidden; background: #FFFFFF;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.learn-press-courses li.course:hover { transform: translateY(-3px); box-shadow: 0 14px 36px rgba(0,0,0,.10); border-color: rgba(245,160,17,.45) !important; }
+.learn-press-courses li.course .course-title {
+  font-size: 18px !important; font-weight: 800; letter-spacing: -.3px; line-height: 1.3; color: var(--akdemy-ink);
+}
+.learn-press-courses li.course .course-instructor,
+.learn-press-courses li.course .course-instructor *,
+.learn-press-courses li.course .instructor-display-name { font-size: 13px !important; font-weight: 600; color: var(--akdemy-muted); }
+.learn-press-courses li.course .course-count-item,
+.learn-press-courses li.course .info-meta-right,
+.learn-press-courses li.course .info-meta-left { font-size: 13px !important; font-weight: 500; color: var(--akdemy-muted); }
+.learn-press-courses li.course .course-item-price .price { font-size: 22px !important; font-weight: 900; letter-spacing: -.5px; color: var(--akdemy-ink); }
+.learn-press-courses li.course .course-item-price .origin-price { font-size: 14px !important; font-weight: 500; color: var(--akdemy-muted); }
+/* LearnPress renders <a><button>…</button></a>: style the button only, keep the link transparent */
+.learn-press-courses li.course .course-button-read-more a {
+  display: block; padding: 0 !important; background: transparent !important; border: 0 !important;
+}
+.learn-press-courses li.course .course-button-read-more button {
+  display: block; width: 100%; text-align: center; font-size: 14px !important; font-weight: 800 !important;
+  padding: 12px 20px !important; border-radius: 10px !important; cursor: pointer;
+  background: var(--akdemy-orange) !important; color: #FFFFFF !important; border: 0 !important;
+}
+.learn-press-courses li.course .course-button-read-more button:hover { background: var(--akdemy-orange-dark) !important; }
+.learn-press-courses li.course label { font-size: 13px !important; font-weight: 500; color: var(--akdemy-muted); }
+
+/* Filter sidebar — compact, CAF footer-column style headings */
+.lp-form-course-filter .lp-form-course-filter__title {
+  font-size: 11px !important; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; color: var(--akdemy-ink);
+  margin-bottom: 10px;
+}
+.lp-form-course-filter label,
+.lp-form-course-filter .lp-course-filter__field,
+.lp-form-course-filter .lp-course-filter__field * { font-size: 14px !important; font-weight: 500; color: #3a3a38; }
+.lp-form-course-filter .count, .lp-form-course-filter [class*="count"] { font-size: 12px !important; color: var(--akdemy-muted) !important; }
+.lp-form-course-filter .lp-form-course-filter__item { padding-bottom: 16px; margin-bottom: 16px; border-bottom: 1px solid var(--akdemy-line); }
+.lp-form-course-filter button {
+  font-size: 13px !important; font-weight: 700; border-radius: 10px; padding: 10px 16px; cursor: pointer;
+  border: 1.5px solid var(--akdemy-line-strong); background: #FFFFFF; color: var(--akdemy-gray);
+}
+.lp-form-course-filter button.course-filter-submit { background: var(--akdemy-orange); border-color: var(--akdemy-orange); color: #FFFFFF; }
+.lp-form-course-filter button.course-filter-submit:hover { background: var(--akdemy-orange-dark); border-color: var(--akdemy-orange-dark); }
+
+/* ── LearnPress areas: curriculum, lesson sidebar, quiz — same CAF scale ── */
+.lp-course-curriculum .course-section-header .section-title,
+#popup-sidebar .section-title {
+  font-size: 15px !important; font-weight: 800 !important; letter-spacing: -.2px; color: var(--akdemy-ink);
+}
+.lp-course-curriculum .course-section-header .section-desc,
+#popup-sidebar .section-desc { font-size: 12.5px; color: var(--akdemy-muted); }
+.lp-course-curriculum .course-item .item-name,
+.lp-course-curriculum .course-item-title,
+#popup-sidebar .course-item .item-name {
+  font-size: 14px !important; font-weight: 500; line-height: 1.45; color: #3a3a38;
+}
+.lp-course-curriculum .course-item:hover .item-name,
+#popup-sidebar .course-item:hover .item-name { color: var(--akdemy-orange); }
+#popup-sidebar .course-item.current .item-name { font-weight: 700; color: var(--akdemy-ink); }
+.lp-course-curriculum .course-item-meta,
+.lp-course-curriculum .item-meta,
+#popup-sidebar .course-item-meta { font-size: 12px !important; color: var(--akdemy-muted) !important; }
+.lp-course-curriculum .curriculum-info, .course-curriculum-info { font-size: 13px; color: var(--akdemy-muted); }
+.lp-course-curriculum h3, .lp-course-curriculum .curriculum-title,
+.single-lp_course h2, .single-lp_course h3.wp-block-heading {
+  font-size: 22px; font-weight: 900; letter-spacing: -.5px; color: var(--akdemy-ink);
+}
+#popup-header .popup-header__inner, #popup-header .course-title {
+  font-size: 14px !important; font-weight: 700 !important; letter-spacing: -.2px;
+}
+#popup-footer .prev, #popup-footer .next { font-size: 13px; font-weight: 700; }
+#popup-footer a:hover { color: var(--akdemy-orange) !important; }
+
+/* LearnPress 4.4 class names (course page + lesson sidebar) — TT5 fluid sizes otherwise inflate them */
+.course-section .course-section-header,
+.course-section .course-section-info { font-size: 14px !important; }
+.course-section .course-section__title {
+  font-size: 15px !important; font-weight: 800 !important; letter-spacing: -.2px; line-height: 1.35; color: var(--akdemy-ink);
+}
+.course-section .course-section__description { font-size: 12.5px !important; color: var(--akdemy-muted); }
+.course-section .course-item-title { font-size: 14px !important; line-height: 1.45; color: #3a3a38; }
+.course-section .course-item:hover .course-item-title { color: var(--akdemy-orange); }
+.course-section .course-item.current .course-item-title { font-weight: 700; color: var(--akdemy-ink); }
+.course-section .course-item__right,
+.course-section .course-item__right .duration,
+.course-section .course-item__right .question-count,
+.course-section .course-item-meta { font-size: 12px !important; color: var(--akdemy-muted) !important; }
+.course-section .section-count-items, .course-section .course-section__count { font-size: 12px !important; font-weight: 700; color: var(--akdemy-muted); }
+
+/* Course meta sidebar (price box) */
+.wp-block-learnpress-course-price .price,
+.course-price .price { font-size: 26px !important; letter-spacing: -.5px; }
+.single-lp_course [class*="wp-block-learnpress-course-"]:not(.wp-block-learnpress-course-title) { font-size: 14px; }
+
+/* Quiz */
+.quiz-intro, .quiz-intro-item { font-size: 14px; color: #3a3a38; }
+.question .question-title, .quiz-content .question-title {
+  font-size: 18px !important; font-weight: 800 !important; letter-spacing: -.3px; line-height: 1.35; color: var(--akdemy-ink);
+}
+.answer-options .option-title, .answer-option .option-title { font-size: 15px; line-height: 1.5; }
+.answer-option.answer-correct { border-color: #1DBE6B !important; }
+.question-explanation-content, .question-hint-content {
+  background: rgba(245,160,17,.07); border-left: 4px solid var(--akdemy-orange); border-radius: 0 10px 10px 0;
+  padding: 12px 16px; font-size: 14px;
+}
+.quiz-result .result-grade, .result-achieved { font-weight: 900; letter-spacing: -.5px; }
+
+/* LearnPress notices */
+.learn-press-message { font-size: 14px; border-radius: 10px; }
+
+/* Course page hero title — caf .hero-title scale */
+.single-lp_course .wp-block-learnpress-course-title {
+  font-size: 44px !important; line-height: 1.08 !important; letter-spacing: -1.5px !important; font-weight: 900 !important;
+}
+@media (max-width: 781px) { .single-lp_course .wp-block-learnpress-course-title { font-size: 32px !important; } }
+
+.akdemy-pending {
+  background: rgba(245, 160, 17, .07);
+  border-left: 4px solid var(--akdemy-orange);
+  border-radius: 0 10px 10px 0;
+  padding: 14px 18px;
+}
+
+/* LearnPress lesson popup */
+#popup-header { background: linear-gradient(135deg, var(--akdemy-dark-1), var(--akdemy-dark-2)) !important; }
+#popup-header .popup-header__inner, #popup-header a { color: #FFFFFF; }
+#popup-sidebar .course-item.current,
+.course-curriculum .course-item.current { border-left-color: var(--akdemy-orange) !important; }
+#popup-footer { border-top: 1px solid var(--akdemy-line); }
+
+/* ── FOOTER (caf .ln-footer) ─────────────────────────────── */
+footer.wp-block-template-part {
+  background: linear-gradient(135deg, var(--akdemy-dark-1) 0%, var(--akdemy-dark-2) 100%);
+  color: var(--akdemy-muted);
+}
+footer.wp-block-template-part * { color: var(--akdemy-muted); }
+footer.wp-block-template-part h1, footer.wp-block-template-part h2,
+footer.wp-block-template-part h3, footer.wp-block-template-part strong { color: #FFFFFF; }
+footer.wp-block-template-part a { color: var(--akdemy-muted); font-size: 13px; }
+footer.wp-block-template-part a:hover { color: var(--akdemy-orange); }
+.akdemy-footer { padding: 56px 0 28px; }
+.akdemy-footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
+.akdemy-footer-grid {
+  display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px;
+}
+.akdemy-footer-logo { width: 200px; height: auto; display: block; margin-bottom: 16px; }
+footer.wp-block-template-part .akdemy-footer-desc { font-size: 12px; line-height: 1.7; color: var(--akdemy-muted); max-width: 280px; margin: 0; }
+footer.wp-block-template-part .akdemy-footer-col-title {
+  font-size: 11px; font-weight: 800; color: #FFFFFF;
+  text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px;
+}
+.akdemy-footer-links { display: flex; flex-direction: column; gap: 8px; }
+footer.wp-block-template-part .akdemy-footer-links a { font-size: 12px; color: var(--akdemy-muted); transition: color .15s; }
+footer.wp-block-template-part .akdemy-footer-links a:hover { color: var(--akdemy-orange); }
+.akdemy-footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, .08); padding-top: 22px;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+footer.wp-block-template-part .akdemy-footer-copy { font-size: 11px; color: #666666; }
+.akdemy-footer-badges { display: flex; gap: 10px; }
+footer.wp-block-template-part .akdemy-footer-badges span {
+  background: rgba(245, 160, 17, .12); border: 1px solid rgba(245, 160, 17, .25);
+  border-radius: 6px; padding: 4px 10px;
+  font-size: 9.5px; font-weight: 700; color: var(--akdemy-orange); letter-spacing: .4px;
+}
+@media (max-width: 768px) { .akdemy-footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; } }
+@media (max-width: 480px) { .akdemy-footer-grid { grid-template-columns: 1fr; } }
+
+/* ── HOME / INSIGHTS PAGES ───────────────────────────────── */
+.akdemy-page-home .wp-block-post-title,
+.akdemy-page-insights .wp-block-post-title { display: none; }
+.akdemy-page-home main, .akdemy-page-insights main { margin-top: 0 !important; padding-top: 0 !important; }
+.akdemy-page-home main > .wp-block-group, .akdemy-page-insights main > .wp-block-group { padding-top: 0 !important; margin-top: 0 !important; }
+
+/* caf .hero-eyebrow / .ln-section-eyebrow — orange pill */
+.akdemy-eyebrow {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(245,160,17,.1); border: 1px solid rgba(245,160,17,.25);
+  border-radius: 20px; padding: 4px 12px;
+  font-size: 10px; font-weight: 800; letter-spacing: .6px;
+  text-transform: uppercase; color: var(--akdemy-orange); margin-bottom: 14px;
+}
+.akdemy-hero .akdemy-eyebrow {
+  background: rgba(245,160,17,.12); border-color: rgba(245,160,17,.3);
+  padding: 5px 14px; font-size: 11px; font-weight: 700; margin-bottom: 20px;
+}
+
+/* Full-bleed hero with the classroom photo */
+.akdemy-hero {
+  width: 100vw; margin-left: calc(50% - 50vw); margin-top: 0 !important;
+  background:
+    linear-gradient(90deg, rgba(26,26,24,.95) 0%, rgba(26,26,24,.85) 42%, rgba(26,26,24,.35) 75%, rgba(26,26,24,.15) 100%),
+    linear-gradient(0deg, rgba(26,26,24,.6) 0%, transparent 40%),
+    url("hero-course.jpg") center right / cover no-repeat,
+    var(--akdemy-dark-1);
+  color: #FFFFFF;
+}
+/* 100vw includes the scrollbar — clip the overflow instead of showing a horizontal scrollbar */
+html, body { overflow-x: clip; }
+/* The (hidden) post title leaves a block-gap above the content */
+.akdemy-page-home .entry-content, .akdemy-page-insights .entry-content { margin-block-start: 0 !important; }
+
+/* WP's constrained layout forces margin:auto!important + max-width on children — break out explicitly */
+.is-layout-constrained > .akdemy-hero,
+.wp-block-post-content > .akdemy-hero {
+  max-width: none !important;
+  width: 100vw !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  margin-block-start: 0 !important;
+}
+.akdemy-hero-inner { max-width: 1200px; margin: 0 auto; padding: 110px 28px 120px; }
+/* caf .hero-title / .hero-sub / .hero-btn-* */
+.akdemy-hero h1 {
+  color: #FFFFFF !important; font-size: 52px; line-height: 1.08;
+  font-weight: 900; letter-spacing: -1.5px; margin: 0 0 20px; max-width: 720px;
+}
+.akdemy-hero h1 span { color: var(--akdemy-orange); }
+.akdemy-hero p { color: #aaaaaa; font-size: 16px; line-height: 1.65; max-width: 480px; margin: 0 0 36px; }
+.akdemy-hero-ctas { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.akdemy-btn-primary, .akdemy-btn-ghost {
+  display: inline-flex; align-items: center; gap: 8px; border-radius: 10px;
+  font-size: 14px; transition: background .15s, transform .1s, border-color .15s, color .15s;
+}
+.akdemy-btn-primary { background: var(--akdemy-orange); color: #FFFFFF !important; padding: 14px 28px; font-weight: 800; }
+.akdemy-btn-primary:hover { background: var(--akdemy-orange-dark); transform: translateY(-2px); }
+.akdemy-btn-ghost { border: 1.5px solid rgba(255,255,255,.2); color: #FFFFFF !important; padding: 13px 24px; font-weight: 600; }
+@media (max-width: 781px) { .akdemy-hero h1 { font-size: 36px; } }
+.akdemy-btn-ghost:hover { border-color: var(--akdemy-orange); color: var(--akdemy-orange) !important; }
+@media (max-width: 781px) {
+  .akdemy-hero { background: linear-gradient(rgba(26,26,24,.84), rgba(26,26,24,.84)), url("hero-course.jpg") 70% center / cover no-repeat, var(--akdemy-dark-1); }
+  .akdemy-hero-inner { padding: 72px 22px 80px; }
+}
+
+/* caf .ln-section / .ln-section-title / .ln-section-sub */
+.akdemy-section { padding-top: 88px; }
+.akdemy-section-first { padding-top: 64px; }
+.akdemy-section-head { max-width: 720px; margin-bottom: 30px; }
+.akdemy-section-head h2 { font-size: 36px; font-weight: 900; letter-spacing: -.8px; line-height: 1.15; color: var(--akdemy-ink); margin: 0 0 12px; }
+.akdemy-section-head p { color: var(--akdemy-muted); font-size: 15px; line-height: 1.6; max-width: 560px; margin: 0; }
+@media (max-width: 781px) { .akdemy-section-head h2 { font-size: 28px; } .akdemy-section { padding-top: 64px; } }
+
+/* Insight + course cards (caf .article-card) */
+.akdemy-insights-grid, .akdemy-course-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px;
+}
+.akdemy-insight-card, .akdemy-course-card {
+  display: flex; flex-direction: column; background: #FFFFFF;
+  border: 1px solid var(--akdemy-line); border-radius: 14px; overflow: hidden;
+  color: var(--akdemy-ink) !important;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.akdemy-insight-card:hover, .akdemy-course-card:hover {
+  transform: translateY(-3px); box-shadow: 0 14px 36px rgba(0,0,0,.10); border-color: rgba(245,160,17,.45);
+}
+.akdemy-insight-img {
+  position: relative; aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, var(--akdemy-dark-1), var(--akdemy-dark-2));
+  background-size: cover; background-position: center;
+}
+.akdemy-insight-lock {
+  position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 800; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--akdemy-orange); background: rgba(26,26,24,.85);
+  border: 1px solid rgba(245,160,17,.4); border-radius: 20px; padding: 4px 10px;
+}
+.akdemy-insight-body, .akdemy-course-body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+.akdemy-insight-cat { font-size: 10px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; margin-bottom: 8px; }
+.akdemy-insight-title, .akdemy-course-title { font-size: 16px; font-weight: 800; line-height: 1.3; letter-spacing: -.3px; color: var(--akdemy-ink); margin-bottom: 8px; }
+.akdemy-insight-excerpt, .akdemy-course-excerpt { font-size: 13px; line-height: 1.65; color: var(--akdemy-muted); flex: 1; }
+.akdemy-insight-meta, .akdemy-course-foot {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--akdemy-line);
+  font-size: 12.5px; color: var(--akdemy-muted);
+}
+.akdemy-insight-read, .akdemy-course-cta { color: var(--akdemy-orange); font-weight: 700; white-space: nowrap; }
+.akdemy-course-img img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.akdemy-course-price { font-size: 15px; font-weight: 900; color: var(--akdemy-ink); }
+.akdemy-course-price .origin-price, .akdemy-course-price del { color: var(--akdemy-muted); font-weight: 500; font-size: 13px; margin-right: 6px; }
+.akdemy-insights-more { margin: 22px 0 80px; }
+.akdemy-insights-more a { font-weight: 700; color: var(--akdemy-orange); }

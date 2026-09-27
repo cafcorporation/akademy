@@ -1,0 +1,15 @@
+How many times have you built an estimate from a three-year-old cost book, from another country, and had to guess the adjustment? Kpex was built so that never happens again. I'm Carlos Fuenmayor, and in this lesson I'll show you what makes Kpex unique.
+
+Kpex is a cloud platform for CAPEX cost intelligence, built by CAF Corporation. There is nothing to install: you open your browser and estimate. And it brings together the profession's two great references, AACE International and PMI, so the cost engineer and the project manager work in the same tool and speak the same language.
+
+First idea: a database that keeps itself up to date. Every cost is anchored to the US Gulf Coast in a base month. The Location Factor moves it to any of one hundred and ninety-six countries, and the Cost Index escalates it to the current month. Automatically, every time you look it up. Your estimate is always in today's money and in your location.
+
+Second: depth. More than seven hundred parametric equipment models, one hundred and fifty complete facilities and more than four hundred and thirty cost curves. Each one with its capacity driver, its valid range and its source.
+
+Third: the full lifecycle. Not just CAPEX: Module D adds operating costs, OPEX, and Module E abandonment and decommissioning, ABEX. Very few platforms go that far.
+
+Fourth: metric or imperial with a single switch, and the estimate in your own currency, at the day's exchange rate. The base is always stored in dollars, so comparisons stay consistent.
+
+And fifth: Module Z. Location factor, cost index, labour, rental equipment and engineering rates, and assessments like PDRI. What usually lives in ten different spreadsheets is integrated here.
+
+In this course you'll learn to use all of it step by step, practising in Kpex from day one. When you finish, you'll get your certificate and a discount on your membership. In the next lesson we tour the platform at a glance. Let's get started.

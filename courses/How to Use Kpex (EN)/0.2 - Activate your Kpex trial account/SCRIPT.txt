@@ -1,0 +1,15 @@
+In this lesson, we activate your Kpex account. It's your lab for the whole course: almost every lesson ends with an exercise inside the platform, so it's worth having it ready before you start Module one.
+
+Your account lasts fifteen days from your purchase, and when they're up, your Kpex access expires, even if you haven't finished the course. That's why I recommend activating it today. Kpex runs entirely in your browser: there is nothing to install, and Chrome, Edge, Firefox or Safari all work.
+
+Throughout the course you'll see the names of buttons and fields in bold, exactly as they appear on screen, so you can follow every step in the platform.
+
+To create your account, fill in the Create your account form: your full name, your work email and a password of at least eight characters, with one capital letter and one number. Then tick the box for the terms and the privacy policy. It isn't ticked by default: you have to tick it yourself.
+
+Kpex then sends a six-digit code to your email. Type it in and click Verify and Continue. Finally, sign in with your email and your password. If you're on your own computer, you can tick Keep me signed in.
+
+Your account gives you access to the parts of Kpex this course uses. If you see an item with a lock icon in the sidebar, that feature belongs to a different membership tier. We'll look at this properly in lesson two point two.
+
+If something doesn't work: if the code doesn't arrive, check your spam folder. If you forget your password, click Forgot password on the sign-in screen. And for any other problem, write to the support address you see on screen.
+
+Your exercise for today: activate your account, go to the Dashboard, sign out and sign back in, to confirm your password works. With that, you're ready for Module one. See you in the next lesson.

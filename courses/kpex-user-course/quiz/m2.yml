@@ -1,0 +1,96 @@
+# Module 2 quiz — "Getting Started" / "Primeros pasos"
+# Passing grade 70%. The first option in the source is NOT always correct: `answer` is the index (0-based).
+id: m2
+passing_grade: 70
+duration_min: 10
+
+questions:
+  - type: single
+    question:
+      es: "¿Qué necesitas instalar para usar Kpex?"
+      en: "What do you need to install to use Kpex?"
+    options:
+      es: ["Un cliente de escritorio para Windows", "Un complemento de Excel", "Nada: solo un navegador moderno", "Una aplicación móvil"]
+      en: ["A Windows desktop client", "An Excel add-in", "Nothing: just a modern browser", "A mobile app"]
+    answer: 2
+    explanation:
+      es: "Kpex es una plataforma en la nube: se accede en kpex.caf-corporation.com desde Chrome, Edge, Firefox o Safari, sin instalar nada."
+      en: "Kpex is a cloud platform: you access it at kpex.caf-corporation.com from Chrome, Edge, Firefox or Safari, with nothing to install."
+
+  - type: true_false
+    question:
+      es: "Dentro de la aplicación Kpex puedes cambiar la interfaz al español con el selector de idioma."
+      en: "Inside the Kpex application you can switch the interface to Spanish with the language selector."
+    answer: false
+    explanation:
+      es: "Falso: la interfaz de la aplicación está, por ahora, solo en inglés. El selector de idioma existe en el sitio web público y en la página de inicio de sesión."
+      en: "False: the application interface is currently English-only. The language selector is available on the public website and the sign-in page."
+
+  - type: single
+    question:
+      es: "¿Cuáles son las tres zonas del Dashboard de Kpex?"
+      en: "What are the three zones of the Kpex Dashboard?"
+    options:
+      es: ["Barra lateral, área central y barra superior", "Encabezado, pie de página y ventana emergente", "Menú de proyectos, menú de estimados y menú de reportes", "Panel de administrador, panel de usuario y panel de ayuda"]
+      en: ["Sidebar, main content area and top bar", "Header, footer and pop-up window", "Projects menu, estimates menu and reports menu", "Admin panel, user panel and help panel"]
+    answer: 0
+    explanation:
+      es: "Navegas con la barra lateral (izquierda), ves tu resumen en el área central y gestionas notificaciones, modo claro/oscuro y tu cuenta en la barra superior."
+      en: "You navigate with the sidebar (left), see your summary in the main area, and manage notifications, light/dark mode and your account in the top bar."
+
+  - type: single
+    question:
+      es: "En la barra lateral, un elemento atenuado con un candado significa que…"
+      en: "In the sidebar, a dimmed item with a lock icon means that…"
+    options:
+      es: ["La función está en mantenimiento", "Necesitas un nivel de membresía superior", "Tu sesión ha caducado", "La función solo existe en la versión en español"]
+      en: ["The feature is under maintenance", "You need a higher membership tier", "Your session has expired", "The feature only exists in the Spanish version"]
+    answer: 1
+    explanation:
+      es: "El candado indica que la función requiere un nivel de membresía superior al tuyo; al pasar el cursor verás el aviso Upgrade to unlock."
+      en: "The lock shows the feature needs a higher membership tier than yours; hovering over it shows Upgrade to unlock."
+
+  - type: multi
+    question:
+      es: "¿Qué encuentras en la barra superior del Dashboard? (elige todas las correctas)"
+      en: "What do you find in the Dashboard top bar? (select all that apply)"
+    options:
+      es: ["La campana de notificaciones", "El Estimate Wizard", "El cambio entre modo claro y oscuro", "El menú de tu cuenta con My Account y Sign Out"]
+      en: ["The notifications bell", "The Estimate Wizard", "The light / dark mode toggle", "Your account menu with My Account and Sign Out"]
+    answer: [0, 2, 3]
+    explanation:
+      es: "El Estimate Wizard se abre desde el grupo Cost Estimation de la barra lateral, no desde la barra superior."
+      en: "The Estimate Wizard is opened from the Cost Estimation group in the sidebar, not from the top bar."
+
+  - type: single
+    question:
+      es: "¿Qué tipo de perfil ve la barra lateral completa, con todas las secciones?"
+      en: "Which profile type sees the full sidebar, with every section?"
+    options:
+      es: ["Vendor", "Data Partner", "Owner / Operator", "Consultant / Estimator"]
+      en: ["Vendor", "Data Partner", "Owner / Operator", "Consultant / Estimator"]
+    answer: 3
+    explanation:
+      es: "El perfil Consultant / Estimator tiene el flujo completo de estimación y ve todas las secciones. Vendor solo ve el Vendor Portal y Data Partner su propio portal."
+      en: "Consultant / Estimator has the full estimating workflow and sees every section. Vendor only sees the Vendor Portal, and Data Partner their own portal."
+
+  - type: single
+    question:
+      es: "Un dueño de proyecto quiere revisar los estimados de su contratista EPC y pedir cotizaciones por Kpex Exchange. ¿Qué perfil se ajusta a su trabajo?"
+      en: "A project owner wants to review their EPC contractor's estimates and request quotes through Kpex Exchange. Which profile fits their work?"
+    options:
+      es: ["Vendor", "Owner / Operator", "Data Partner", "Consultant / Estimator"]
+      en: ["Vendor", "Owner / Operator", "Data Partner", "Consultant / Estimator"]
+    answer: 1
+    explanation:
+      es: "El perfil Owner / Operator se centra en revisar estimados EPC y emitir RFQ a través de Kpex Exchange."
+      en: "The Owner / Operator profile focuses on reviewing EPC estimates and issuing RFQs through Kpex Exchange."
+
+  - type: true_false
+    question:
+      es: "El tipo de perfil y el nivel de membresía son lo mismo en Kpex."
+      en: "Profile type and membership tier are the same thing in Kpex."
+    answer: false
+    explanation:
+      es: "Falso: el perfil decide qué secciones ves; la membresía decide cuáles tienes desbloqueadas."
+      en: "False: your profile decides which sections you see; your membership decides which ones are unlocked."

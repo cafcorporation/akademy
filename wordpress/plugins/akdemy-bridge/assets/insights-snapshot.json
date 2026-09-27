@@ -1,0 +1,117 @@
+{
+  "source": "snapshot",
+  "insights_url": "https://caf-corporation.com/insights",
+  "generated_at": "2026-09-23T21:05:29.760Z",
+  "items": [
+    {
+      "title": "The KPEX Ecosystem: From First-Generation Estimating to a Connected Cost Intelligence Network",
+      "url": "https://caf-corporation.com/insights/the-capex-ecosystem-from-first-generation-estimating-to-a-connected-cost-intelligence-network",
+      "excerpt": "The capital project industry is shifting from spreadsheets to integrated platforms and fully connected KPEX ecosystems. This transformation is redefining how cost estimates are produced, improving accuracy, accelerating decisions and enabling data-driven competitive advantage, while exposing the limits of fragmented, traditional approaches.",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/s5Hy3MvarN61sfQyfjx78Ar1s1AIPakOtXUJD8cA.png",
+      "category_label": "General",
+      "category_color": "#aaa",
+      "reading_time": 5,
+      "featured": true,
+      "members_only": false
+    },
+    {
+      "title": "The four KAPEX Estimate Classes",
+      "url": "https://caf-corporation.com/insights/the-four-classes-of-the-capex-estimate",
+      "excerpt": "An estimate is not worth what it costs to prepare. It is worth what was known about the project when it was prepared. A reference...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/GFnnc7FL4oPeEbv7UdILFl8WwTNWswTerPbbTsyA.png",
+      "category_label": "AACE Methodology",
+      "category_color": "#0369A1",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "Rest in Peace, Hand Factors (1958–2026)",
+      "url": "https://caf-corporation.com/insights/rest-in-peace-hand-factors-1958-2026",
+      "excerpt": "The equipment-factor method served estimators faithfully for almost seven decades. It has earned its retirement — and Kpex’s ISBL...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/Z4Zt7q1qaXf7cIA1epupM9eWzwE6luu30Oe5RGLA.png",
+      "category_label": "Equipment Costs",
+      "category_color": "#EF4444",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "The Kpex Cost Index",
+      "url": "https://caf-corporation.com/insights/the-kpex-cost-index",
+      "excerpt": "A next-generation plant cost index — same rigorous methodology as the established benchmarks, but automated from the primary publi...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/FgcKibTcKqAfi1A1PycWScOPJ2MIZXOnGQ2dVApf.png",
+      "category_label": "General",
+      "category_color": "#aaa",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "Where a Cost Curve Comes From",
+      "url": "https://caf-corporation.com/insights/where-a-cost-curve-comes-from",
+      "excerpt": "Every estimator eventually asks where a parametric cost number actually comes from. This article takes a cost curve apart: how a s...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/mktld7Mtgp7RUPKBOLWO61TlYKulvxsT1WQ59eYq.png",
+      "category_label": "General",
+      "category_color": "#aaa",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "Module Z: the calibration layer behind every Kpex estimate",
+      "url": "https://caf-corporation.com/insights/module-z-the-calibration-layer-behind-every-kpex-estimate",
+      "excerpt": "Labor rates, location and time-adjustment indices, and a full set of project assessment tools, integrated into a single ecosystem....",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/NmQrNUcoyXlBMilARY8vy6VJEbfkNyiwlbtMPoOm.png",
+      "category_label": "General",
+      "category_color": "#aaa",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "Kpex · Module C: A Cost Model for Every Facility, in One Platform",
+      "url": "https://caf-corporation.com/insights/kpex-module-c-a-cost-model-for-every-facility-in-one-platform",
+      "excerpt": "Module C is the only place an estimator can put a credible, defensible number on a refinery, a rail line, a hospital, a solar farm...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/qHJj5lJp7N4JSG1ihHuAyOhxBRs3c14t2smKTQ14.png",
+      "category_label": "AACE Methodology",
+      "category_color": "#0369A1",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "Kpex Exchange: The Intelligence Flywheel",
+      "url": "https://caf-corporation.com/insights/kpex-exchange-the-intelligence-flywheel",
+      "excerpt": "How a closed-loop data architecture connecting estimators, vendors, and executed project cost data is redefining cost intelligence...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/bbF03JfPo8zEazpPblsSNJG1c1nD3oREXah5VNWt.png",
+      "category_label": "AACE Methodology",
+      "category_color": "#0369A1",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "The Intelligence Behind Every Cost Estimate",
+      "url": "https://caf-corporation.com/insights/the-intelligence-behind-every-cost-estimate",
+      "excerpt": "In every estimate — regardless of class — there is a moment where the quotes run out. A vendor hasn't responded. A specialty item...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/EWvsEIizd3abax4dFjTymNZpTRjLn0LJzVzrYGtk.png",
+      "category_label": "General",
+      "category_color": "#aaa",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    },
+    {
+      "title": "Class 3 vs. Class 2: The FID Line That Transforms Your CAPEX Estimate",
+      "url": "https://caf-corporation.com/insights/class-3-vs-class-2-the-fid-line-that-transforms-your-capex-estimate",
+      "excerpt": "A Class 3 and a Class 2 estimate are not just different levels of accuracy — they operate in fundamentally different data environm...",
+      "cover_url": "https://caf-corporation.com/storage/insights/covers/eiCDH9KZ0NdWEoUTNOU3Iy5FUGsHYLBYvbNEtjxH.png",
+      "category_label": "AACE Methodology",
+      "category_color": "#0369A1",
+      "reading_time": 5,
+      "featured": false,
+      "members_only": false
+    }
+  ]
+}

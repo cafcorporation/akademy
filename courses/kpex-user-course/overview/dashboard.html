@@ -1,0 +1,57 @@
+<!doctype html>
+<!-- Annotated Kpex dashboard for the course overview. Rendered by tools/render-overview.ps1 → overview/dashboard-<lang>.png
+     ?lang=es|en   Box coordinates are in pixels of screenshots/1.1-dashboard.png (1440×900). -->
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 1600px; font-family: Inter, Arial, sans-serif; background: #1a1a18; color: #fff; }
+  .wrap { padding: 56px 80px 60px; background: radial-gradient(900px 500px at 85% 0%, rgba(245,160,17,.18), transparent 70%), linear-gradient(135deg, #1a1a18, #2e2e2c); }
+  .head { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 28px; }
+  .eyebrow { display: inline-block; font-size: 15px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: #F5A011;
+    border: 1.5px solid rgba(245,160,17,.55); background: rgba(245,160,17,.12); border-radius: 999px; padding: 6px 16px; }
+  h1 { font-size: 46px; font-weight: 900; letter-spacing: -1.4px; margin: 16px 0 0; line-height: 1.05; }
+  h1 span { color: #F5A011; }
+  .logo { height: 54px; }
+  .shot { position: relative; width: 1440px; height: 900px; border-radius: 14px; overflow: hidden;
+    box-shadow: 0 30px 70px -25px rgba(0,0,0,.8), 0 0 0 1px rgba(255,255,255,.08); background: #fff; }
+  .shot img { display: block; width: 1440px; height: 900px; }
+  .box { position: absolute; border: 3px solid #F5A011; border-radius: 12px; box-shadow: 0 0 0 4px rgba(245,160,17,.18); }
+  .num { position: absolute; width: 50px; height: 50px; border-radius: 50%; background: #F5A011; color: #1a1a1a; font-size: 26px; font-weight: 900;
+    display: grid; place-items: center; box-shadow: 0 6px 16px rgba(0,0,0,.45), 0 0 0 5px #fff; }
+  .legend { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; margin-top: 34px; }
+  .item { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-top: 3px solid #F5A011; border-radius: 12px; padding: 18px 18px 20px; }
+  .item .n { width: 36px; height: 36px; border-radius: 50%; background: #F5A011; color: #1a1a1a; font-weight: 900; font-size: 18px; display: grid; place-items: center; margin-bottom: 12px; }
+  .item b { display: block; font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+  .item p { margin: 0; font-size: 16px; line-height: 1.45; color: #d9d5cc; }
+</style></head>
+<body><div class="wrap" id="app"></div>
+<script>
+  const lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'es';
+  const T = {
+    es: { eyebrow: 'Tu centro de mando', title: 'El <span>dashboard</span> de Kpex', items: [
+      ['Barra lateral', 'Todas las secciones: proyectos, estimados AACE, módulos de costo, herramientas Z, inteligencia y Exchange.'],
+      ['Bienvenida', 'Tus cifras clave de un vistazo y el botón New Project para empezar un proyecto.'],
+      ['Indicadores', 'Proyectos, estimados, empresas registradas y el estado de la base de datos de Kpex.'],
+      ['Kpex 1G', 'Acceso directo a los modelos paramétricos, la base de facilities y la biblioteca de benchmarks.'],
+      ['Gráficos', 'Tus estimados por clase AACE y tus proyectos por tipo de facility.'],
+    ] },
+    en: { eyebrow: 'Your command centre', title: 'The Kpex <span>dashboard</span>', items: [
+      ['Sidebar', 'Every section: projects, AACE estimates, cost modules, Z tools, intelligence and Exchange.'],
+      ['Welcome', 'Your key figures at a glance, and the New Project button to start a project.'],
+      ['Indicators', 'Projects, estimates, registered companies and the status of the Kpex database.'],
+      ['Kpex 1G', 'One click to the parametric models, the facilities database and the benchmarking library.'],
+      ['Charts', 'Your estimates by AACE class and your projects by facility type.'],
+    ] },
+  }[lang];
+  // [x, y, w, h] of each highlighted zone, and where its number sits.
+  const BOX = [[6, 70, 248, 830], [288, 92, 1110, 182], [288, 293, 1110, 146], [288, 458, 1110, 108], [288, 584, 1110, 316]];
+  const shot = BOX.map(([x, y, w, h], i) =>
+    `<div class="box" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px"></div>
+     <div class="num" style="left:${x + w - 34}px;top:${y - 16}px">${i + 1}</div>`).join('');
+  document.getElementById('app').innerHTML = `
+    <div class="head"><div><span class="eyebrow">${T.eyebrow}</span><h1>${T.title}</h1></div>
+      <img class="logo" src="../../../marketing/brochure/img/kpex-white.svg" alt="Kpex"></div>
+    <div class="shot"><img src="../screenshots/1.1-dashboard.png" alt="">${shot}</div>
+    <div class="legend">${T.items.map(([b, p], i) => `<div class="item"><div class="n">${i + 1}</div><b>${b}</b><p>${p}</p></div>`).join('')}</div>`;
+</script></body></html>

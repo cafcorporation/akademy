@@ -1,0 +1,17 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 30 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (8 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Lower third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B with 02-1.1-dashboard.png. Text: "Kpex · Cloud CAPEX cost intelligence"; when mentioned, two tags: "AACE International" and "PMI".
+Scene 3 (paragraph 3): Layout B. First half 03-6.2-z4-pagina-pais.png; from "and the Cost Index" switch to 04-6.3-cost-index.png. Text: "1 · Geography × time", "196 countries", "Current month".
+Scene 4 (paragraph 4): Layout B. Three cuts, one per figure: 05-5.1-modulo-a-catalogo.png with "700+ equipment models", 06-5.3-facility-cbs.png with "150 facilities", 07-5.2-curva-de-costo.png with "430+ cost curves". Title: "2 · Depth".
+Scene 5 (paragraph 5): Layout B with 08-5.4-lifecycle-cost-scope.png. Text: "3 · Full lifecycle" and "CAPEX · OPEX · ABEX".
+Scene 6 (paragraph 6): Layout B with 09-4.2-estimate-workspace.png. Text: "4 · Metric ⇄ Imperial · Your currency".
+Scene 7 (paragraph 7): Layout B with 10-1.2-sidebar.png; from "and assessments like PDRI" switch to 11-6.4-pdri.png. Text: "5 · Module Z" and "Location · Cost index · Rates · PDRI".
+Scene 8 (paragraph 8): Layout A with 01-bg-dark.jpg. Closing text: "Next: 1.2 · The platform at a glance".
+
+Pronunciation: "Kpex" is the platform name (one word); "AACE" and "PDRI" are spelled out letter by letter; "CAPEX", "OPEX" and "ABEX" are read as words.

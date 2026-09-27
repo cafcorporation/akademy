@@ -1,0 +1,99 @@
+# Module 7 quiz — "Intelligence, Reports and Exchange" / "Inteligencia, reportes y Exchange"
+# Passing grade 70%. `answer` is the 0-based index (list for multi, boolean for true_false).
+id: m7
+passing_grade: 70
+duration_min: 10
+
+questions:
+  - type: single
+    question:
+      es: "En Cost Curves (B.1), ¿qué hace Kpex después de que eliges la facility, introduces la capacidad y pulsas Calculate?"
+      en: "In Cost Curves (B.1), what does Kpex do after you pick the facility, enter the capacity and press Calculate?"
+    options:
+      es: ["Crea automáticamente una RFQ para la facility", "Dibuja tu punto sobre la curva con su banda ± y permite imprimir un reporte de benchmarking", "Envía el resultado al Cost Summary Report", "Calcula el PDRI del proyecto"]
+      en: ["Automatically creates an RFQ for the facility", "Plots your point on the curve with its ± band and lets you print a benchmarking report", "Sends the result to the Cost Summary Report", "Calculates the project's PDRI"]
+    answer: 1
+    explanation:
+      es: "Kpex dibuja tu punto sobre la curva con una etiqueta de valor fija y la banda ±, y genera un reporte de benchmarking de una página para adjuntar a un estimado Clase 5."
+      en: "Kpex plots your point on the curve with a fixed value label and the ± band, and prints a one-page benchmarking report you can attach to a Class 5 estimate."
+
+  - type: true_false
+    question:
+      es: "Como las curvas siguen la forma a·capacidad^n con n menor que 1, el costo por unidad baja a medida que el proyecto crece."
+      en: "Because the curves follow a·capacity^n with n below 1, the cost per unit falls as the project grows."
+    answer: true
+    explanation:
+      es: "Verdadero: las curvas son 'magnitude-aware'. Una tarifa plana por unidad no captura este efecto de escala."
+      en: "True: the curves are magnitude-aware. A flat per-unit rate misses this scale effect."
+
+  - type: single
+    question:
+      es: "¿Qué representa el P50 en los rangos de KPIs de B.2?"
+      en: "What does P50 represent in the B.2 KPI ranges?"
+    options:
+      es: ["El valor máximo registrado", "El costo base en la Costa del Golfo de EE. UU.", "La mediana, el valor típico", "El 50 % de contingencia recomendado"]
+      en: ["The highest value recorded", "The base cost at the US Gulf Coast", "The median, the typical value", "The recommended 50% contingency"]
+    answer: 2
+    explanation:
+      es: "P10, P50 y P90 son percentiles estadísticos; el P50 es la mediana."
+      en: "P10, P50 and P90 are statistical percentiles; P50 is the median."
+
+  - type: single
+    question:
+      es: "¿Qué es el Global CAPEX Monitor?"
+      en: "What is the Global CAPEX Monitor?"
+    options:
+      es: ["Un índice mensual de escalación de costos", "Un registro público de grandes proyectos por país, con su CAPEX anunciado y desglose por áreas", "El panel de facturación de la membresía", "Un reporte de progresión de estimados"]
+      en: ["A monthly cost-escalation index", "A public register of large projects by country, with announced CAPEX and an area breakdown", "The membership billing dashboard", "An estimate progression report"]
+    answer: 1
+    explanation:
+      es: "Es el radar que muestra dónde se está comprometiendo capital en el mundo y el conjunto de referencia detrás de las curvas de benchmark."
+      en: "It is the radar showing where capital is being committed worldwide, and the reference set behind the benchmark curves."
+
+  - type: single
+    question:
+      es: "Un auditor pregunta cómo y cuándo cambió el costo de un estimado desde que era Clase 5. ¿Qué reporte usas?"
+      en: "An auditor asks how and when an estimate's cost changed since it was Class 5. Which report do you use?"
+    options:
+      es: ["Cost Summary", "Project Portfolio", "Estimate Progression", "El reporte de benchmarking de la curva"]
+      en: ["Cost Summary", "Project Portfolio", "Estimate Progression", "The curve benchmarking report"]
+    answer: 2
+    explanation:
+      es: "Estimate Progression sigue la evolución de un solo estimado de Clase 5 a Clase 2, con los movimientos de costo por fecha de actualización."
+      en: "Estimate Progression tracks a single estimate from Class 5 to Class 2, showing cost movements by update date."
+
+  - type: multi
+    question:
+      es: "¿Qué información muestra el Project Portfolio Report? (elige todas las correctas)"
+      en: "What does the Project Portfolio Report show? (select all that apply)"
+    options:
+      es: ["Estado del proyecto", "Clase AACE", "Indicadores de alcance CAPEX/OPEX/ABEX", "Cotizaciones de proveedores por RFQ"]
+      en: ["Project status", "AACE class", "CAPEX/OPEX/ABEX scope flags", "Vendor quotes per RFQ"]
+    answer: [0, 1, 2]
+    explanation:
+      es: "También muestra los rangos de exactitud de los estimados. Las cotizaciones de proveedores viven en Kpex Exchange."
+      en: "It also shows estimate accuracy ranges. Vendor quotes live in Kpex Exchange."
+
+  - type: single
+    question:
+      es: "En Kpex Exchange, ¿qué participante emite las RFQs para paquetes de equipos?"
+      en: "In Kpex Exchange, which participant issues RFQs for equipment packages?"
+    options:
+      es: ["Equipment Vendor", "Data Partner", "Estimator", "Owner / Operator"]
+      en: ["Equipment Vendor", "Data Partner", "Estimator", "Owner / Operator"]
+    answer: 3
+    explanation:
+      es: "El owner/operator emite las RFQs y recibe las cotizaciones; los vendors responden y los EPC participan cuando están autorizados."
+      en: "The owner/operator issues RFQs and receives quotes; vendors respond and EPCs take part where authorised."
+
+  - type: single
+    question:
+      es: "¿Qué aporta un Data Partner a Kpex Exchange?"
+      en: "What does a Data Partner contribute to Kpex Exchange?"
+    options:
+      es: ["Conjuntos de datos históricos de costos de proyectos", "Cotizaciones de equipos en respuesta a RFQs", "Tarifas de mano de obra por país", "Licencias de software"]
+      en: ["Historical project cost datasets", "Equipment quotes in response to RFQs", "Labour rates by country", "Software licences"]
+    answer: 0
+    explanation:
+      es: "Los data partners aportan datos históricos de costos, que los estimadores usan como benchmarks para validar en Clases 5–4."
+      en: "Data partners contribute historical cost data, which estimators use as benchmarks for Class 5–4 validation."

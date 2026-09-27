@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Akdemy certificate</title>
+<!--
+  Akdemy certificate — design source for the LearnPress Certificates add-on.
+  Canvas 1684×1191 (A4 landscape, 2× the add-on's 842×595).
+  ?lang=es|en            language
+  ?mode=bg               background only (uploaded as the certificate template)
+  ?mode=preview          background + dummy dynamic fields (for approval)
+  Dynamic fields (.dyn) are placed at the same coordinates later used for the add-on layers.
+-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1684px; height: 1191px; overflow: hidden; background: #fff; }
+  body { font-family: 'Inter', Arial, sans-serif; color: #1a1a1a; position: relative; }
+
+  /* Left dark panel */
+  .side { position: absolute; left: 0; top: 0; bottom: 0; width: 470px;
+          background: linear-gradient(160deg, #1a1a18 0%, #2e2e2c 100%); overflow: hidden; }
+  .side::after { content: ''; position: absolute; top: -140px; right: -200px; width: 520px; height: 520px; border-radius: 50%;
+                 background: radial-gradient(circle, rgba(245,160,17,.24), transparent 70%); }
+  .side .logo { position: absolute; left: 60px; top: 78px; width: 330px; }
+  .side svg { position: absolute; left: 0; top: 190px; width: 470px; height: 400px; }
+  .side .k { position: absolute; left: 60px; font-size: 15px; font-weight: 800; letter-spacing: .9px; text-transform: uppercase; color: #F5A011; }
+  .qr-frame { position: absolute; left: 60px; top: 760px; width: 190px; height: 190px; background: #fff; border-radius: 14px; }
+  .side .small { position: absolute; left: 60px; top: 965px; width: 360px; font-size: 14px; line-height: 1.5; color: #aaaaaa; }
+  /* Base of the dark panel: CAF Corporation + "Supported by KPEX" */
+  .base { position: absolute; left: 60px; right: 40px; top: 1052px; padding-top: 30px; border-top: 1.5px solid rgba(255,255,255,.12);
+          display: flex; align-items: center; gap: 22px; }
+  .base .caf { height: 40px; width: auto; display: block; flex: none; }
+  .base .sup { border-left: 1.5px solid rgba(255,255,255,.14); padding-left: 20px; }
+  .base .sup-k { font-size: 11px; font-weight: 800; letter-spacing: .9px; text-transform: uppercase; color: #F5A011; }
+  .base .sup-v { font-size: 14px; line-height: 1.35; color: #d9d5cc; margin-top: 4px; }
+  .base .sup-v b { color: #fff; font-weight: 900; letter-spacing: .3px; }
+
+  /* Right content */
+  .main { position: absolute; left: 470px; top: 0; right: 0; bottom: 0; border-top: 14px solid #F5A011; }
+  .pill { position: absolute; left: 120px; top: 110px; background: rgba(245,160,17,.1); border: 1.5px solid rgba(245,160,17,.3);
+          color: #F5A011; border-radius: 40px; padding: 9px 24px; font-size: 17px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+  h1 { position: absolute; left: 120px; top: 185px; font-size: 76px; font-weight: 900; letter-spacing: -2.4px; line-height: 1.05; }
+  .intro { position: absolute; left: 120px; top: 360px; font-size: 26px; color: #888; }
+  .name-line { position: absolute; left: 120px; top: 520px; width: 1000px; height: 3px; background: #f0ece6; }
+  .done { position: absolute; left: 120px; top: 560px; font-size: 26px; color: #888; }
+  /* Facilitators — one row; width adapts to 2 (EN) or 4 (ES) signatures */
+  .sigs { position: absolute; left: 120px; right: 80px; top: 960px; display: flex; gap: 34px; }
+  .sig { flex: 1; min-width: 0; max-width: 440px; }
+  .sig .line { border-top: 2.5px solid #1a1a1a; margin-bottom: 14px; }
+  .sig .n { font-size: 24px; font-weight: 800; letter-spacing: -.3px; white-space: nowrap; }
+  .sig .r { font-size: 15px; color: #888; margin-top: 4px; white-space: nowrap; }
+  .badges { position: absolute; right: 80px; top: 116px; display: flex; gap: 12px; }
+  .badges span { background: rgba(245,160,17,.12); border: 1.5px solid rgba(245,160,17,.32); color: #d4880a; border-radius: 10px;
+                 padding: 8px 18px; font-size: 17px; font-weight: 800; letter-spacing: .6px; }
+
+  /* Dynamic fields (only in preview) — mirrors the add-on layers */
+  .dyn { position: absolute; display: none; }
+  body.preview .dyn { display: block; }
+  .dyn.name   { left: 590px;  top: 405px; font-size: 80px; font-weight: 900; letter-spacing: -2.4px; line-height: 1.1; white-space: nowrap; }
+  .dyn.course { left: 590px;  top: 615px; width: 1000px; font-size: 40px; font-weight: 800; letter-spacing: -.8px; line-height: 1.25; }
+  .dyn.date   { left: 60px;   top: 638px; font-size: 26px; font-weight: 700; color: #fff; }
+  .dyn.qr     { left: 75px;   top: 775px; width: 160px; height: 160px;
+                background: repeating-conic-gradient(#1a1a1a 0 25%, #fff 0 50%) 0 0 / 20px 20px; border-radius: 4px; }
+  body.preview::before { content: attr(data-watermark); position: absolute; right: 60px; top: 40px; font: 800 16px 'Inter';
+                         color: #d4880a; letter-spacing: 1px; z-index: 5; }
+</style>
+</head>
+<body>
+  <aside class="side">
+    <img class="logo" src="../brand/Logo%20CAF%20Akdemy%20White-Yellow.svg" alt="Akdemy">
+    <svg viewBox="0 0 470 470" aria-hidden="true">
+      <path d="M0 430 C 150 290, 270 200, 470 150 L 470 60 C 270 120, 150 220, 0 360 Z" fill="#F5A011" opacity=".08"/>
+      <path d="M0 400 C 150 260, 270 170, 470 110" fill="none" stroke="#F5A011" stroke-width="6" opacity=".85"/>
+    </svg>
+    <div class="k" style="top:600px" data-t="date"></div>
+    <div class="k" style="top:720px" data-t="verify"></div>
+    <div class="qr-frame"></div>
+    <div class="small" data-t="verifyNote"></div>
+    <div class="base">
+      <img class="caf" src="../brand/Logo%20CAF%20White-Yellow.svg" alt="CAF Corporation">
+      <div class="sup">
+        <div class="sup-k">Supported by</div>
+        <div class="sup-v"><b>KPEX</b> · Project Cost<br>Intelligence Platform</div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="pill">Akdemy · Cost Engineering Campus</div>
+    <h1 data-t="title"></h1>
+    <div class="intro" data-t="intro"></div>
+    <div class="name-line"></div>
+    <div class="done" data-t="done"></div>
+    <div class="sigs" id="sigs"></div>
+    <div class="badges"><span>AACE</span><span>PMI</span><span>KPEX</span></div>
+  </main>
+
+  <!-- dynamic (preview only) -->
+  <div class="dyn name">María Fernanda González</div>
+  <div class="dyn course" data-t="course"></div>
+  <div class="dyn date" data-t="sampleDate"></div>
+  <div class="dyn qr"></div>
+
+<script>
+  const T = {
+    es: { title: 'Certificado de finalización', intro: 'Se certifica que', done: 'ha completado satisfactoriamente el curso',
+          role: 'Facilitador · CAF Corporation', date: 'Fecha', verify: 'Verificación',
+          verifyNote: 'Escanea el código para verificar la autenticidad de este certificado.',
+          course: 'Cómo usar Kpex: estimación de CAPEX de la Clase 5 a la Clase 2', sampleDate: '24 de septiembre de 2026', wm: 'MUESTRA · PARA APROBACIÓN' },
+    en: { title: 'Certificate of Completion', intro: 'This is to certify that', done: 'has successfully completed the course',
+          role: 'Facilitator · CAF Corporation', date: 'Date', verify: 'Verification',
+          verifyNote: 'Scan the code to verify the authenticity of this certificate.',
+          course: 'How to Use Kpex: CAPEX Estimating from Class 5 to Class 2', sampleDate: 'September 24, 2026', wm: 'SAMPLE · FOR APPROVAL' },
+  };
+  const q = new URLSearchParams(location.search);
+  const lang = q.get('lang') === 'en' ? 'en' : 'es';
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-t]').forEach(el => { el.textContent = T[lang][el.dataset.t]; });
+  // Facilitators per edition (decided 2026-09-24)
+  const SIGNERS = {
+    es: ['Carlos Fuenmayor', 'Roberto Ruiz', 'Bernardo Campos', 'Samuel Muñoz'],
+    en: ['Carlos Fuenmayor', 'Roberto Ruiz'],
+  };
+  document.getElementById('sigs').innerHTML = SIGNERS[lang].map(n =>
+    `<div class="sig"><div class="line"></div><div class="n">${n}</div><div class="r">${T[lang].role}</div></div>`).join('');
+  if (q.get('mode') === 'preview') { document.body.classList.add('preview'); document.body.dataset.watermark = T[lang].wm; }
+  if (q.get('mode') === 'sample') { document.body.classList.add('preview'); } // dummy data, no watermark (course screenshot)
+</script>
+</body>
+</html>

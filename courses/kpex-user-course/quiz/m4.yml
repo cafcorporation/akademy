@@ -1,0 +1,90 @@
+# Module 4 quiz — "Your First Estimate" / "Tu primer estimado"
+# Passing grade 70%. The first option in the source is NOT always correct: `answer` is the index (0-based).
+id: m4
+passing_grade: 70
+duration_min: 10
+
+questions:
+  - type: single
+    question:
+      es: "¿Dónde se inicia un estimado nuevo en Kpex?"
+      en: "Where do you start a new estimate in Kpex?"
+    options:
+      es: ["Intelligence → Reports", "Cost Estimation → AACE Estimates → New Estimate", "Support Tools (Z) → Z.6 Assessment Tools", "Kpex Exchange → RFQ"]
+      en: ["Intelligence → Reports", "Cost Estimation → AACE Estimates → New Estimate", "Support Tools (Z) → Z.6 Assessment Tools", "Kpex Exchange → RFQ"]
+    answer: 1
+
+  - type: single
+    question:
+      es: "En el asistente, ¿qué tarjeta activa los Módulos D y E?"
+      en: "In the wizard, which card activates Modules D and E?"
+    options:
+      es: ["Estimate Identity", "Cost Data", "Basis of Estimate", "Lifecycle Cost Scope"]
+      en: ["Estimate Identity", "Cost Data", "Basis of Estimate", "Lifecycle Cost Scope"]
+    answer: 3
+    explanation:
+      es: "En Lifecycle Cost Scope, CAPEX siempre está incluido; OPEX activa el Módulo D y ABEX el Módulo E."
+      en: "In Lifecycle Cost Scope, CAPEX is always included; OPEX activates Module D and ABEX activates Module E."
+
+  - type: true_false
+    question:
+      es: "El bloque \"Class 5 — Cost Curve Basis\" aparece en el asistente solo cuando eliges la Clase 5."
+      en: "The \"Class 5 — Cost Curve Basis\" block only appears in the wizard when you choose Class 5."
+    answer: true
+    explanation:
+      es: "Verdadero: con la Clase 5 eliges una curva, introduces la capacidad y Calculate from Curve rellena el TIC."
+      en: "True: with Class 5 you pick a curve, enter the capacity, and Calculate from Curve fills in the TIC."
+
+  - type: single
+    question:
+      es: "¿Cómo aplica Kpex el factor de ubicación cuando el modelo no está calibrado en la Costa del Golfo de EE. UU.?"
+      en: "How does Kpex apply the location factor when a model is not calibrated on the US Gulf Coast?"
+    options:
+      es: ["LFI origen × LFI destino", "LFI destino ÷ LFI origen", "Siempre LFI = 1,000", "Lo introduce el usuario a mano en cada partida"]
+      en: ["Origin LFI × destination LFI", "Destination LFI ÷ origin LFI", "Always LFI = 1.000", "The user types it by hand on every line item"]
+    answer: 1
+    explanation:
+      es: "Kpex lleva cada costo desde el país de origen del modelo al de tu proyecto con LFI(destino) ÷ LFI(origen)."
+      en: "Kpex moves each cost from the model's origin country to your project country with LFI(destination) ÷ LFI(origin)."
+
+  - type: single
+    question:
+      es: "¿Cuál es la jerarquía del WBS Builder?"
+      en: "What is the WBS Builder hierarchy?"
+    options:
+      es: ["Project → Estimate → Class", "Discipline → Package → Vendor", "Facility → Area → Unit → Cost Item", "Module → Family → Model"]
+      en: ["Project → Estimate → Class", "Discipline → Package → Vendor", "Facility → Area → Unit → Cost Item", "Module → Family → Model"]
+    answer: 2
+
+  - type: multi
+    question:
+      es: "¿Qué contiene el reporte PDF del estimado? (elige todas las correctas)"
+      en: "What does the estimate PDF report contain? (select all that apply)"
+    options:
+      es: ["Declaración de la clase AACE y del rango de precisión", "Factores de LFI y Cost Index aplicados", "Las cotizaciones de todos los proveedores del marketplace", "Bloque de firma del estimador"]
+      en: ["AACE class declaration and accuracy range statement", "LFI and Cost Index factors applied", "Quotes from every vendor on the marketplace", "Estimator signature block"]
+    answer: [0, 1, 3]
+    explanation:
+      es: "El PDF incluye encabezado, clase AACE, rango de precisión, desglose por disciplina, LFI y Cost Index, puntuación PDRI y firma. No incluye cotizaciones del marketplace."
+      en: "The PDF includes the header, AACE class, accuracy range, breakdown by discipline, LFI and Cost Index, PDRI score and signature. It does not include marketplace quotes."
+
+  - type: single
+    question:
+      es: "En la evaluación PDRI (Z.6.3), ¿qué indica una puntuación más baja?"
+      en: "In the PDRI assessment (Z.6.3), what does a lower score mean?"
+    options:
+      es: ["Un proyecto mejor definido", "Un proyecto más barato", "Un proyecto peor definido", "Un rango de precisión más amplio"]
+      en: ["A better-defined project", "A cheaper project", "A less-defined project", "A wider accuracy range"]
+    answer: 0
+    explanation:
+      es: "La puntuación PDRI va de 0 a 1000 y cuanto más baja, mejor definido está el proyecto."
+      en: "The PDRI score runs from 0 to 1000, and the lower it is, the better defined the project."
+
+  - type: true_false
+    question:
+      es: "Si eliges euros como moneda del estimado, Kpex guarda la base del estimado en euros."
+      en: "If you choose euros as the estimate currency, Kpex stores the estimate base in euros."
+    answer: false
+    explanation:
+      es: "Falso: la base se guarda siempre en dólares; el estimado se muestra convertido a la tasa diaria del BCE, congelada en el estimado."
+      en: "False: the base is always stored in US dollars; the estimate is shown converted at the ECB daily rate, frozen on the estimate."

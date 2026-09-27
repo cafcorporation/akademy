@@ -1,0 +1,237 @@
+# FINAL EXAM — "How to Use Kpex" / "Cómo usar Kpex"
+# Covers modules 1–7 evenly (2–3 questions each). Passing it (>= 70%) unlocks the
+# "Kpex Certified User" certificate and the student benefit (lesson 8.2).
+# `answer` is the 0-based index (list for multi, boolean for true_false).
+id: final
+passing_grade: 70
+duration_min: 30
+
+questions:
+  # ── Module 1 · What Kpex is ─────────────────────────────────────────────
+  - type: single
+    question:
+      es: "¿Cuál es el diferenciador central de Kpex frente a otras plataformas de estimación?"
+      en: "What is Kpex's central differentiator versus other estimating platforms?"
+    options:
+      es: ["Es un libro de costos impreso que se actualiza cada año", "Armoniza AACE International y PMI en la misma plataforma", "Solo cubre proyectos de petróleo y gas", "Funciona únicamente instalado en el escritorio"]
+      en: ["It is a printed cost book updated every year", "It harmonises AACE International and PMI in one platform", "It only covers oil and gas projects", "It only runs as installed desktop software"]
+    answer: 1
+    explanation:
+      es: "Kpex combina la clasificación AACE (18R-97, TCM) con el PMBOK y el estándar de WBS del PMI, para que ingenieros de costos y gerentes de proyecto hablen el mismo idioma."
+      en: "Kpex combines AACE classification (18R-97, TCM) with PMI's PMBOK and WBS Standard, so cost engineers and project managers speak the same language."
+
+  - type: multi
+    question:
+      es: "¿Qué dos motores mantienen al día automáticamente cada costo de Kpex? (elige todas las correctas)"
+      en: "Which two engines automatically keep every Kpex cost current? (select all that apply)"
+    options:
+      es: ["El CAF Location Factor Index (Z.4), por geografía", "El PDRI (Z.6.3), por definición", "El CAF Cost Index (Z.5), por tiempo", "El Project Portfolio Report, por portafolio"]
+      en: ["The CAF Location Factor Index (Z.4), for geography", "The PDRI (Z.6.3), for definition", "The CAF Cost Index (Z.5), for time", "The Project Portfolio Report, for the portfolio"]
+    answer: [0, 2]
+    explanation:
+      es: "El LFI ajusta la geografía y el Cost Index ajusta el tiempo. Ambos se aplican automáticamente al leer el costo."
+      en: "The LFI adjusts geography and the Cost Index adjusts time. Both are applied automatically when a cost is read."
+
+  - type: single
+    question:
+      es: "¿Qué módulo añade los costos de operación (OPEX)?"
+      en: "Which module adds operating expenditure (OPEX)?"
+    options:
+      es: ["Módulo A", "Módulo B", "Módulo E", "Módulo D"]
+      en: ["Module A", "Module B", "Module E", "Module D"]
+    answer: 3
+    explanation:
+      es: "El Módulo D cubre el OPEX; el Módulo E cubre el ABEX (abandono y desmantelamiento)."
+      en: "Module D covers OPEX; Module E covers ABEX (abandonment and decommissioning)."
+
+  # ── Module 2 · Getting started ──────────────────────────────────────────
+  - type: single
+    question:
+      es: "En la barra lateral del dashboard, ¿qué indica un ícono de candado junto a un elemento?"
+      en: "In the dashboard sidebar, what does a lock icon next to an item mean?"
+    options:
+      es: ["Que el elemento requiere un nivel de membresía superior", "Que el elemento está en mantenimiento", "Que otro usuario lo está editando", "Que el elemento solo existe en español"]
+      en: ["The item requires a higher membership tier", "The item is under maintenance", "Another user is editing it", "The item only exists in Spanish"]
+    answer: 0
+    explanation:
+      es: "Los elementos que requieren un nivel de membresía superior se muestran con un candado."
+      en: "Items that require a higher membership tier are shown with a lock icon."
+
+  - type: single
+    question:
+      es: "Un usuario se registró con el perfil Vendor. ¿Qué verá en la navegación?"
+      en: "A user signed up with the Vendor profile. What will they see in the navigation?"
+    options:
+      es: ["La barra lateral completa con todos los módulos", "Estimados y Procurement", "El Vendor Portal", "El Data Partner Portal"]
+      en: ["The full sidebar with every module", "Estimates and Procurement", "The Vendor Portal", "The Data Partner Portal"]
+    answer: 2
+    explanation:
+      es: "Kpex adapta la interfaz al tipo de perfil: Consultant/Estimator ve todo, Owner/Operator ve Estimates + Procurement, Vendor ve el Vendor Portal y Data Partner su propio portal."
+      en: "Kpex adapts the interface to the profile type: Consultant/Estimator sees everything, Owner/Operator sees Estimates + Procurement, Vendor sees the Vendor Portal and Data Partner its own portal."
+
+  - type: true_false
+    question:
+      es: "Para usar Kpex hay que instalar un programa en el ordenador."
+      en: "You need to install software on your computer to use Kpex."
+    answer: false
+    explanation:
+      es: "Falso: Kpex funciona en cualquier navegador moderno (Chrome, Edge, Firefox, Safari), sin instalación."
+      en: "False: Kpex runs in any modern web browser (Chrome, Edge, Firefox, Safari), with nothing to install."
+
+  # ── Module 3 · AACE classes ─────────────────────────────────────────────
+  - type: single
+    question:
+      es: "¿Cuál es el rango de exactitud típico de un estimado Clase 5 según AACE 18R-97?"
+      en: "What is the typical accuracy range of a Class 5 estimate under AACE 18R-97?"
+    options:
+      es: ["-10 % a +15 %", "-20 % a +30 %", "-30 % a +50 %", "-50 % a +100 %"]
+      en: ["-10% to +15%", "-20% to +30%", "-30% to +50%", "-50% to +100%"]
+    answer: 3
+    explanation:
+      es: "Clase 5 (screening / orden de magnitud): -50 % a +100 %, con 0–2 % de definición del proyecto."
+      en: "Class 5 (screening / order of magnitude): -50% to +100%, with 0–2% project definition."
+
+  - type: single
+    question:
+      es: "¿Qué clase AACE se usa típicamente para la autorización y la Decisión Final de Inversión (FID)?"
+      en: "Which AACE class is typically used for authorisation and the Final Investment Decision (FID)?"
+    options:
+      es: ["Clase 5", "Clase 3", "Clase 2", "Clase 1"]
+      en: ["Class 5", "Class 3", "Class 2", "Class 1"]
+    answer: 1
+    explanation:
+      es: "La Clase 3 (Budget / Authorization) es la de autorización, FID y aprobación de presupuesto."
+      en: "Class 3 (Budget / Authorization) is used for authorisation, FID and budget approval."
+
+  - type: single
+    question:
+      es: "En la equivalencia AACE–PMI de Kpex, ¿a qué técnica del PMBOK corresponde la Clase 4?"
+      en: "In Kpex's AACE–PMI mapping, which PMBOK technique does Class 4 correspond to?"
+    options:
+      es: ["Estimación análoga", "Estimación paramétrica", "Estimación ascendente con MTO detallado", "Juicio de expertos"]
+      en: ["Analogous estimating", "Parametric estimating", "Bottom-up estimating with detailed MTO", "Expert judgement"]
+    answer: 1
+    explanation:
+      es: "Clase 5 → análoga; Clase 4 → paramétrica; Clase 3 → inicio de la ascendente; Clases 2–1 → ascendente con MTO detallado."
+      en: "Class 5 → analogous; Class 4 → parametric; Class 3 → start of bottom-up; Classes 2–1 → bottom-up with detailed MTO."
+
+  # ── Module 4 · Your first estimate ──────────────────────────────────────
+  - type: single
+    question:
+      es: "¿Qué tarjeta del Estimate Wizard activa los Módulos D y E?"
+      en: "Which Estimate Wizard card activates Modules D and E?"
+    options:
+      es: ["Project Identification", "Facility Definition", "Lifecycle Cost Scope", "Cost Index Reference"]
+      en: ["Project Identification", "Facility Definition", "Lifecycle Cost Scope", "Cost Index Reference"]
+    answer: 2
+    explanation:
+      es: "En Lifecycle Cost Scope marcas si el estimado es solo CAPEX o si añade OPEX (Módulo D) y/o ABEX (Módulo E)."
+      en: "In Lifecycle Cost Scope you flag whether the estimate is CAPEX only or adds OPEX (Module D) and/or ABEX (Module E)."
+
+  - type: true_false
+    question:
+      es: "En Kpex, la clase AACE pertenece al estimado, no al proyecto: un mismo proyecto puede tener varios estimados de clases distintas."
+      en: "In Kpex, the AACE class belongs to the estimate, not the project: one project can carry several estimates at different classes."
+    answer: true
+    explanation:
+      es: "Verdadero: por eso las páginas de proyecto y los gráficos de portafolio agrupan y cuentan estimados por clase."
+      en: "True: that's why project pages and portfolio charts group and count estimates by class."
+
+  - type: single
+    question:
+      es: "Cuando lees un estimado en tu propia moneda, ¿qué tipo de cambio usa Kpex?"
+      en: "When you read an estimate in your own currency, which exchange rate does Kpex use?"
+    options:
+      es: ["El tipo del día del Banco Central Europeo", "Un tipo fijo anual definido por CAF", "El tipo que introduce el usuario manualmente", "El tipo de la fecha de creación del proyecto"]
+      en: ["The day's European Central Bank rate", "A fixed annual rate set by CAF", "A rate the user types in manually", "The rate on the project's creation date"]
+    answer: 0
+    explanation:
+      es: "Se convierte al tipo del día del BCE; la base se guarda siempre en dólares para que los benchmarks sean coherentes."
+      en: "It converts at the day's ECB rate; the base is always kept in US dollars so benchmarking stays consistent."
+
+  # ── Module 5 · Cost modules ─────────────────────────────────────────────
+  - type: single
+    question:
+      es: "¿Qué módulo contiene modelos de costo de facilities completas, desde una planta solar hasta un topside de FPSO?"
+      en: "Which module holds cost models for whole facilities, from a solar PV plant to an FPSO topside?"
+    options:
+      es: ["Módulo A", "Módulo C", "Módulo D", "Módulo Z"]
+      en: ["Module A", "Module C", "Module D", "Module Z"]
+    answer: 1
+    explanation:
+      es: "El Módulo C modela facilities completas; el Módulo A modela componentes individuales de equipo."
+      en: "Module C models whole facilities; Module A models individual equipment components."
+
+  - type: single
+    question:
+      es: "¿Qué forma matemática siguen las curvas de costo del Módulo B?"
+      en: "What mathematical form do Module B cost curves follow?"
+    options:
+      es: ["Costo = a + b·capacidad (lineal)", "Costo = tarifa fija × capacidad", "Costo = a·capacidad^n (ley de potencia)", "Costo = capacidad / LFI"]
+      en: ["Cost = a + b·capacity (linear)", "Cost = flat rate × capacity", "Cost = a·capacity^n (power law)", "Cost = capacity / LFI"]
+    answer: 2
+    explanation:
+      es: "Son curvas de ley de potencia (costo total = a·capacidad^n), validadas contra proyectos pasados."
+      en: "They are power-law curves (total cost = a·capacity^n), validated against past projects."
+
+  # ── Module 6 · Module Z ─────────────────────────────────────────────────
+  - type: single
+    question:
+      es: "Un modelo de costo fue calibrado fuera de la Costa del Golfo de EE. UU. ¿Qué factor aplica Kpex para llevarlo al país de tu proyecto?"
+      en: "A cost model was calibrated outside the US Gulf Coast. Which factor does Kpex apply to move it to your project country?"
+    options:
+      es: ["LFI(origen) × LFI(destino)", "Solo LFI(destino)", "1 ÷ LFI(origen)", "LFI(destino) ÷ LFI(origen)"]
+      en: ["LFI(origin) × LFI(destination)", "LFI(destination) only", "1 ÷ LFI(origin)", "LFI(destination) ÷ LFI(origin)"]
+    answer: 3
+    explanation:
+      es: "Cada modelo registra su país de origen, y Kpex aplica LFI(destino) ÷ LFI(origen), de modo que la geografía siempre apunta en la dirección correcta."
+      en: "Each model records its country of origin, and Kpex applies LFI(destination) ÷ LFI(origin), so geography always points the right way."
+
+  - type: single
+    question:
+      es: "En la evaluación PDRI (Z.6.3), ¿cómo se interpreta la puntuación?"
+      en: "In the PDRI assessment (Z.6.3), how is the score read?"
+    options:
+      es: ["De 0 a 1000; cuanto más baja, mejor definido está el proyecto", "De 0 a 100; cuanto más alta, mejor", "Es un factor entre 0,5 y 2,5", "Es un porcentaje de contingencia"]
+      en: ["0 to 1000; the lower the score, the better defined the project", "0 to 100; the higher, the better", "It is a factor between 0.5 and 2.5", "It is a contingency percentage"]
+    answer: 0
+    explanation:
+      es: "El PDRI va de 0 a 1000 y una puntuación más baja es mejor. El rango 0,5–2,5 corresponde al factor PEI."
+      en: "PDRI runs from 0 to 1000 and lower is better. The 0.5–2.5 range belongs to the PEI factor."
+
+  - type: single
+    question:
+      es: "¿Qué distingue al CAF Cost Index (Z.5) de índices anuales como CEPCI o ENR?"
+      en: "What sets the CAF Cost Index (Z.5) apart from annual indices such as CEPCI or ENR?"
+    options:
+      es: ["Solo cubre la Costa del Golfo de EE. UU.", "Es mensual y está desagregado en sub-índices por familia", "Se actualiza cada cinco años", "Hay que aplicarlo manualmente a cada partida"]
+      en: ["It only covers the US Gulf Coast", "It is monthly and broken down into per-family sub-indices", "It is updated every five years", "It must be applied manually to each line item"]
+    answer: 1
+    explanation:
+      es: "Es mensual, está desagregado por familia y ahora es multirregión; además se aplica automáticamente al leer el costo."
+      en: "It is monthly, broken down by family and now multi-region; it is also applied automatically when a cost is read."
+
+  # ── Module 7 · Intelligence, reports and Exchange ───────────────────────
+  - type: single
+    question:
+      es: "Tu director pide el costo consolidado de todos los estimados, agrupado por disciplina. ¿Qué reporte usas?"
+      en: "Your director asks for the consolidated cost of all estimates, grouped by discipline. Which report do you use?"
+    options:
+      es: ["Estimate Progression", "Project Portfolio", "Cost Summary", "El reporte PDRI"]
+      en: ["Estimate Progression", "Project Portfolio", "Cost Summary", "The PDRI report"]
+    answer: 2
+    explanation:
+      es: "Cost Summary consolida el costo de todos los estimados por proyecto, clase, disciplina y elemento de costo, en vista tipo tabla dinámica."
+      en: "Cost Summary consolidates cost across all estimates by project, class, discipline and cost element, in a pivot-table style view."
+
+  - type: single
+    question:
+      es: "En el flujo de Clase 2, ¿para qué se usa Kpex Exchange?"
+      en: "In the Class 2 workflow, what is Kpex Exchange used for?"
+    options:
+      es: ["Para sustituir costos paramétricos por cotizaciones reales de proveedores mediante RFQs", "Para calcular el Location Factor de un país nuevo", "Para escalar el estimado al mes actual", "Para elegir la clase AACE del estimado"]
+      en: ["To replace parametric costs with real vendor quotes through RFQs", "To calculate the Location Factor for a new country", "To escalate the estimate to the current month", "To choose the estimate's AACE class"]
+    answer: 0
+    explanation:
+      es: "En Clase 2 refinas el MTO y reemplazas los costos paramétricos por cotizaciones reales obtenidas con RFQs en Kpex Exchange."
+      en: "At Class 2 you refine the MTO and replace parametric costs with real quotes gathered through RFQs on Kpex Exchange."

@@ -1,0 +1,17 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 15 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (8 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached image full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the image. Do not crop or distort the images.
+
+Scene 1 (paragraph 1): Layout A. Lower third: "Carlos Fuenmayor · Facilitator · CAF Corporation". Title: "How this course works".
+Scene 2 (paragraph 2): Layout B with 02-cover-en.png. Text: "Class 5 → Class 2" and "No previous experience needed".
+Scene 3 (paragraph 3): Layout B with 03-lesson-layout.png (the module list is visible on the left). Text: "9 modules · from general to specific".
+Scene 4 (paragraph 4): Layout B with 04-lesson-with-video.png. Text items appearing in order as they are mentioned: "Reading", "Video", "Try it in Kpex", "Module quiz", "Final exam".
+Scene 5 (paragraph 5): Layout B with 05-dashboard.png. Three text items in order: "1 · Follow the order", "2 · Do the exercises", "3 · Answer the quizzes".
+Scene 6 (paragraph 6): Layout B with 06-register.png. Text: "Your Kpex account · 15 days from purchase" and "Activate it in lesson 0.2".
+Scene 7 (paragraph 7): Layout B with 07-certificate.png. Text: "QR-verifiable certificate" and "Discount on your Kpex membership".
+Scene 8 (paragraph 8): Layout A with 01-bg-dark.jpg. Closing text: "Next: 0.2 · Activate your Kpex trial account".
+
+Pronunciation: "Kpex" is the platform name (one word); "AACE" is spelled out letter by letter; "CAPEX" is read as a word; "Try it in Kpex" is the name of a course section.

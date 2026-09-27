@@ -1,0 +1,110 @@
+# Akdemy AI — Pilot course: "How to use Kpex" / "Cómo usar Kpex"
+# Single source of truth for the course structure. Lessons live in es/ and en/,
+# video scripts in video/, quizzes in quiz/. The Akdemy Bridge importer reads this file.
+# Source material: Kpex User Navigation Guide v1.2 (kpex2g.test/guide/user-navigation)
+
+slug: kpex-user-course
+status: draft
+editions: [es, en]          # published as two LearnPress courses, same structure
+
+title:
+  es: "Cómo usar Kpex: estimación de CAPEX de la Clase 5 a la Clase 2"
+  en: "How to Use Kpex: CAPEX Estimating from Class 5 to Class 2"
+cover: cover/cover-{lang}.png   # rendered by tools/render-covers.ps1 from cover/cover.html
+subtitle:
+  es: "Curso oficial de la plataforma Kpex de CAF Corporation"
+  en: "The official course for CAF Corporation's Kpex platform"
+
+pricing:
+  currency: EUR
+  regular_price: 200
+  launch_price: 50           # launch promotion (LearnPress sale price)
+  launch_window: TBD         # start/end dates of the promotion — to be defined
+
+enrolment_access:            # comes with the purchase (lesson 0.2), not a completion reward
+  kpex_access: 15 days       # decided 2026-09-24: Kpex user ID provisioned at purchase, the 15 days count
+                             # from the purchase, then app access expires (course lessons stay). Tier TBD.
+
+completion_rewards:          # delivered in lesson 8.2 + completion email
+  certificate: true          # "Kpex Certified User" — Akdemy + CAF Corporation, QR-verifiable
+  membership_discount: TBD   # e.g. 20% first 3 months — to be defined
+
+formats:                     # "maximise options": every lesson offers
+  - text                     # reading with screenshots
+  - video                    # script in video/ (HeyGen). OPTIONAL per lesson: add `video_url: https://…`
+                             # (YouTube/Vimeo/Bunny link) to the lesson's front matter → shown above the text
+  - exercise                 # hands-on task inside Kpex (trial account)
+  - quiz                     # one per module + final exam
+  - download                 # one-page cheat sheet per module (PDF)
+
+modules:
+  - id: m0
+    title: { es: "Bienvenida", en: "Welcome" }
+    lessons:
+      - { id: "0.1", preview: true, title: { es: "Cómo funciona este curso", en: "How this course works" } }
+      - { id: "0.2", preview: true, title: { es: "Activa tu cuenta de prueba de Kpex", en: "Activate your Kpex trial account" } }
+
+  - id: m1
+    title: { es: "Qué es Kpex", en: "What Kpex Is" }
+    lessons:
+      - { id: "1.1", preview: true, title: { es: "Qué hace única a Kpex", en: "What makes Kpex unique" } }
+      - { id: "1.2", title: { es: "La plataforma de un vistazo", en: "The platform at a glance" } }
+      - { id: "1.3", title: { es: "Quién usa Kpex y para qué", en: "Who uses Kpex, and for what" } }
+    quiz: m1
+
+  - id: m2
+    title: { es: "Primeros pasos", en: "Getting Started" }
+    lessons:
+      - { id: "2.1", title: { es: "Acceso y registro", en: "Access and sign-up" } }
+      - { id: "2.2", title: { es: "El dashboard: tu centro de mando", en: "The dashboard: your command centre" } }
+      - { id: "2.3", title: { es: "Tipos de perfil", en: "Profile types" } }
+    quiz: m2
+
+  - id: m3
+    title: { es: "Las clases AACE en Kpex", en: "AACE Classes in Kpex" }
+    lessons:
+      - { id: "3.1", title: { es: "La clasificación AACE 18R-97 y su equivalencia PMI", en: "AACE 18R-97 classification and its PMI mapping" } }
+      - { id: "3.2", title: { es: "Qué herramienta usar en cada clase", en: "Which tool to use at each class" } }
+    quiz: m3
+
+  - id: m4
+    title: { es: "Tu primer estimado", en: "Your First Estimate" }
+    lessons:
+      - { id: "4.1", title: { es: "El Estimate Wizard en 5 pasos", en: "The Estimate Wizard in 5 steps" } }
+      - { id: "4.2", title: { es: "El espacio de trabajo: equipos, WBS y partidas", en: "The workspace: equipment, WBS and line items" } }
+      - { id: "4.3", title: { es: "Moneda, unidades, PDRI y reporte PDF", en: "Currency, units, PDRI and the PDF report" } }
+      - { id: "4.4", title: { es: "Ejercicio: un estimado Clase 5 de principio a fin", en: "Exercise: a Class 5 estimate end to end" } }
+    quiz: m4
+
+  - id: m5
+    title: { es: "Los módulos de costo", en: "The Cost Modules" }
+    lessons:
+      - { id: "5.1", title: { es: "Módulo A: componentes de planta", en: "Module A: plant components" } }
+      - { id: "5.2", title: { es: "Módulo B: curvas de costo y benchmarks", en: "Module B: cost curves and benchmarks" } }
+      - { id: "5.3", title: { es: "Módulo C: modelos de facilities", en: "Module C: facility models" } }
+      - { id: "5.4", title: { es: "Módulos D y E: OPEX y ABEX", en: "Modules D and E: OPEX and ABEX" } }
+    quiz: m5
+
+  - id: m6
+    title: { es: "Módulo Z: las herramientas de calibración", en: "Module Z: the Calibration Tools" }
+    lessons:
+      - { id: "6.1", title: { es: "Z.1–Z.3: ingeniería, mano de obra y equipos de alquiler", en: "Z.1–Z.3: engineering, labour and rental equipment" } }
+      - { id: "6.2", title: { es: "Z.4: el Location Factor (LFI)", en: "Z.4: the Location Factor (LFI)" } }
+      - { id: "6.3", title: { es: "Z.5: el CAF Cost Index", en: "Z.5: the CAF Cost Index" } }
+      - { id: "6.4", title: { es: "Z.6: evaluaciones PDRI, PEI y CRI", en: "Z.6: PDRI, PEI and CRI assessments" } }
+    quiz: m6
+
+  - id: m7
+    title: { es: "Inteligencia, reportes y Exchange", en: "Intelligence, Reports and Exchange" }
+    lessons:
+      - { id: "7.1", title: { es: "Benchmarks y el Global CAPEX Monitor", en: "Benchmarks and the Global CAPEX Monitor" } }
+      - { id: "7.2", title: { es: "Los tres reportes de portafolio", en: "The three portfolio reports" } }
+      - { id: "7.3", title: { es: "Kpex Exchange: el marketplace", en: "Kpex Exchange: the marketplace" } }
+    quiz: m7
+
+  - id: m8
+    title: { es: "Cierre y certificación", en: "Wrap-up and Certification" }
+    lessons:
+      - { id: "8.1", title: { es: "Soporte y próximos pasos", en: "Support and next steps" } }
+      - { id: "8.2", title: { es: "Tu beneficio exclusivo de alumno", en: "Your exclusive student benefit" } }
+    quiz: final

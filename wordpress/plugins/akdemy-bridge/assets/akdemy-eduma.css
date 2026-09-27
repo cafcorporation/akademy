@@ -1,0 +1,145 @@
+/* Akdemy — Eduma-specific adjustments (CAF look). Loaded only when Eduma is the active theme. */
+
+/* ── Single course (layout_style_3) ─────────────────────────
+   One band only: drop Eduma's page top heading and make the course band the CAF dark hero,
+   tall enough to sit under the transparent overlay header. */
+.single-lp_course .top_heading_out { display: none !important; }
+.single-lp_course .course-info-top {
+  --top-info-course-background_color: #1a1a18;
+  --top-info-course-text_color: #FFFFFF;
+  /* Rotating photo (includes/backgrounds.php) under the CAF-dark scrim — dark left for the title */
+  background:
+    linear-gradient(90deg, rgba(26,26,24,.66) 0%, rgba(26,26,24,.54) 45%, rgba(26,26,24,.40) 75%, rgba(26,26,24,.32) 100%),
+    var(--akdemy-band-img, none) center right / cover no-repeat,
+    linear-gradient(135deg, #1a1a18 0%, #2e2e2c 100%) !important;
+  padding-top: 130px !important;
+  border-bottom: 3px solid #F5A011;
+}
+.single-lp_course .course-info-top h1,
+.single-lp_course .course-info-top .course-title {
+  font-family: 'Inter', Arial, sans-serif !important;
+  font-weight: 900 !important; letter-spacing: -1.2px !important; line-height: 1.1 !important; color: #FFFFFF !important;
+  text-shadow: 0 2px 18px rgba(0,0,0,.55);
+}
+.single-lp_course .course-info-top p,
+.single-lp_course .course-info-top .course-instructor,
+.single-lp_course .course-info-top a { text-shadow: 0 1px 10px rgba(0,0,0,.6); }
+.single-lp_course .course-info-top .course-info-top__excerpt,
+.single-lp_course .course-info-top p { color: #e6e3dc !important; font-size: 15px; }
+
+/* Curriculum: our lesson titles already carry "0.1 ·, 1.1 ·…" (module 0 aware) — hide Eduma's auto index */
+html body .course-curriculum .course-item .course-item__info span.course-item-order,
+html body .lp-course-curriculum .course-item .course-item__info span.course-item-order,
+html body #popup-sidebar .course-item .course-item__info span.course-item-order { display: none !important; }
+
+/* Lesson viewer top bar: CAF dark instead of Eduma's primary orange */
+#popup-header { background: linear-gradient(135deg, #1a1a18, #2e2e2c) !important; border-bottom: 3px solid #F5A011; }
+#popup-header .popup-header__inner, #popup-header a, #popup-header .course-title { color: #FFFFFF !important; }
+#popup-header .toggle-content-item, #popup-header #sidebar-toggle + label { background: rgba(255,255,255,.08) !important; }
+
+/* Buttons — CAF radius/weight */
+.single-lp_course .lp-button, .single-lp_course button.lp-button,
+.learn-press-courses .lp-button, .thim-course-grid .lp-button { border-radius: 10px !important; font-weight: 800 !important; letter-spacing: .2px; }
+
+/* Eduma page headings (Courses, Insights…): same rotating photo */
+.top_heading_out .top_site_main {
+  background-image: var(--akdemy-band-img) !important;
+  background-size: cover !important; background-position: center right !important;
+}
+
+/* Eduma page titles: CAF weight, no heavy uppercase tracking */
+.top_heading_out h1, .top_site_main h1 { font-family: 'Inter', Arial, sans-serif !important; font-weight: 900 !important; letter-spacing: -1px !important; }
+
+/* ── Checkout (lp-checkout) ─────────────────────────────────────
+   Slim band, two columns: payment on the left, sticky order card on the right. */
+.akdemy-page-lp-checkout .top_site_main h1,
+.akdemy-page-lp-checkout .top_site_main .page-title { font-size: 44px !important; letter-spacing: -1px; }
+.akdemy-page-lp-checkout #learn-press-checkout-form {
+  display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 48px; align-items: start;
+  font-family: 'Inter', Arial, sans-serif; color: #1a1a1a; margin: 24px 0 72px;
+}
+.akdemy-page-lp-checkout .lp-checkout-form__before { grid-column: 2; grid-row: 1; position: sticky; top: 110px; }
+.akdemy-page-lp-checkout .lp-checkout-form__after  { grid-column: 1; grid-row: 1; }
+.akdemy-page-lp-checkout .lp-checkout-block { float: none !important; width: 100% !important; padding: 0 !important; margin: 0 !important; }
+.akdemy-page-lp-checkout #learn-press-checkout-form h4 {
+  font-size: 13px !important; font-weight: 800 !important; letter-spacing: 1.4px; text-transform: uppercase;
+  color: #585856 !important; margin: 0 0 14px !important; display: flex; align-items: center; gap: 12px;
+}
+.akdemy-page-lp-checkout #learn-press-checkout-form a { color: #d4880a; font-weight: 600; }
+.akdemy-page-lp-checkout #learn-press-checkout-form a:hover { color: #F5A011; }
+
+/* Order card */
+.akdemy-page-lp-checkout .lp-checkout-form__before {
+  background: #FFFFFF; border: 1px solid #e8e4dc; border-top: 4px solid #F5A011; border-radius: 14px;
+  box-shadow: 0 18px 40px -24px rgba(26,26,24,.35); padding: 26px 26px 22px;
+}
+.akdemy-page-lp-checkout #checkout-order .lp-list-table,
+.akdemy-page-lp-checkout #checkout-order .lp-list-table td,
+.akdemy-page-lp-checkout #checkout-order .lp-list-table th { border: 0 !important; background: none !important; }
+.akdemy-page-lp-checkout #checkout-order .lp-list-table { width: 100%; margin: 0; }
+.akdemy-page-lp-checkout #checkout-order .cart-item td { padding: 0 0 18px !important; vertical-align: top; }
+.akdemy-page-lp-checkout #checkout-order .cart-item td.course-thumbnail { width: 106px; padding-right: 14px !important; }
+.akdemy-page-lp-checkout #checkout-order .course-thumbnail img { width: 92px !important; height: auto; border-radius: 8px; display: block; }
+.akdemy-page-lp-checkout #checkout-order .course-name a { color: #1a1a1a !important; font-size: 15px; font-weight: 700 !important; line-height: 1.35; display: block !important; overflow: visible !important; -webkit-line-clamp: unset !important; }
+.akdemy-page-lp-checkout #checkout-order .course-name a * { white-space: normal !important; }
+.akdemy-page-lp-checkout #checkout-order .cart-item .course-total { display: none; }
+.akdemy-page-lp-checkout #checkout-order tfoot th,
+.akdemy-page-lp-checkout #checkout-order tfoot td { padding: 10px 0 !important; font-size: 14px; color: #585856; font-weight: 500; }
+.akdemy-page-lp-checkout #checkout-order tfoot .col-number { text-align: right; }
+.akdemy-page-lp-checkout #checkout-order tfoot .cart-subtotal th,
+.akdemy-page-lp-checkout #checkout-order tfoot .cart-subtotal td { border-top: 1px solid #ece8e1 !important; }
+.akdemy-page-lp-checkout #checkout-order tfoot .order-total th { font-size: 16px; font-weight: 800; color: #1a1a1a; }
+.akdemy-page-lp-checkout #checkout-order tfoot .order-total td { font-size: 28px !important; font-weight: 900 !important; color: #F5A011 !important; letter-spacing: -.6px; }
+
+/* What the enrollment includes */
+.akdemy-checkout-perks { border-top: 1px solid #ece8e1; margin-top: 8px; padding-top: 16px; }
+.akdemy-checkout-launch { font-size: 13px; color: #585856; margin: 0 0 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.akdemy-checkout-launch s { color: #8d8a84; }
+.akdemy-checkout-launch strong { color: #1a1a1a; }
+.akdemy-checkout-tag {
+  display: inline-block; background: #FDF1DC; color: #b8760a; font-size: 11px; font-weight: 800;
+  letter-spacing: .8px; text-transform: uppercase; border-radius: 999px; padding: 2px 10px; margin-right: 6px;
+}
+.akdemy-checkout-perks h5 { font-size: 12px !important; font-weight: 800 !important; letter-spacing: 1.2px; text-transform: uppercase; color: #585856 !important; margin: 0 0 10px !important; }
+.akdemy-checkout-perks ul { list-style: none !important; margin: 0 !important; padding: 0 !important; }
+.akdemy-checkout-perks li { list-style: none !important; position: relative; padding: 5px 0 5px 28px; font-size: 14px; color: #1a1a1a; line-height: 1.45; }
+.akdemy-checkout-perks li::before {
+  content: '✓'; position: absolute; left: 0; top: 5px; width: 19px; height: 19px; border-radius: 50%;
+  background: #F5A011; color: #FFFFFF; font-size: 11px; font-weight: 900; line-height: 19px; text-align: center;
+}
+
+/* Left column: account line, payment methods, action */
+.akdemy-page-lp-checkout #checkout-account-logged-in p {
+  background: #F8F6F2; border-radius: 10px; padding: 14px 18px; margin: 0 0 30px; font-size: 14px; color: #585856;
+}
+.akdemy-page-lp-checkout #checkout-payment .secure-connection {
+  margin-left: auto; font-size: 12px; font-weight: 600; letter-spacing: 0; text-transform: none; color: #1A7A4A;
+}
+.akdemy-page-lp-checkout #checkout-payment .secure-connection i { color: #1A7A4A; }
+.akdemy-page-lp-checkout .payment-methods { list-style: none; margin: 0 0 24px !important; padding: 0 !important; border: 0 !important; }
+.akdemy-page-lp-checkout .payment-methods > li {
+  border: 1.5px solid #e8e4dc !important; border-radius: 12px; margin: 0 0 12px !important; overflow: hidden; background: #FFFFFF;
+}
+.akdemy-page-lp-checkout .payment-methods > li:has(input:checked) { border-color: #F5A011 !important; box-shadow: 0 0 0 3px rgba(245,160,17,.14); }
+.akdemy-page-lp-checkout .payment-methods > li > label { background: #FFFFFF !important; padding: 16px 18px !important; margin: 0 !important; display: flex !important; align-items: center; gap: 12px; cursor: pointer; }
+.akdemy-page-lp-checkout .payment-methods .payment-method-form { background: #F8F6F2 !important; border: 0 !important; padding: 14px 18px !important; margin: 0 !important; font-size: 14px; color: #585856; }
+.akdemy-page-lp-checkout .payment-methods input[type=radio] { accent-color: #F5A011; }
+.akdemy-page-lp-checkout #learn-press-checkout-place-order {
+  display: block !important; width: 100% !important; background: #F5A011 !important; color: #FFFFFF !important; border: 0 !important; border-radius: 10px !important;
+  font-family: 'Inter', Arial, sans-serif; font-size: 16px !important; font-weight: 800 !important; letter-spacing: .2px; text-transform: none !important;
+  padding: 17px 24px !important; height: auto !important; line-height: 1.2 !important;
+  box-shadow: 0 10px 22px -10px rgba(245,160,17,.75); transition: background .15s, transform .15s;
+}
+.akdemy-page-lp-checkout #learn-press-checkout-place-order:hover { background: #d4880a !important; transform: translateY(-1px); }
+.akdemy-page-lp-checkout .lp-terms-and-conditions { font-size: 13px; color: #8d8a84; text-align: center; margin: 14px 0 0; }
+
+@media (max-width: 991px) {
+  .akdemy-page-lp-checkout #learn-press-checkout-form { grid-template-columns: minmax(0, 1fr); gap: 28px; width: 100%; box-sizing: border-box; }
+  .akdemy-page-lp-checkout .lp-checkout-form__before,
+  .akdemy-page-lp-checkout .lp-checkout-form__after { min-width: 0; box-sizing: border-box; }
+  .akdemy-page-lp-checkout .lp-checkout-form__before { padding: 22px 18px 18px; }
+  .akdemy-page-lp-checkout .lp-checkout-form__before { grid-column: 1; position: static; }
+  .akdemy-page-lp-checkout .lp-checkout-form__after { grid-row: 2; }
+  .akdemy-page-lp-checkout .top_site_main h1,
+  .akdemy-page-lp-checkout .top_site_main .page-title { font-size: 32px !important; }
+}

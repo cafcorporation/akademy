@@ -1,0 +1,197 @@
+/* Akdemy — theme-independent components (used with Eduma).
+   Mirrors caf-corporation.com: Inter · CAF Orange #F5A011 (hover #d4880a) · CAF Gray #585856 · Ink #1a1a1a */
+:root {
+  --akdemy-orange: #F5A011;
+  --akdemy-orange-dark: #d4880a;
+  --akdemy-gray: #585856;
+  --akdemy-ink: #1a1a1a;
+  --akdemy-muted: #888888;
+  --akdemy-cream: #F8F6F2;
+  --akdemy-line: #f0ece6;
+  --akdemy-line-strong: #e0dcd6;
+  --akdemy-dark-1: #1a1a18;
+  --akdemy-dark-2: #2e2e2c;
+  --akdemy-font: 'Inter', 'Calibri', Arial, sans-serif;
+}
+
+/* ── Eyebrow pill (caf .hero-eyebrow / .ln-section-eyebrow) ── */
+.akdemy-eyebrow {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(245,160,17,.1); border: 1px solid rgba(245,160,17,.25);
+  border-radius: 20px; padding: 4px 12px;
+  font: 800 10px/1.4 var(--akdemy-font); letter-spacing: .6px;
+  text-transform: uppercase; color: var(--akdemy-orange); margin-bottom: 14px;
+}
+
+/* ── Home hero (full-bleed classroom photo) ── */
+.akdemy-hero { --akdemy-hero-img: var(--akdemy-band-img, url("hero-course.jpg")); }
+.akdemy-hero {
+  position: relative; width: 100vw; margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw);
+  background:
+    linear-gradient(90deg, rgba(26,26,24,.95) 0%, rgba(26,26,24,.85) 42%, rgba(26,26,24,.35) 75%, rgba(26,26,24,.15) 100%),
+    linear-gradient(0deg, rgba(26,26,24,.6) 0%, transparent 40%),
+    var(--akdemy-hero-img) center right / cover no-repeat,
+    var(--akdemy-dark-1);
+  color: #FFFFFF;
+}
+.akdemy-hero-inner { max-width: 1200px; margin: 0 auto; padding: 170px 28px 120px; }
+.akdemy-hero .akdemy-eyebrow { background: rgba(245,160,17,.12); border-color: rgba(245,160,17,.3); padding: 5px 14px; font-size: 11px; font-weight: 700; margin-bottom: 20px; }
+.akdemy-hero h1 {
+  color: #FFFFFF !important; font: 900 52px/1.08 var(--akdemy-font) !important; letter-spacing: -1.5px !important;
+  margin: 0 0 20px; max-width: 720px; text-transform: none !important;
+}
+.akdemy-hero h1 span { color: var(--akdemy-orange); }
+.akdemy-hero p { color: #aaaaaa; font-size: 16px; line-height: 1.65; max-width: 480px; margin: 0 0 36px; }
+.akdemy-hero-ctas { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.akdemy-btn-primary, .akdemy-btn-ghost {
+  display: inline-flex; align-items: center; gap: 8px; border-radius: 10px;
+  font: 14px var(--akdemy-font); text-decoration: none !important;
+  transition: background .15s, transform .1s, border-color .15s, color .15s;
+}
+.akdemy-btn-primary { background: var(--akdemy-orange); color: #FFFFFF !important; padding: 14px 28px; font-weight: 800; }
+.akdemy-btn-primary:hover { background: var(--akdemy-orange-dark); transform: translateY(-2px); }
+.akdemy-btn-ghost { border: 1.5px solid rgba(255,255,255,.2); color: #FFFFFF !important; padding: 13px 24px; font-weight: 600; }
+.akdemy-btn-ghost:hover { border-color: var(--akdemy-orange); color: var(--akdemy-orange) !important; }
+@media (max-width: 781px) {
+  .akdemy-hero { background: linear-gradient(rgba(26,26,24,.84), rgba(26,26,24,.84)), var(--akdemy-hero-img) 70% center / cover no-repeat, var(--akdemy-dark-1); }
+  .akdemy-hero-inner { padding: 130px 22px 80px; }
+  .akdemy-hero h1 { font-size: 36px !important; }
+}
+
+/* Eduma keeps an empty 100px top-heading band even when the title is hidden — drop it on the home,
+   so the hero sits under the transparent overlay header (like caf-corporation.com). */
+.akdemy-page-home .top_heading_out { display: none !important; }
+
+/* In a full-width (container-less) page the hero is already edge to edge; center the rest */
+.container-fluid .akdemy-hero { width: auto; margin-left: 0; margin-right: 0; }
+.container-fluid .entry-content > .akdemy-section,
+.container-fluid .entry-content > .akdemy-insights-grid,
+.container-fluid .entry-content > .akdemy-course-grid,
+.container-fluid .entry-content > .akdemy-insights-more,
+.container-fluid .entry-content > p > .akdemy-insights-grid { max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 28px; padding-right: 28px; box-sizing: border-box; }
+
+/* ── Sections (caf .ln-section / .ln-section-title / .ln-section-sub) ── */
+.akdemy-section { padding-top: 88px; }
+.akdemy-section-first { padding-top: 64px; }
+.akdemy-section-head { max-width: 720px; margin-bottom: 30px; }
+.akdemy-section-head h2 {
+  font: 900 36px/1.15 var(--akdemy-font) !important; letter-spacing: -.8px !important;
+  color: var(--akdemy-ink) !important; margin: 0 0 12px !important; text-transform: none !important;
+}
+.akdemy-section-head p { color: var(--akdemy-muted); font-size: 15px; line-height: 1.6; max-width: 560px; margin: 0; }
+@media (max-width: 781px) { .akdemy-section-head h2 { font-size: 28px !important; } .akdemy-section { padding-top: 64px; } }
+
+/* ── Insight + course cards (caf .article-card) ── */
+.akdemy-insights-grid, .akdemy-course-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px;
+}
+.akdemy-insight-card, .akdemy-course-card {
+  display: flex; flex-direction: column; background: #FFFFFF;
+  border: 1px solid var(--akdemy-line); border-radius: 14px; overflow: hidden;
+  color: var(--akdemy-ink) !important; text-decoration: none !important;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.akdemy-insight-card:hover, .akdemy-course-card:hover {
+  transform: translateY(-3px); box-shadow: 0 14px 36px rgba(0,0,0,.10); border-color: rgba(245,160,17,.45);
+}
+.akdemy-insight-img {
+  position: relative; aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, var(--akdemy-dark-1), var(--akdemy-dark-2));
+  background-size: cover; background-position: center;
+}
+.akdemy-insight-lock {
+  position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 800; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--akdemy-orange); background: rgba(26,26,24,.85);
+  border: 1px solid rgba(245,160,17,.4); border-radius: 20px; padding: 4px 10px;
+}
+.akdemy-insight-body, .akdemy-course-body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+.akdemy-insight-cat { font-size: 10px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; margin-bottom: 8px; }
+.akdemy-insight-title, .akdemy-course-title { font-size: 16px; font-weight: 800; line-height: 1.3; letter-spacing: -.3px; color: var(--akdemy-ink); margin-bottom: 8px; }
+.akdemy-insight-excerpt, .akdemy-course-excerpt { font-size: 13px; line-height: 1.65; color: var(--akdemy-muted); flex: 1; }
+.akdemy-insight-meta, .akdemy-course-foot {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--akdemy-line);
+  font-size: 12.5px; color: var(--akdemy-muted);
+}
+.akdemy-insight-read, .akdemy-course-cta { color: var(--akdemy-orange); font-weight: 700; white-space: nowrap; }
+.akdemy-course-img img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.akdemy-course-price { font-size: 15px; font-weight: 900; color: var(--akdemy-ink); }
+.akdemy-course-price .origin-price, .akdemy-course-price del { color: var(--akdemy-muted); font-weight: 500; font-size: 13px; margin-right: 6px; }
+.akdemy-insights-more { margin: 22px 0 80px; }
+.akdemy-insights-more a { font-weight: 700; color: var(--akdemy-orange); }
+
+/* ── Lesson content (Markdown → HTML from the course pipeline) ── */
+.content-item-description table, .entry-content table {
+  border-collapse: collapse; width: 100%; margin: 1.2em 0; font-size: .93em;
+}
+.content-item-description th, .entry-content th {
+  background: var(--akdemy-ink) !important; color: #FFFFFF !important; font-weight: 700; text-align: left;
+  padding: 9px 12px; border-bottom: 3px solid var(--akdemy-orange);
+}
+.content-item-description td, .entry-content td { padding: 9px 12px; border-bottom: 1px solid var(--akdemy-line); vertical-align: top; }
+.content-item-description tr:nth-child(even) td, .entry-content tr:nth-child(even) td { background: #FBFAF7; }
+.content-item-description blockquote, .entry-content blockquote {
+  background: rgba(245,160,17,.07); border-left: 4px solid var(--akdemy-orange); border-radius: 0 10px 10px 0;
+  margin: 1.4em 0; padding: 14px 18px; font-style: normal; font-weight: 600;
+}
+.content-item-description blockquote::before, .entry-content blockquote::before { display: none; }
+.content-item-description h2 {
+  font: 900 24px/1.2 var(--akdemy-font); letter-spacing: -.5px; color: var(--akdemy-ink); margin: 1.9em 0 .6em; text-transform: none;
+}
+.content-item-description h3 { font: 800 18px/1.3 var(--akdemy-font); letter-spacing: -.3px; color: var(--akdemy-ink); margin: 1.5em 0 .5em; }
+.content-item-description > h2:first-child {
+  display: inline-flex; font-size: 10px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase;
+  color: var(--akdemy-orange); background: rgba(245,160,17,.1); border: 1px solid rgba(245,160,17,.25);
+  border-radius: 20px; padding: 4px 12px; margin: 0 0 12px;
+}
+.akdemy-pending, .akdemy-shot-pending { font-family: var(--akdemy-font); }
+/* Lesson screenshots: framed like an app window */
+.content-item-description img.akdemy-shot, .entry-content img.akdemy-shot {
+  display: block; width: 100%; height: auto; margin: 1.4em 0;
+  border: 1px solid var(--akdemy-line-strong); border-radius: 12px;
+  box-shadow: 0 14px 40px rgba(0,0,0,.12);
+}
+.akdemy-pending { background: rgba(245,160,17,.07); border-left: 4px solid var(--akdemy-orange); border-radius: 0 10px 10px 0; padding: 14px 18px; }
+
+/* ── CAF footer (caf .ln-footer) ── */
+.akdemy-footer {
+  background: linear-gradient(135deg, var(--akdemy-dark-1) 0%, var(--akdemy-dark-2) 100%);
+  color: var(--akdemy-muted); padding: 56px 0 28px; font-family: var(--akdemy-font);
+}
+.akdemy-footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
+.akdemy-footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
+.akdemy-footer-logo { width: 200px; height: auto; display: block; margin-bottom: 16px; }
+.akdemy-footer .akdemy-footer-desc { font-size: 12px; line-height: 1.7; color: var(--akdemy-muted); max-width: 280px; margin: 0; }
+.akdemy-footer .akdemy-footer-col-title { font-size: 11px; font-weight: 800; color: #FFFFFF; text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; }
+.akdemy-footer-links { display: flex; flex-direction: column; gap: 8px; }
+.akdemy-footer .akdemy-footer-links a { font-size: 12px; color: var(--akdemy-muted); transition: color .15s; text-decoration: none; }
+.akdemy-footer .akdemy-footer-links a:hover { color: var(--akdemy-orange); }
+.akdemy-footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.08); padding-top: 22px;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.akdemy-footer .akdemy-footer-copy { font-size: 11px; color: #666666; }
+.akdemy-footer-badges { display: flex; gap: 10px; }
+.akdemy-footer .akdemy-footer-badges span {
+  background: rgba(245,160,17,.12); border: 1px solid rgba(245,160,17,.25); border-radius: 6px;
+  padding: 4px 10px; font-size: 9.5px; font-weight: 700; color: var(--akdemy-orange); letter-spacing: .4px;
+}
+@media (max-width: 768px) { .akdemy-footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; } }
+@media (max-width: 480px) { .akdemy-footer-grid { grid-template-columns: 1fr; } }
+
+/* ── Course overview (overview/<lang>.md): same reading style as lessons ── */
+.course-description table { border-collapse: collapse; width: 100%; margin: 1.2em 0; font-size: .93em; }
+.course-description th {
+  background: var(--akdemy-ink) !important; color: #FFFFFF !important; font-weight: 700; text-align: left;
+  padding: 9px 12px; border-bottom: 3px solid var(--akdemy-orange);
+}
+.course-description td { padding: 9px 12px; border: 0; border-bottom: 1px solid var(--akdemy-line); vertical-align: top; }
+.course-description tr:nth-child(even) td { background: #FBFAF7; }
+.course-description h2 { font: 900 24px/1.2 var(--akdemy-font); letter-spacing: -.5px; color: var(--akdemy-ink); margin: 1.8em 0 .6em; text-transform: none; }
+.course-description blockquote {
+  background: rgba(245,160,17,.07); border-left: 4px solid var(--akdemy-orange); border-radius: 0 10px 10px 0;
+  margin: 1.2em 0; padding: 14px 18px; font-style: normal; font-weight: 600;
+}
+.course-description blockquote::before { display: none; }
+.course-description img.akdemy-shot { display: block; width: 100%; height: auto; margin: 1.4em 0; border-radius: 12px; box-shadow: 0 14px 40px rgba(0,0,0,.18); }
+.course-description ul li::marker { color: var(--akdemy-orange); }

@@ -1,0 +1,96 @@
+# Module 5 quiz — "The Cost Modules" / "Los módulos de costo"
+# Passing grade 70%. The first option in the source is NOT always correct: `answer` is the index (0-based).
+id: m5
+passing_grade: 70
+duration_min: 10
+
+questions:
+  - type: single
+    question:
+      es: "¿Qué devuelve un modelo del Módulo A cuando introduces los parámetros de tamaño de un equipo?"
+      en: "What does a Module A model return when you enter an item's sizing parameters?"
+    options:
+      es: ["Un único precio fijo sin incertidumbre", "La curva de costo de la facility completa", "Un rango de costo con límites de confianza estadísticos", "Solo el costo de mano de obra de instalación"]
+      en: ["A single fixed price with no uncertainty", "The cost curve of the whole facility", "A cost range with statistical confidence bounds", "Only the installation labour cost"]
+    answer: 2
+    explanation:
+      es: "Cada componente del Módulo A devuelve un rango con límites de confianza, con base Costa del Golfo al mes actual y sensible al material de construcción."
+      en: "Every Module A component returns a range with confidence bounds, on a US Gulf Coast basis in the current month and material-of-construction aware."
+
+  - type: single
+    question:
+      es: "En la curva C = a·Q^n de un modelo del Módulo B, si n es menor que 1, ¿qué ocurre al aumentar la capacidad?"
+      en: "On a Module B curve C = a·Q^n, if n is below 1, what happens as capacity increases?"
+    options:
+      es: ["El costo total baja", "El costo por unidad de capacidad baja", "El costo por unidad de capacidad se mantiene constante", "El costo total crece más rápido que la capacidad"]
+      en: ["Total cost falls", "Cost per unit of capacity falls", "Cost per unit of capacity stays constant", "Total cost grows faster than capacity"]
+    answer: 1
+    explanation:
+      es: "Con n < 1 el costo total crece más despacio que la capacidad, así que el costo unitario baja: por eso las curvas son magnitude-aware."
+      en: "With n < 1, total cost grows more slowly than capacity, so unit cost falls: that is why the curves are magnitude-aware."
+
+  - type: true_false
+    question:
+      es: "Una curva de nivel Functional Unit representa una planta completa y corresponde uno a uno con un modelo del Módulo C."
+      en: "A Functional Unit curve represents a whole plant and maps one-to-one to a Module C model."
+    answer: false
+    explanation:
+      es: "Falso: eso describe el nivel Facility. Una Functional Unit es una unidad de proceso que se ensambla con otras para formar una facility."
+      en: "False: that describes the Facility level. A Functional Unit is a process unit that assembles with others into a facility."
+
+  - type: single
+    question:
+      es: "¿De dónde vienen los factores que el Módulo A usa para estimar tubería, instrumentación, electricidad y civil (A.2–A.6)?"
+      en: "Where do the factors Module A uses to estimate piping, instruments, electrical and civil (A.2–A.6) come from?"
+    options:
+      es: ["Del Z.2 Labor Rates", "Del Módulo D", "Del Z.4 Location Factor", "De los KPEX-HF Allowances del Módulo B"]
+      en: ["From Z.2 Labor Rates", "From Module D", "From the Z.4 Location Factor", "From the Module B KPEX-HF Allowances"]
+    answer: 3
+    explanation:
+      es: "Los bulks se estiman como proporción del equipo mayor con los KPEX-HF bulk allowances, que viven en el Módulo B."
+      en: "Bulks are estimated as a proportion of major equipment using the KPEX-HF bulk allowances, which live in Module B."
+
+  - type: multi
+    question:
+      es: "¿Cuáles de estos son sectores del Módulo C? (elige todas las correctas)"
+      en: "Which of these are Module C sectors? (select all that apply)"
+    options:
+      es: ["C.4 Renewable Energy", "C.6 Mining", "C.7 Pharmaceutical Retail", "C.3 Buildings"]
+      en: ["C.4 Renewable Energy", "C.6 Mining", "C.7 Pharmaceutical Retail", "C.3 Buildings"]
+    answer: [0, 1, 3]
+    explanation:
+      es: "El Módulo C tiene 6 sectores: C.1 Industrial Process Plants, C.2 Infrastructure, C.3 Buildings, C.4 Renewable Energy, C.5 Nuclear y C.6 Mining. No existe C.7."
+      en: "Module C has 6 sectors: C.1 Industrial Process Plants, C.2 Infrastructure, C.3 Buildings, C.4 Renewable Energy, C.5 Nuclear and C.6 Mining. There is no C.7."
+
+  - type: single
+    question:
+      es: "¿A qué es igual la curva de costo Clase 5 de una facility del Módulo C?"
+      en: "What does a Module C facility's Class 5 cost curve equal?"
+    options:
+      es: ["A la suma de sus componentes validados", "Al P90 de los proyectos históricos", "Al costo del equipo mayor multiplicado por 3", "Al promedio de todas las curvas del sector"]
+      en: ["The sum of its validated components", "The P90 of historical projects", "The major equipment cost multiplied by 3", "The average of all curves in the sector"]
+    answer: 0
+    explanation:
+      es: "La curva Clase 5 de una facility es la suma de sus componentes validados; por eso cada facility se puede abrir elemento por elemento en su CBS."
+      en: "A facility's Class 5 curve is the sum of its validated components; that is why each facility opens element by element in its CBS."
+
+  - type: single
+    question:
+      es: "¿Qué grupo del Módulo E cubre el ABEX de eólica, solar FV e hidrógeno?"
+      en: "Which Module E group covers ABEX for wind, solar PV and hydrogen?"
+    options:
+      es: ["E.1", "E.2", "E.3", "E.5"]
+      en: ["E.1", "E.2", "E.3", "E.5"]
+    answer: 2
+    explanation:
+      es: "E.3 es Renewable Energy (eólica, solar FV, H₂ verde, H₂ azul, híbridos/Power-to-X). E.1 es petróleo y gas, E.2 plantas de proceso, E.4 minería y E.5 nuclear."
+      en: "E.3 is Renewable Energy (wind, solar PV, green H₂, blue H₂, hybrid/Power-to-X). E.1 is oil & gas, E.2 process plants, E.4 mining and E.5 nuclear."
+
+  - type: true_false
+    question:
+      es: "En el paso Lifecycle Cost Scope del Estimate Wizard, CAPEX siempre está incluido y OPEX y ABEX son opcionales."
+      en: "In the Estimate Wizard's Lifecycle Cost Scope step, CAPEX is always included while OPEX and ABEX are optional."
+    answer: true
+    explanation:
+      es: "Verdadero: CAPEX aparece como ALWAYS; al activar OPEX entra el Módulo D y al activar ABEX entra el Módulo E."
+      en: "True: CAPEX is marked ALWAYS; switching on OPEX brings in Module D and switching on ABEX brings in Module E."

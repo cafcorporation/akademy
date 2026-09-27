@@ -1,0 +1,87 @@
+# Module 1 quiz — "What Kpex Is" / "Qué es Kpex"
+# Passing grade 70%. The first option in the source is NOT always correct: `answer` is the index (0-based).
+id: m1
+passing_grade: 70
+duration_min: 10
+
+questions:
+  - type: single
+    question:
+      es: "¿Qué dos referencias de la profesión armoniza Kpex?"
+      en: "Which two professional references does Kpex harmonise?"
+    options:
+      es: ["ISO 9001 e ISO 14001", "AACE International y PMI", "CEPCI y ENR", "IFRS y US GAAP"]
+      en: ["ISO 9001 and ISO 14001", "AACE International and PMI", "CEPCI and ENR", "IFRS and US GAAP"]
+    answer: 1
+    explanation:
+      es: "Kpex combina la clasificación AACE (RP 18R-97, marco TCM) con el PMBOK y el estándar de WBS del PMI."
+      en: "Kpex combines AACE classification (RP 18R-97, TCM Framework) with PMI's PMBOK and WBS Standard."
+
+  - type: single
+    question:
+      es: "¿Qué ajusta el CAF Location Factor Index (Z.4)?"
+      en: "What does the CAF Location Factor Index (Z.4) adjust?"
+    options:
+      es: ["El tiempo (escalación al mes actual)", "La geografía (el país del proyecto)", "La moneda", "El sistema de unidades"]
+      en: ["Time (escalation to the current month)", "Geography (the project country)", "Currency", "Unit system"]
+    answer: 1
+    explanation:
+      es: "El LFI mueve el costo del país de origen del modelo al país del proyecto. El tiempo lo ajusta el Cost Index (Z.5)."
+      en: "The LFI moves the cost from the model's origin country to the project country. Time is handled by the Cost Index (Z.5)."
+
+  - type: true_false
+    question:
+      es: "En Kpex tienes que pulsar un botón para escalar los precios al mes actual."
+      en: "In Kpex you must press a button to escalate prices to the current month."
+    answer: false
+    explanation:
+      es: "Falso: la escalación se aplica automáticamente cada vez que consultas un costo."
+      en: "False: escalation is applied automatically every time you read a cost."
+
+  - type: single
+    question:
+      es: "¿Qué módulo cubre el costo de abandono y desmantelamiento (ABEX)?"
+      en: "Which module covers abandonment and decommissioning cost (ABEX)?"
+    options:
+      es: ["Módulo A", "Módulo C", "Módulo D", "Módulo E"]
+      en: ["Module A", "Module C", "Module D", "Module E"]
+    answer: 3
+
+  - type: single
+    question:
+      es: "¿Cuál es la referencia base de todos los costos de Kpex (LFI = 1,000)?"
+      en: "What is the base reference for every Kpex cost (LFI = 1.000)?"
+    options:
+      es: ["Rotterdam", "Costa del Golfo de EE. UU.", "Singapur", "El país del usuario"]
+      en: ["Rotterdam", "US Gulf Coast", "Singapore", "The user's country"]
+    answer: 1
+
+  - type: multi
+    question:
+      es: "¿Qué herramientas forman parte del Módulo Z? (elige todas las correctas)"
+      en: "Which tools are part of Module Z? (select all that apply)"
+    options:
+      es: ["Location Factor Index", "Cost Index mensual", "Evaluación PDRI", "Modelos de facilities completas"]
+      en: ["Location Factor Index", "Monthly Cost Index", "PDRI assessment", "Complete facility models"]
+    answer: [0, 1, 2]
+    explanation:
+      es: "Los modelos de facilities completas son el Módulo C."
+      en: "Complete facility models are Module C."
+
+  - type: single
+    question:
+      es: "En la cadena de valor de Kpex, ¿qué capa **calibra** el dato de costo?"
+      en: "In Kpex's value chain, which layer **calibrates** the cost data?"
+    options:
+      es: ["Cost Modules", "Support Tools Z", "Intelligence", "Kpex Exchange"]
+      en: ["Cost Modules", "Support Tools Z", "Intelligence", "Kpex Exchange"]
+    answer: 1
+
+  - type: single
+    question:
+      es: "¿En qué moneda guarda Kpex la base de los estimados, para que las comparaciones sean coherentes?"
+      en: "In which currency does Kpex keep the estimate base, so benchmarks stay consistent?"
+    options:
+      es: ["Euros", "Dólares estadounidenses", "La moneda local del proyecto", "Libras esterlinas"]
+      en: ["Euros", "US dollars", "The project's local currency", "Pounds sterling"]
+    answer: 1

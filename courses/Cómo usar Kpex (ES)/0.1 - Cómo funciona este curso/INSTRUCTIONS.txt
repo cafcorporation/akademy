@@ -1,0 +1,17 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 20 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (8 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation". Título: "Cómo funciona este curso".
+Escena 2 (párrafo 2): Layout B con 02-cover-es.png. Textos: "Clase 5 → Clase 2" y "Sin experiencia previa".
+Escena 3 (párrafo 3): Layout B con 03-lesson-layout.png (se ve la lista de módulos a la izquierda). Texto: "9 módulos · de lo general a lo específico".
+Escena 4 (párrafo 4): Layout B con 04-lesson-with-video.png. Textos que aparecen en orden al nombrarlos: "Lectura", "Vídeo", "Pruébalo en Kpex", "Cuestionario por módulo", "Examen final".
+Escena 5 (párrafo 5): Layout B con 05-dashboard.png. Tres textos en orden: "1 · Sigue el orden", "2 · Haz las prácticas", "3 · Responde los cuestionarios".
+Escena 6 (párrafo 6): Layout B con 06-register.png. Textos: "Tu cuenta de Kpex · 15 días desde tu compra" y "Actívala en la lección 0.2".
+Escena 7 (párrafo 7): Layout B con 07-certificate.png. Textos: "Certificado verificable con QR" y "Descuento en tu membresía Kpex".
+Escena 8 (párrafo 8): Layout A con 01-bg-dark.jpg. Texto final: "Siguiente: 0.2 · Activa tu cuenta de prueba de Kpex".
+
+Pronunciación: "Kpex" es el nombre de la plataforma (una sola palabra); "AACE" se deletrea; "CAPEX" se lee como palabra; "Pruébalo en Kpex" es el nombre de una sección del curso.

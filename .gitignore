@@ -1,0 +1,13 @@
+.env
+.deploy.env
+node_modules/
+*.log
+build/
+
+# Eduma purchase: license text, purchase code and the paid theme zip never go to git
+Eduma/
+
+# Generated marketing outputs (re-render with tools/render-*.ps1)
+marketing/social/out/
+*.pdf
+*.zip

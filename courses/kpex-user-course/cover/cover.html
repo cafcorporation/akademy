@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Akdemy course cover</title>
+<!-- Rendered to PNG by tools/render-covers.ps1 at 1600×900. Language via ?lang=es|en -->
+<style>
+  :root {
+    --orange: #F5A011;
+    --gray: #585856;
+    --gray-deep: #3F3F3D;
+    --cream: #F8F6F2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1600px; height: 900px; overflow: hidden; }
+  body {
+    font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif;
+    color: #FFFFFF;
+    background: radial-gradient(120% 140% at 85% 20%, var(--gray) 0%, var(--gray-deep) 70%);
+    position: relative;
+  }
+  /* orange band on the left edge */
+  .band { position: absolute; left: 0; top: 0; bottom: 0; width: 18px; background: var(--orange); }
+
+  /* cost curve C = a·Q^n drawn in the background */
+  svg.curve { position: absolute; right: 0; bottom: 0; width: 900px; height: 900px; }
+
+  .content { position: absolute; left: 110px; top: 92px; right: 620px; }
+  .logo { width: 380px; display: block; margin-bottom: 70px; }
+  .eyebrow {
+    display: inline-block;
+    font-size: 26px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--orange);
+    border: 2px solid var(--orange); border-radius: 40px;
+    padding: 10px 26px; margin-bottom: 34px;
+  }
+  h1 { font-size: 86px; line-height: 1.02; font-weight: 700; letter-spacing: -1px; }
+  h1 .hl { color: var(--orange); }
+  .sub { margin-top: 30px; font-size: 34px; line-height: 1.3; color: #E9E6DF; max-width: 780px; }
+
+  .chips { position: absolute; left: 110px; bottom: 84px; display: flex; gap: 18px; }
+  .chip {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22);
+    border-radius: 10px; padding: 14px 22px; font-size: 25px; font-weight: 700;
+  }
+  .chip b { color: var(--orange); }
+
+  .brandline { position: absolute; right: 70px; bottom: 60px; font-size: 22px; color: #D9D5CC; letter-spacing: 1px; }
+  .brandline b { color: #FFFFFF; }
+</style>
+</head>
+<body>
+  <div class="band"></div>
+
+  <svg class="curve" viewBox="0 0 900 900" aria-hidden="true">
+    <defs>
+      <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#F5A011" stop-opacity="0"/>
+        <stop offset="0.35" stop-color="#F5A011" stop-opacity="0.9"/>
+        <stop offset="1" stop-color="#F5A011" stop-opacity="1"/>
+      </linearGradient>
+    </defs>
+    <!-- ±band around the curve -->
+    <path d="M60 820 C 260 520, 480 360, 880 250 L 880 170 C 470 290, 250 450, 60 760 Z" fill="#F5A011" opacity="0.10"/>
+    <!-- the curve -->
+    <path d="M60 790 C 260 490, 470 330, 880 210" fill="none" stroke="url(#fade)" stroke-width="7" stroke-linecap="round"/>
+    <!-- data points -->
+    <g fill="#FFFFFF" opacity="0.55">
+      <circle cx="210" cy="600" r="6"/><circle cx="300" cy="520" r="6"/><circle cx="380" cy="455" r="6"/>
+      <circle cx="470" cy="400" r="6"/><circle cx="560" cy="345" r="6"/><circle cx="660" cy="300" r="6"/>
+      <circle cx="760" cy="255" r="6"/><circle cx="340" cy="470" r="6"/><circle cx="610" cy="335" r="6"/>
+    </g>
+    <!-- highlighted estimate point -->
+    <circle cx="520" cy="366" r="16" fill="#F5A011"/>
+    <circle cx="520" cy="366" r="30" fill="none" stroke="#F5A011" stroke-width="3" opacity="0.6"/>
+    <text x="560" y="420" fill="#FFFFFF" font-size="30" font-family="Calibri, Arial, sans-serif" font-style="italic" opacity="0.85">C = a · Q<tspan dy="-12" font-size="20">n</tspan></text>
+  </svg>
+
+  <div class="content">
+    <img class="logo" src="../../../brand/Logo%20CAF%20Akdemy%20White-Yellow.svg" alt="Akdemy">
+    <div class="eyebrow" data-i18n="eyebrow"></div>
+    <h1 data-i18n="title"></h1>
+    <p class="sub" data-i18n="sub"></p>
+  </div>
+
+  <div class="chips" data-i18n="chips"></div>
+  <div class="brandline" data-i18n="brand"></div>
+
+<script>
+  const T = {
+    es: {
+      eyebrow: 'Curso oficial',
+      title: 'Cómo usar <span class="hl">Kpex</span>',
+      sub: 'Estimación de CAPEX de la Clase 5 a la Clase 2, con la plataforma de inteligencia de costos de CAF Corporation',
+      chips: '<div class="chip"><b>9</b> módulos</div><div class="chip">AACE <b>+</b> PMI</div><div class="chip"><b>✓</b> Certificado</div>',
+      brand: 'by <b>CAF Corporation</b>',
+    },
+    en: {
+      eyebrow: 'Official course',
+      title: 'How to Use <span class="hl">Kpex</span>',
+      sub: 'CAPEX estimating from Class 5 to Class 2 with CAF Corporation’s cost intelligence platform',
+      chips: '<div class="chip"><b>9</b> modules</div><div class="chip">AACE <b>+</b> PMI</div><div class="chip"><b>✓</b> Certificate</div>',
+      brand: 'by <b>CAF Corporation</b>',
+    },
+  };
+  const lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'es';
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.innerHTML = T[lang][el.dataset.i18n]; });
+</script>
+</body>
+</html>

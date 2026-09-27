@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akdemy — Cómo usar Kpex · Brochure</title>
+<!--
+  Akdemy · marketing brochure for the pilot course. 6 × A4 portrait pages, screen + print (Save as PDF).
+  ?lang=es|en  ·  CTA link: set CTA_URL below once Akdemy has its public domain.
+  Build: tools/render-brochure.ps1 → brochure-<lang>.pdf + page previews.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --orange: #F5A011; --orange-dark: #d4880a; --gray: #585856; --ink: #1a1a1a; --muted: #888;
+    --cream: #F8F6F2; --line: #f0ece6; --dark1: #1a1a18; --dark2: #2e2e2c;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #d9d6cf; }
+  body { font-family: 'Inter', Arial, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; margin: 12mm auto; background: #fff; position: relative; overflow: hidden;
+          box-shadow: 0 20px 60px rgba(0,0,0,.25); page-break-after: always; break-after: page; }
+  @media print { html { background: #fff; } .page { margin: 0; box-shadow: none; } .page:last-child { page-break-after: auto; } }
+  .pad { padding: 18mm 16mm; }
+
+  /* Shared */
+  .pill { display: inline-flex; align-items: center; gap: 6px; background: rgba(245,160,17,.12); border: 1px solid rgba(245,160,17,.32);
+          color: var(--orange); border-radius: 20px; padding: 4px 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; }
+  h2 { font-size: 26pt; font-weight: 900; letter-spacing: -1px; line-height: 1.08; margin: 10px 0 8px; }
+  h2 span { color: var(--orange); }
+  .lead { font-size: 11.5pt; line-height: 1.6; color: #555; max-width: 150mm; }
+  .shot { display: block; width: 100%; border-radius: 10px; border: 1px solid #e0dcd6; box-shadow: 0 14px 36px rgba(0,0,0,.14); }
+  .foot { position: absolute; left: 16mm; right: 16mm; bottom: 10mm; display: flex; justify-content: space-between; align-items: center;
+          font-size: 8pt; color: #999; border-top: 1px solid var(--line); padding-top: 4mm; }
+  .foot b { color: var(--ink); }
+  .foot .pg { font-weight: 800; color: var(--orange); }
+
+  /* Page 1 — cover */
+  .cover { color: #fff; background:
+      linear-gradient(90deg, rgba(26,26,24,.92) 0%, rgba(26,26,24,.70) 55%, rgba(26,26,24,.35) 100%),
+      linear-gradient(0deg, rgba(26,26,24,.95) 0%, rgba(26,26,24,.2) 45%, rgba(26,26,24,.55) 100%),
+      url("img/bg-dark.jpg") 62% center / cover no-repeat, var(--dark1); }
+  .cover .logo { position: absolute; left: 16mm; top: 16mm; width: 62mm; }
+  .cover .badge-launch { position: absolute; right: 16mm; top: 17mm; }
+  .cover .content { position: absolute; left: 16mm; right: 16mm; top: 82mm; }
+  .cover h1 { font-size: 50pt; font-weight: 900; letter-spacing: -2.2px; line-height: 1; margin: 14px 0 12px; }
+  .cover h1 span { color: var(--orange); }
+  .cover .sub { font-size: 14pt; line-height: 1.45; color: #e6e3dc; max-width: 140mm; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12mm; }
+  .chip { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.22); border-radius: 10px; padding: 8px 14px; font-size: 10.5pt; font-weight: 700; }
+  .chip b { color: var(--orange); font-weight: 900; }
+  .price-card { position: absolute; left: 16mm; bottom: 40mm; display: flex; align-items: center; gap: 16px;
+                background: #fff; color: var(--ink); border-radius: 14px; padding: 12px 20px 12px 16px; box-shadow: 0 18px 50px rgba(0,0,0,.35); }
+  .price-card .tag { background: var(--orange); color: #fff; border-radius: 10px; padding: 8px 12px; font-size: 8.5pt; font-weight: 900; letter-spacing: .6px; text-transform: uppercase; line-height: 1.2; }
+  .price-card .now { font-size: 28pt; font-weight: 900; letter-spacing: -1px; line-height: 1; }
+  .price-card .was { font-size: 11pt; color: var(--muted); text-decoration: line-through; margin-left: 6px; font-weight: 600; }
+  .price-card .note { font-size: 8.5pt; color: var(--muted); margin-top: 3px; }
+  .cover .base { position: absolute; left: 16mm; right: 16mm; bottom: 14mm; display: flex; align-items: center; gap: 14px;
+                 border-top: 1px solid rgba(255,255,255,.14); padding-top: 6mm; }
+  .cover .base img { height: 10mm; }
+  .cover .base .sup { border-left: 1px solid rgba(255,255,255,.18); padding-left: 14px; font-size: 9pt; color: #d9d5cc; line-height: 1.35; }
+  .cover .base .sup b { color: #fff; font-weight: 900; }
+  .cover .base .sup small { display: block; color: var(--orange); font-weight: 800; letter-spacing: .6px; text-transform: uppercase; font-size: 7.5pt; }
+  .cover .base .by { margin-left: auto; font-size: 9pt; color: #aaa; text-align: right; }
+
+  /* Page 2 — why */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 8mm; }
+  .vcard { border: 1px solid var(--line); border-radius: 12px; padding: 5mm; background: #fff; }
+  .vcard .ic { width: 11mm; height: 11mm; border-radius: 9px; background: var(--orange); display: flex; align-items: center; justify-content: center; margin-bottom: 3mm; }
+  .vcard .ic svg { width: 6mm; height: 6mm; stroke: #fff; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  .vcard h3 { font-size: 12.5pt; font-weight: 800; letter-spacing: -.3px; margin-bottom: 1.5mm; }
+  .vcard p { font-size: 9.8pt; line-height: 1.55; color: #555; }
+  .numbers { margin-top: 8mm; background: linear-gradient(135deg, var(--dark1), var(--dark2)); border-radius: 14px; color: #fff;
+             display: grid; grid-template-columns: repeat(4, 1fr); padding: 6mm 4mm; position: relative; overflow: hidden; }
+  .numbers::after { content: ''; position: absolute; right: -30mm; top: -30mm; width: 70mm; height: 70mm; border-radius: 50%; background: radial-gradient(circle, rgba(245,160,17,.25), transparent 70%); }
+  .numbers div { text-align: center; position: relative; z-index: 1; }
+  .numbers b { display: block; font-size: 22pt; font-weight: 900; color: var(--orange); letter-spacing: -.8px; }
+  .numbers span { font-size: 8.5pt; color: #bbb; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+  .numbers-cap { font-size: 8pt; color: var(--muted); margin-top: 2mm; text-align: right; }
+
+  /* Page 3 — syllabus */
+  .syllabus { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm; margin-top: 7mm; }
+  .mod { border: 1px solid var(--line); border-radius: 11px; padding: 3.8mm 4.5mm; background: #fff; break-inside: avoid; }
+  .mod .n { font-size: 8pt; font-weight: 900; color: var(--orange); letter-spacing: .8px; text-transform: uppercase; }
+  .mod h4 { font-size: 11.5pt; font-weight: 800; letter-spacing: -.2px; margin: 1mm 0 1.5mm; }
+  .mod ul { list-style: none; }
+  .mod li { font-size: 8.8pt; color: #555; line-height: 1.5; padding-left: 3.5mm; position: relative; }
+  .mod li::before { content: ''; position: absolute; left: 0; top: 2.2mm; width: 1.6mm; height: 1.6mm; border-radius: 50%; background: var(--orange); }
+  .mod.final { background: linear-gradient(135deg, var(--dark1), var(--dark2)); color: #fff; border: 0; }
+  .mod.final li { color: #d9d5cc; }
+
+  /* Page 4 — hands-on */
+  .hands { color: #fff; background: linear-gradient(180deg, var(--dark1) 0%, var(--dark2) 100%); }
+  .hands .lead { color: #cfcac0; }
+  .hands .big { margin-top: 8mm; }
+  .hands .row { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 5mm; }
+  .hands .cap { font-size: 8.5pt; color: #aaa; margin-top: 2mm; }
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-top: 7mm; }
+  .step { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.14); border-radius: 10px; padding: 3.5mm; font-size: 9pt; line-height: 1.45; color: #e6e3dc; }
+  .step b { display: block; color: var(--orange); font-size: 16pt; font-weight: 900; margin-bottom: 1mm; }
+  .hands .foot { border-top-color: rgba(255,255,255,.12); color: #888; }
+  .hands .foot b { color: #fff; }
+
+  /* Page 5 — who & facilitators */
+  .who { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 7mm; }
+  .who .vcard h3 { font-size: 11.5pt; }
+  .facil { margin-top: 10mm; }
+  .facil .list { display: grid; gap: 4mm; margin-top: 5mm; }
+  .person { border: 1px solid var(--line); border-radius: 12px; padding: 5mm 4mm; text-align: center; background: var(--cream); }
+  .avatar { width: 16mm; height: 16mm; border-radius: 50%; margin: 0 auto 3mm; background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+            color: #fff; font-weight: 900; font-size: 15pt; display: flex; align-items: center; justify-content: center; letter-spacing: -.5px; }
+  .person b { display: block; font-size: 11pt; font-weight: 800; }
+  .person span { font-size: 8.5pt; color: var(--muted); }
+  .format { margin-top: 9mm; display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
+  .format div { border-left: 3px solid var(--orange); padding: 1mm 0 1mm 4mm; }
+  .format b { display: block; font-size: 11pt; font-weight: 800; }
+  .format span { font-size: 9pt; color: #666; line-height: 1.45; }
+
+  /* Page 6 — offer */
+  .offer-top { display: grid; grid-template-columns: 1.15fr 1fr; gap: 7mm; align-items: center; margin-top: 7mm; }
+  .gets { list-style: none; }
+  .gets li { display: flex; gap: 3.5mm; align-items: flex-start; padding: 3mm 0; border-bottom: 1px solid var(--line); font-size: 10pt; line-height: 1.45; color: #444; }
+  .gets li:last-child { border-bottom: 0; }
+  .gets .ck { flex: none; width: 6.5mm; height: 6.5mm; border-radius: 50%; background: rgba(245,160,17,.14); color: var(--orange-dark); font-weight: 900; display: flex; align-items: center; justify-content: center; font-size: 10pt; }
+  .gets b { color: var(--ink); }
+  .pricebox { margin-top: 9mm; border-radius: 16px; overflow: hidden; display: grid; grid-template-columns: 1.1fr 1fr;
+              box-shadow: 0 18px 50px rgba(0,0,0,.18); }
+  .pricebox .l { background: linear-gradient(135deg, var(--dark1), var(--dark2)); color: #fff; padding: 8mm; position: relative; overflow: hidden; }
+  .pricebox .l::after { content: ''; position: absolute; right: -20mm; bottom: -25mm; width: 60mm; height: 60mm; border-radius: 50%; background: radial-gradient(circle, rgba(245,160,17,.3), transparent 70%); }
+  .pricebox .now { font-size: 46pt; font-weight: 900; letter-spacing: -2px; line-height: 1; color: var(--orange); }
+  .pricebox .was { font-size: 13pt; color: #aaa; text-decoration: line-through; margin-top: 2mm; }
+  .pricebox .l p { font-size: 9.5pt; color: #cfcac0; margin-top: 4mm; line-height: 1.5; position: relative; z-index: 1; }
+  .pricebox .r { background: var(--cream); padding: 8mm; display: flex; flex-direction: column; justify-content: center; }
+  .cta { display: inline-block; text-align: center; background: var(--orange); color: #fff; text-decoration: none; font-weight: 900; font-size: 13pt;
+         border-radius: 12px; padding: 4.5mm 6mm; box-shadow: 0 10px 26px rgba(245,160,17,.35); }
+  .pricebox .r small { display: block; margin-top: 3mm; font-size: 8.5pt; color: #777; line-height: 1.45; }
+  .contact { margin-top: 8mm; display: flex; align-items: center; gap: 6mm; font-size: 9.5pt; color: #555; }
+  .contact b { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<!-- 1 · COVER -->
+<section class="page cover">
+  <img class="logo" src="img/akdemy-white.svg" alt="Akdemy — Cost Engineering Campus">
+  <span class="pill badge-launch" data-t="launch"></span>
+  <div class="content">
+    <span class="pill" data-t="official"></span>
+    <h1 data-h="title"></h1>
+    <p class="sub" data-t="coverSub"></p>
+    <div class="chips" data-h="chips"></div>
+  </div>
+  <div class="price-card">
+    <div class="tag" data-h="priceTag"></div>
+    <div><div class="now">50 €<span class="was">200 €</span></div><div class="note" data-t="priceNote"></div></div>
+  </div>
+  <div class="base">
+    <img src="img/caf-white.svg" alt="CAF Corporation">
+    <div class="sup"><small>Supported by</small><b>KPEX</b> · Project Cost Intelligence Platform</div>
+    <div class="by" data-h="byline"></div>
+  </div>
+</section>
+
+<!-- 2 · WHY -->
+<section class="page pad">
+  <span class="pill" data-t="whyPill"></span>
+  <h2 data-h="whyTitle"></h2>
+  <p class="lead" data-t="whyLead"></p>
+  <div class="grid2" data-h="whyCards"></div>
+  <div class="numbers" data-h="numbers"></div>
+  <p class="numbers-cap" data-t="numbersCap"></p>
+  <div style="margin-top:7mm"><img class="shot" src="img/shot-dashboard.jpg" alt="Kpex dashboard"></div>
+  <div class="foot"><span><b>Akdemy</b> · Cost Engineering Campus</span><span class="pg">02</span></div>
+</section>
+
+<!-- 3 · SYLLABUS -->
+<section class="page pad">
+  <span class="pill" data-t="sylPill"></span>
+  <h2 data-h="sylTitle"></h2>
+  <p class="lead" data-t="sylLead"></p>
+  <div class="syllabus" data-h="syllabus"></div>
+  <div class="foot"><span><b>Akdemy</b> · Cost Engineering Campus</span><span class="pg">03</span></div>
+</section>
+
+<!-- 4 · HANDS-ON -->
+<section class="page pad hands">
+  <span class="pill" data-t="handsPill"></span>
+  <h2 data-h="handsTitle"></h2>
+  <p class="lead" data-t="handsLead"></p>
+  <div class="big"><img class="shot" src="img/shot-curve.jpg" alt=""><p class="cap" data-t="capCurve"></p></div>
+  <div class="row">
+    <div><img class="shot" src="img/shot-result.jpg" alt=""><p class="cap" data-t="capResult"></p></div>
+    <div><img class="shot" src="img/shot-estimate.jpg" alt=""><p class="cap" data-t="capEstimate"></p></div>
+  </div>
+  <div class="steps" data-h="steps"></div>
+  <div class="foot"><span><b>Akdemy</b> · Cost Engineering Campus</span><span class="pg">04</span></div>
+</section>
+
+<!-- 5 · WHO + FACILITATORS -->
+<section class="page pad">
+  <span class="pill" data-t="whoPill"></span>
+  <h2 data-h="whoTitle"></h2>
+  <div class="who" data-h="who"></div>
+  <div class="facil">
+    <span class="pill" data-t="facPill"></span>
+    <h2 data-h="facTitle" style="font-size:20pt"></h2>
+    <div class="list" data-h="facil"></div>
+  </div>
+  <div class="format" data-h="format"></div>
+  <div class="foot"><span><b>Akdemy</b> · Cost Engineering Campus</span><span class="pg">05</span></div>
+</section>
+
+<!-- 6 · OFFER -->
+<section class="page pad">
+  <span class="pill" data-t="offerPill"></span>
+  <h2 data-h="offerTitle"></h2>
+  <div class="offer-top">
+    <ul class="gets" data-h="gets"></ul>
+    <div><img class="shot" data-cert alt="Certificate"></div>
+  </div>
+  <div class="pricebox">
+    <div class="l">
+      <div class="now">50 €</div>
+      <div class="was" data-t="was"></div>
+      <p data-t="priceLong"></p>
+    </div>
+    <div class="r">
+      <a class="cta" data-cta data-t="cta"></a>
+      <small data-t="ctaNote"></small>
+    </div>
+  </div>
+  <div class="contact"><span data-h="contact"></span></div>
+  <div class="foot"><span><b>CAF Corporation</b> Ingeniería de Costes SL · <b>Akdemy</b> · Supported by <b>KPEX</b></span><span class="pg">06</span></div>
+</section>
+
+<script>
+  // Public enrolment link — set once Akdemy is live (e.g. https://akdemy.caf-corporation.com/courses/…).
+  const CTA_URL = { es: '', en: '' };
+
+  const ic = {
+    hands: '<svg viewBox="0 0 24 24"><path d="M4 17l6-6 4 4 6-8"/><path d="M14 7h6v6"/></svg>',
+    aace:  '<svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>',
+    class: '<svg viewBox="0 0 24 24"><path d="M3 20h18M6 16V9M10 16V6M14 16v-4M18 16V4"/></svg>',
+    globe: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg>',
+  };
+  const card = (i, t, d) => `<div class="vcard"><div class="ic">${ic[i]}</div><h3>${t}</h3><p>${d}</p></div>`;
+  const mod = (n, t, ls, cls = '') => `<div class="mod ${cls}"><div class="n">${n}</div><h4>${t}</h4><ul>${ls.map((l) => `<li>${l}</li>`).join('')}</ul></div>`;
+  const initials = (n) => n.split(' ').map((w) => w[0]).slice(0, 2).join('');
+
+  const T = {
+    es: {
+      launch: 'Lanzamiento', official: 'Curso oficial · Akdemy',
+      title: 'Cómo usar <span>Kpex</span>',
+      coverSub: 'Estimación de CAPEX de la Clase 5 a la Clase 2 con la plataforma de inteligencia de costos de CAF Corporation.',
+      chips: ['<b>9</b> módulos', '<b>27</b> lecciones', '<b>8</b> evaluaciones', 'Certificado', 'Español · English'],
+      priceTag: 'Precio de<br>lanzamiento', priceNote: 'Por tiempo limitado',
+      byline: 'Un curso de<br><b style="color:#fff">CAF Corporation</b>',
+      whyPill: 'Por qué este curso', whyTitle: 'Estima como se hace <span>de verdad</span>',
+      whyLead: 'Kpex es la plataforma en la nube de inteligencia de costos CAPEX de CAF Corporation. Este curso te enseña a usarla de principio a fin: desde la clasificación AACE hasta un estimado completo con su reporte, siempre sobre la herramienta real.',
+      whyCards: [
+        ['hands', 'Aprendes haciendo', 'Cada lección termina con un ejercicio "Pruébalo en Kpex": trabajas dentro de la plataforma, no solo lees sobre ella.'],
+        ['aace', 'AACE + PMI', 'Clasificación AACE 18R-97 y el lenguaje de gestión de proyectos del PMI, en una sola herramienta.'],
+        ['class', 'De la Clase 5 a la Clase 2', 'Curvas de costo, modelos de facilities y componentes de planta: qué herramienta usar en cada nivel de definición.'],
+        ['globe', 'Costos al día, en cualquier país', 'Factor de ubicación para 196 países y el CAF Cost Index mensual, aplicados automáticamente.'],
+      ],
+      numbers: [['700+', 'modelos de componentes'], ['150', 'modelos de facilities'], ['430+', 'curvas de costo'], ['196', 'países (LFI)']],
+      numbersCap: 'Kpex en cifras — catálogo de la plataforma.',
+      sylPill: 'Temario', sylTitle: '9 módulos, <span>27 lecciones</span>',
+      sylLead: 'Un recorrido ordenado por toda la plataforma, con un quiz al final de cada módulo y un examen final para obtener tu certificado.',
+      syllabus: [
+        ['Módulo 0', 'Bienvenida', ['Cómo funciona este curso', 'Activa tu cuenta de prueba de Kpex']],
+        ['Módulo 1', 'Qué es Kpex', ['Qué hace única a Kpex', 'La plataforma de un vistazo', 'Quién usa Kpex y para qué']],
+        ['Módulo 2', 'Primeros pasos', ['Acceso y registro', 'El dashboard: tu centro de mando', 'Tipos de perfil']],
+        ['Módulo 3', 'Las clases AACE en Kpex', ['La clasificación AACE 18R-97 y su equivalencia PMI', 'Qué herramienta usar en cada clase']],
+        ['Módulo 4', 'Tu primer estimado', ['El Estimate Wizard en 5 pasos', 'El espacio de trabajo: equipos, WBS y partidas', 'Moneda, unidades, PDRI y reporte PDF', 'Ejercicio: un estimado Clase 5 de principio a fin']],
+        ['Módulo 5', 'Los módulos de costo', ['Módulo A: componentes de planta', 'Módulo B: curvas de costo y benchmarks', 'Módulo C: modelos de facilities', 'Módulos D y E: OPEX y ABEX']],
+        ['Módulo 6', 'Módulo Z: calibración', ['Z.1–Z.3: ingeniería, mano de obra y alquiler', 'Z.4: el Location Factor (LFI)', 'Z.5: el CAF Cost Index', 'Z.6: evaluaciones PDRI, PEI y CRI']],
+        ['Módulo 7', 'Inteligencia, reportes y Exchange', ['Benchmarks y el Global CAPEX Monitor', 'Los tres reportes de portafolio', 'Kpex Exchange: el marketplace']],
+        ['Módulo 8', 'Cierre y certificación', ['Soporte y próximos pasos', 'Tu beneficio exclusivo de alumno', 'Examen final y certificado'], 'final'],
+      ],
+      handsPill: 'Aprende haciendo', handsTitle: 'Tu primer estimado Clase 5, <span>paso a paso</span>',
+      handsLead: 'En el Módulo 4 construyes un estimado real sobre Kpex: una planta solar fotovoltaica de 100 MWp, desde la curva de costo hasta el reporte PDF.',
+      capCurve: 'Cost Curves: tu punto de 100 MWp sobre la curva, con su banda de precisión.',
+      capResult: 'El cálculo con su rango AACE.', capEstimate: 'El estimado Clase 5 en tu espacio de trabajo.',
+      steps: [['1', 'Eliges la facility en el catálogo de curvas'], ['2', 'Introduces la capacidad y el país'], ['3', 'Kpex calcula costo, banda y factores'], ['4', 'Imprimes tu reporte de Clase 5']],
+      whoPill: 'Para quién es', whoTitle: 'Pensado para <span>quien estima y quien decide</span>',
+      who: [
+        ['aace', 'Ingenieros de costos', 'Estimados paramétricos y detallados con componentes, factores de ubicación e índices en un solo flujo.'],
+        ['class', 'Gerentes de proyecto (PMI)', 'Inicia un estimado en lenguaje de gestión de proyectos sin ser experto en ingeniería de costos.'],
+        ['hands', 'EPC y consultoras', 'Compara con datos históricos, valida la factibilidad y entrega reportes listos para el cliente.'],
+        ['globe', 'Dueños y operadores', 'Revisa estimados de EPC y sigue el costo del ciclo de vida: CAPEX, OPEX y ABEX.'],
+      ],
+      facPill: 'Facilitadores', facTitle: 'Aprende con el equipo de <span>CAF Corporation</span>',
+      facil: ['Carlos Fuenmayor', 'Roberto Ruiz', 'Bernardo Campos', 'Samuel Muñoz'], role: 'Facilitador · CAF Corporation',
+      format: [['A tu ritmo', 'Lecciones de lectura con capturas reales, más guiones de video.'], ['Bilingüe', 'Ediciones completas en español y en inglés.'], ['Evaluado', '7 quizzes y un examen final (aprobación 70 %).']],
+      offerPill: 'Qué obtienes', offerTitle: 'Todo lo que incluye <span>tu inscripción</span>',
+      gets: [
+        '<b>27 lecciones</b> con capturas reales de Kpex y ejercicios guiados.',
+        '<b>7 quizzes de módulo y un examen final</b> para medir tu avance.',
+        '<b>Certificado de finalización</b> verificable con código QR, firmado por los facilitadores.',
+        '<b>15 días de acceso a Kpex</b> desde tu inscripción, para hacer todas las prácticas.',
+        '<b>Descuento exclusivo</b> en tu membresía de Kpex como alumno.',
+      ],
+      was: 'Precio regular 200 €',
+      priceLong: 'Precio de lanzamiento por tiempo limitado. Pago único, con acceso al curso completo en su edición española.',
+      cta: 'Inscríbete en Akdemy →', ctaNote: 'Pago seguro con tarjeta. ¿Eres una empresa y quieres inscribir a tu equipo? Escríbenos.',
+      contact: 'Contacto: <b>support@caf-corporation.com</b> · <b>caf-corporation.com</b>',
+    },
+    en: {
+      launch: 'Launch', official: 'Official course · Akdemy',
+      title: 'How to Use <span>Kpex</span>',
+      coverSub: 'CAPEX estimating from Class 5 to Class 2 with CAF Corporation’s cost intelligence platform.',
+      chips: ['<b>9</b> modules', '<b>27</b> lessons', '<b>8</b> assessments', 'Certificate', 'English · Español'],
+      priceTag: 'Launch<br>price', priceNote: 'Limited time',
+      byline: 'A course by<br><b style="color:#fff">CAF Corporation</b>',
+      whyPill: 'Why this course', whyTitle: 'Estimate the way it’s <span>really done</span>',
+      whyLead: 'Kpex is CAF Corporation’s cloud CAPEX cost intelligence platform. This course teaches you to use it end to end — from AACE classification to a complete estimate and its report — always on the real tool.',
+      whyCards: [
+        ['hands', 'Learn by doing', 'Every lesson ends with a “Try it in Kpex” exercise: you work inside the platform, not just read about it.'],
+        ['aace', 'AACE + PMI', 'AACE 18R-97 classification and PMI’s project-management language, in one tool.'],
+        ['class', 'From Class 5 to Class 2', 'Cost curves, facility models and plant components: which tool to use at each level of definition.'],
+        ['globe', 'Current costs, any country', 'Location factor for 196 countries and the monthly CAF Cost Index, applied automatically.'],
+      ],
+      numbers: [['700+', 'component models'], ['150', 'facility models'], ['430+', 'cost curves'], ['196', 'countries (LFI)']],
+      numbersCap: 'Kpex in numbers — the platform catalogue.',
+      sylPill: 'Syllabus', sylTitle: '9 modules, <span>27 lessons</span>',
+      sylLead: 'A structured tour of the whole platform, with a quiz at the end of every module and a final exam for your certificate.',
+      syllabus: [
+        ['Module 0', 'Welcome', ['How this course works', 'Activate your Kpex trial account']],
+        ['Module 1', 'What Kpex is', ['What makes Kpex unique', 'The platform at a glance', 'Who uses Kpex, and for what']],
+        ['Module 2', 'Getting started', ['Access and sign-up', 'The dashboard: your command centre', 'Profile types']],
+        ['Module 3', 'AACE classes in Kpex', ['AACE 18R-97 classification and its PMI mapping', 'Which tool to use at each class']],
+        ['Module 4', 'Your first estimate', ['The Estimate Wizard in 5 steps', 'The workspace: equipment, WBS and line items', 'Currency, units, PDRI and the PDF report', 'Exercise: a Class 5 estimate end to end']],
+        ['Module 5', 'The cost modules', ['Module A: plant components', 'Module B: cost curves and benchmarks', 'Module C: facility models', 'Modules D and E: OPEX and ABEX']],
+        ['Module 6', 'Module Z: calibration', ['Z.1–Z.3: engineering, labour and rental', 'Z.4: the Location Factor (LFI)', 'Z.5: the CAF Cost Index', 'Z.6: PDRI, PEI and CRI assessments']],
+        ['Module 7', 'Intelligence, reports & Exchange', ['Benchmarks and the Global CAPEX Monitor', 'The three portfolio reports', 'Kpex Exchange: the marketplace']],
+        ['Module 8', 'Wrap-up and certification', ['Support and next steps', 'Your exclusive student benefit', 'Final exam and certificate'], 'final'],
+      ],
+      handsPill: 'Learn by doing', handsTitle: 'Your first Class 5 estimate, <span>step by step</span>',
+      handsLead: 'In Module 4 you build a real estimate on Kpex: a 100 MWp solar PV plant, from the cost curve to the PDF report.',
+      capCurve: 'Cost Curves: your 100 MWp point on the curve, with its accuracy band.',
+      capResult: 'The calculation with its AACE range.', capEstimate: 'The Class 5 estimate in your workspace.',
+      steps: [['1', 'Pick the facility in the curve catalogue'], ['2', 'Enter capacity and country'], ['3', 'Kpex computes cost, band and factors'], ['4', 'Print your Class 5 report']],
+      whoPill: 'Who it’s for', whoTitle: 'Built for <span>those who estimate and those who decide</span>',
+      who: [
+        ['aace', 'Cost engineers', 'Parametric and detailed estimates with components, location factors and indices in one workflow.'],
+        ['class', 'Project managers (PMI)', 'Start an estimate in project-management language without being a cost-engineering expert.'],
+        ['hands', 'EPCs & consultancies', 'Benchmark against history, validate feasibility and deliver client-ready reports.'],
+        ['globe', 'Owners & operators', 'Review EPC estimates and follow lifecycle cost: CAPEX, OPEX and ABEX.'],
+      ],
+      facPill: 'Facilitators', facTitle: 'Learn with the <span>CAF Corporation</span> team',
+      facil: ['Carlos Fuenmayor', 'Roberto Ruiz'], role: 'Facilitator · CAF Corporation',
+      format: [['Self-paced', 'Reading lessons with real screenshots, plus video scripts.'], ['Bilingual', 'Full editions in English and Spanish.'], ['Assessed', '7 quizzes and a final exam (70% to pass).']],
+      offerPill: 'What you get', offerTitle: 'Everything included in <span>your enrolment</span>',
+      gets: [
+        '<b>27 lessons</b> with real Kpex screenshots and guided exercises.',
+        '<b>7 module quizzes and a final exam</b> to track your progress.',
+        '<b>Certificate of completion</b>, verifiable by QR code and signed by the facilitators.',
+        '<b>15 days of Kpex access</b> from your enrolment, to do every exercise.',
+        '<b>Exclusive discount</b> on your Kpex membership as a student.',
+      ],
+      was: 'Regular price €200',
+      priceLong: 'Limited-time launch price. One-off payment for the complete course in its English edition.',
+      cta: 'Enrol on Akdemy →', ctaNote: 'Secure card payment. Want to enrol your team? Get in touch.',
+      contact: 'Contact: <b>support@caf-corporation.com</b> · <b>caf-corporation.com</b>',
+    },
+  };
+
+  const lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'es';
+  const L = T[lang];
+  document.documentElement.lang = lang;
+  document.title = lang === 'es' ? 'Akdemy — Cómo usar Kpex · Brochure' : 'Akdemy — How to Use Kpex · Brochure';
+
+  document.querySelectorAll('[data-t]').forEach((el) => { el.textContent = L[el.dataset.t]; });
+  const H = {
+    title: L.title, priceTag: L.priceTag, byline: L.byline, whyTitle: L.whyTitle, sylTitle: L.sylTitle,
+    handsTitle: L.handsTitle, whoTitle: L.whoTitle, facTitle: L.facTitle, offerTitle: L.offerTitle, contact: L.contact,
+    chips: L.chips.map((c) => `<span class="chip">${c}</span>`).join(''),
+    whyCards: L.whyCards.map((c) => card(...c)).join(''),
+    numbers: L.numbers.map(([n, t]) => `<div><b>${n}</b><span>${t}</span></div>`).join(''),
+    syllabus: L.syllabus.map((m) => mod(...m)).join(''),
+    steps: L.steps.map(([n, t]) => `<div class="step"><b>${n}</b>${t}</div>`).join(''),
+    who: L.who.map((c) => card(...c)).join(''),
+    facil: L.facil.map((n) => `<div class="person"><div class="avatar">${initials(n)}</div><b>${n}</b><span>${L.role}</span></div>`).join(''),
+    format: L.format.map(([b, s]) => `<div><b>${b}</b><span>${s}</span></div>`).join(''),
+    gets: L.gets.map((g) => `<li><span class="ck">✓</span><span>${g}</span></li>`).join(''),
+  };
+  document.querySelectorAll('[data-h]').forEach((el) => { el.innerHTML = H[el.dataset.h]; });
+  document.querySelector('.facil .list').style.gridTemplateColumns = `repeat(${L.facil.length}, 1fr)`;
+  document.querySelector('[data-cert]').src = `img/cert-${lang}.jpg`;
+  const cta = document.querySelector('[data-cta]');
+  cta.href = CTA_URL[lang] || 'mailto:support@caf-corporation.com?subject=Akdemy%20—%20Kpex%20course';
+</script>
+</body>
+</html>

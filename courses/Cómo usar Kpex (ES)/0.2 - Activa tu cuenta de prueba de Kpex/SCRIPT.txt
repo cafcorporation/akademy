@@ -1,0 +1,15 @@
+En esta lección activamos tu cuenta de Kpex. Es tu laboratorio durante el curso: casi todas las lecciones terminan con una práctica dentro de la plataforma, así que conviene tenerla lista antes de empezar el Módulo uno.
+
+Tu cuenta dura quince días desde tu compra, y al cumplirse, el acceso a Kpex vence, aunque no hayas terminado el curso. Por eso te recomiendo activarla hoy mismo. Kpex funciona completamente en el navegador: no instalas nada, y sirve Chrome, Edge, Firefox o Safari.
+
+Un detalle importante: la interfaz de Kpex está en inglés. En el curso verás los nombres de los botones y de los campos tal como aparecen en pantalla, en negrita, con su explicación en español.
+
+Para crear tu cuenta, completa el formulario Create your account: tu nombre completo, tu correo profesional y una contraseña de al menos ocho caracteres, con una mayúscula y un número. Después marca la casilla de los términos y de la política de privacidad. No viene marcada: tienes que marcarla tú.
+
+Kpex te envía entonces un código de seis dígitos a tu correo. Escríbelo y pulsa Verify and Continue. Por último, inicia sesión con tu correo y tu contraseña. Si usas tu propio equipo, puedes marcar Keep me signed in.
+
+Tu cuenta te da acceso a las partes de Kpex que usa este curso. Si en la barra lateral ves un elemento con un candado, esa función pertenece a otro nivel de membresía. Lo vemos con calma en la lección dos punto dos.
+
+Si algo no funciona: si no te llega el código, revisa la carpeta de spam. Si olvidas la contraseña, pulsa Forgot password en la pantalla de acceso. Y para cualquier otro problema, escríbenos al correo de soporte que ves en pantalla.
+
+Tu práctica de hoy: activa tu cuenta, entra al Dashboard, cierra sesión y vuelve a entrar, para confirmar que tu contraseña funciona. Con eso estás listo para el Módulo uno. Nos vemos en la siguiente lección.
