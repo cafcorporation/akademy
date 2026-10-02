@@ -34,6 +34,9 @@ function findLessonFile(dir, id) {
 
 // Markdown → HTML. Images whose file does not exist yet become a visible placeholder box.
 function renderMarkdown(body, baseDir, lang) {
+  // Strip authoring comments (<!-- VERIFY … -->, <!-- DECISION PENDING … -->) so internal notes
+  // never reach the published HTML — marked passes HTML comments through verbatim otherwise.
+  body = body.replace(/<!--[\s\S]*?-->/g, '');
   const html = marked.parse(body, { gfm: true });
   return html.replace(/<img src="([^"]+)" alt="([^"]*)"\s*\/?>/g, (tag, src, alt) => {
     if (/^https?:/.test(src)) return tag;

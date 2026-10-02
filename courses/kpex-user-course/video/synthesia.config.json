@@ -1,0 +1,10 @@
+{
+  "_help": "IDs de Synthesia para render-video.mjs. avatar = tu Personal Avatar ID (Avatars → menú tres puntos → copiar ID). voice = UUID de voz (opcional; null usa la voz por defecto del avatar).",
+  "avatar": "anna_costume1_cameraA",
+  "voice": null,
+  "aspectRatio": "16:9",
+  "layouts": {
+    "A": { "style": "rectangular", "horizontalAlign": "left", "scale": 1.0 },
+    "B": { "style": "circular", "horizontalAlign": "right", "scale": 0.32 }
+  }
+}
