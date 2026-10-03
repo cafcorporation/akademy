@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Akdemy · Video Brand Frames</title>
-<meta name="description" content="Marcos 16:9 de referencia para los templates de video de Synthesia, en la identidad CAF/Kpex/CAPEX.">
+<meta name="description" content="Marcos 16:9 de referencia para los videos en HeyGen, en la identidad CAF/Kpex/CAPEX.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -100,11 +100,11 @@
 </head>
 <body>
   <div class="head">
-    <h1>Akdemy · Marcos de video para Synthesia</h1>
-    <p>Identidad CAF / Kpex / CAPEX aplicada a los templates. Tokens reales de <code>akdemy-brand.css</code>: Inter · naranja #F5A011 · gris #585856 · tinta #1a1a1a · crema #F8F6F2. Reconstruye estos marcos como <b>Template A</b> (intro/outro) y <b>Template B</b> (contenido) en el editor de Synthesia.</p>
+    <h1>Akdemy · Marcos de video (HeyGen)</h1>
+    <p>Identidad CAF / Kpex / CAPEX aplicada a los marcos. Tokens reales de <code>akdemy-brand.css</code>: Inter · naranja #F5A011 · gris #585856 · tinta #1a1a1a · crema #F8F6F2. Estos marcos se usan como <b>fondos de escena</b> en HeyGen: <b>Marco A</b> (intro/outro) y <b>Marco B</b> (contenido).</p>
   </div>
 
-  <div class="cap">Template A · Intro / Título (Layout avatar completo)</div>
+  <div class="cap">Marco A · Intro / Título (Layout avatar completo)</div>
   <div class="frame fA">
     <div class="grid"></div>
     <div class="curve">C = a · Qⁿ</div>
@@ -128,7 +128,7 @@
     </div>
   </div>
 
-  <div class="cap">Template B · Contenido (captura + panel de texto + avatar en esquina)</div>
+  <div class="cap">Marco B · Contenido (captura + panel de texto + avatar en esquina)</div>
   <div class="frame fB">
     <div class="shot"><div class="ph">Captura de Kpex (variable · media)</div></div>
     <div class="topbar">
@@ -149,7 +149,7 @@
     <div class="avatar"><span>AVATAR</span></div>
   </div>
 
-  <div class="cap">Template A · Outro / Siguiente</div>
+  <div class="cap">Marco A · Outro / Siguiente</div>
   <div class="frame fC">
     <div class="next">Siguiente</div>
     <h2>0.2 · Activa tu cuenta</h2>
@@ -164,10 +164,10 @@
   </div>
 
   <div class="note">
-    <b>Cómo llevarlo a Synthesia:</b> en <b>Brand Kit</b> carga los colores de arriba y sube la fuente <b>Inter</b>.
-    Crea dos templates. <b>A</b> (intro/outro): fondo oscuro, eyebrow naranja, título grande, lower-third con barra naranja.
-    <b>B</b> (contenido): variable <i>media</i> = la captura a pantalla completa, barra superior oscura con la etiqueta de lección + KPEX, franja naranja, panel crema con borde naranja izquierdo para el <i>canvas text</i> (variable), y el avatar en círculo con anillo naranja abajo a la derecha.
-    Variables por escena: <i>{{script}}</i>, <i>{{onscreen}}</i> (canvas text), <i>{{media}}</i> (fondo), <i>{{avatar}}</i>.
+    <b>Cómo usarlo en HeyGen:</b> estos marcos ya traen toda la marca horneada. Genera los PNG con <code>npm run render-frames</code>
+    (quedan en <code>build/frames/</code>) y en HeyGen usa cada marco como <b>fondo de la escena</b>, con tu avatar encima:
+    en el <b>Marco A</b> (intro/outro) a la izquierda, y en el <b>Marco B</b> (contenido) en la esquina inferior derecha (sobre el anillo naranja).
+    Pega el <i>script</i> de cada escena desde el guion (<code>video/es|en/&lt;lección&gt;.md</code>) y activa subtítulos. No hay que configurar marca en HeyGen.
   </div>
 </body>
 </html>

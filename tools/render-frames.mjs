@@ -1,6 +1,6 @@
 // Renders branded 16:9 PNG frames (CAF/Kpex/CAPEX) for each scene of a video script.
-// The screenshot + on-screen text + brand are baked in; Synthesia only adds the talking avatar on top.
-// Usage: node tools/render-frames.mjs <lessonId> [lang]      e.g. node tools/render-frames.mjs 0.1 es
+// The screenshot + on-screen text + brand are baked in; in HeyGen each frame is used as the scene
+// background and the avatar is placed on top. Usage: node tools/render-frames.mjs <lessonId> [lang]
 import fs from 'node:fs';
 import path from 'node:path';
 import puppeteer from 'puppeteer-core';
