@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Akdemy Bridge
  * Description: REST bridge that lets Claude build and manage LearnPress courses for Akdemy AI.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Author: CAF Corporation
  * Requires Plugins: learnpress
  */
@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-const AKDEMY_BRIDGE_VERSION = '0.1.0';
+const AKDEMY_BRIDGE_VERSION = '0.2.0';
 
 // Pretty permalinks are required for /wp-json/ and clean course URLs.
 register_activation_hook(__FILE__, function () {
@@ -40,6 +40,7 @@ require_once __DIR__ . '/includes/checkout.php';
 require_once __DIR__ . '/includes/course-labels.php';
 require_once __DIR__ . '/includes/locale.php';
 require_once __DIR__ . '/includes/course-rules.php';
+require_once __DIR__ . '/includes/manual.php';
 
 // Stripe gateway extends a LearnPress class → load once LearnPress is available.
 add_action('plugins_loaded', function () {

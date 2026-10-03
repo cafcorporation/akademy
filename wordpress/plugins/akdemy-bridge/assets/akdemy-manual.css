@@ -1,0 +1,57 @@
+/* Akdemy Course Manual — admin cover picker (manual edit screen). */
+
+.akdemy-cover-bank {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 4px;
+}
+.akdemy-cover-opt {
+  display: block;
+  cursor: pointer;
+  border: 2px solid #dcdcde;
+  border-radius: 8px;
+  padding: 5px;
+  background: #fff;
+  transition: border-color .15s, box-shadow .15s;
+}
+.akdemy-cover-opt:hover { border-color: #c3c4c7; }
+.akdemy-cover-opt.is-on,
+.akdemy-cover-opt:has(input:checked) {
+  border-color: #F5A011;
+  box-shadow: 0 0 0 1px #F5A011;
+}
+.akdemy-cover-opt input { position: absolute; opacity: 0; pointer-events: none; }
+.akdemy-cover-thumb {
+  display: block;
+  height: 54px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-color: #2e2e2c;
+}
+/* The photo-less "curve" option: CAF gradient + a hint of the cost curve. */
+.akdemy-cover-thumb[data-curve="1"] {
+  background:
+    radial-gradient(120% 140% at 85% 20%, #585856 0%, #3F3F3D 70%);
+  position: relative;
+  overflow: hidden;
+}
+.akdemy-cover-thumb[data-curve="1"]::after {
+  content: "";
+  position: absolute;
+  left: 8%; right: 6%; top: 58%; bottom: 20%;
+  border-top: 3px solid #F5A011;
+  border-radius: 60% 0 0 0 / 100% 0 0 0;
+  transform: rotate(-4deg);
+  opacity: .9;
+}
+.akdemy-cover-name {
+  display: block;
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #50575e;
+  text-align: center;
+  line-height: 1.3;
+}
