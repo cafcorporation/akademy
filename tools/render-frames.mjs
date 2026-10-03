@@ -16,8 +16,8 @@ const CHROME = process.env.CHROME_PATH
       '/usr/bin/google-chrome-stable', '/usr/bin/chromium'].find((p) => fs.existsSync(p));
 
 const L = {
-  es: { official: 'Curso oficial', next: 'Siguiente', sub: 'Kpex · CAF Corporation' },
-  en: { official: 'Official course', next: 'Next', sub: 'Kpex · CAF Corporation' },
+  es: { official: 'Curso oficial', next: 'Siguiente', idea: 'Idea clave', sub: 'Kpex · CAF Corporation' },
+  en: { official: 'Official course', next: 'Next', idea: 'Key idea', sub: 'Kpex · CAF Corporation' },
 };
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -40,12 +40,13 @@ function parse(file, lang) {
   const body = fm ? fm[2] : raw;
   const blocks = body.split(/^##\s+(?:Escena|Scene)\s+/m).slice(1);
   const scenes = blocks.map((b) => {
+    const heading = (b.split(/\r?\n/)[0] || '').trim();   // e.g. "5 · Idea clave · 1:48–2:08"
     const layout = (b.match(/\*\*Layout:\*\*\s*([AB])/) || [])[1] || 'B';
     // Take the first backtick-quoted path on the Fondo/Background line, even when prose precedes it
     // (e.g. "primera mitad `screenshots/a.png`, segunda mitad `screenshots/b.png`").
     const bg = (b.match(/\*\*(?:Fondo|Background):\*\*[^`\n]*`([^`]+)`/) || [])[1] || '';
     const onscreen = (b.match(/\*\*(?:Texto en pantalla|On-screen text):\*\*\s*(.+)/) || [])[1] || '';
-    return { layout, bg: bg.trim(), onscreen: onscreen.trim() };
+    return { heading, layout, bg: bg.trim(), onscreen: onscreen.trim() };
   });
   return { meta, scenes, lang };
 }
@@ -96,8 +97,15 @@ const CSS = `
   .out .eyebrow{background:none;color:#F5A011;font-size:42px;letter-spacing:.24em;padding:0}
   .out .title{font-size:134px;margin:38px 0 40px}
   .out .arrow{color:#F5A011;font-size:76px;font-weight:900}
-  .out .logos{position:absolute;bottom:92px;display:flex;gap:40px;align-items:center}
-  .out .logos .logo{height:48px} .out .logos .sep{width:1px;height:46px;background:rgba(255,255,255,.28)}
+  .out .logos,.idea .logos{position:absolute;bottom:92px;display:flex;gap:40px;align-items:center}
+  .out .logos .logo,.idea .logos .logo{height:48px}
+  .out .logos .sep,.idea .logos .sep{width:1px;height:46px;background:rgba(255,255,255,.28)}
+  /* idea clave — centred statement */
+  .A.idea{background:radial-gradient(120% 100% at 50% 18%,#3a2f1e 0%,#1d1a17 46%,#141210 100%);
+          text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 160px}
+  .idea .eyebrow{background:none;color:#F5A011;font-size:42px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;padding:0}
+  .idea .stmt{color:#fff;font-size:92px;font-weight:900;line-height:1.12;letter-spacing:-.015em;
+              margin-top:46px;max-width:1560px;text-wrap:balance}
   /* B: content */
   .B{background:#e9e4dc}
   .shot{position:absolute;inset:0;background-size:cover;background-position:center}
@@ -119,14 +127,24 @@ const CSS = `
 function frame(scene, ctx) {
   const t = L[ctx.lang];
   if (scene.layout === 'A') {
-    const isOut = /^(siguiente|next)\b/i.test(clean(scene.onscreen));
-    if (isOut) {
-      const em = (scene.onscreen.match(/\*([^*]+)\*/) || [, clean(scene.onscreen)])[1];
-      const big = em.replace(/^(siguiente|next)[:\s]*/i, '').trim();
+    const ems = [...scene.onscreen.matchAll(/\*([^*]+)\*/g)].map((m) => m[1].trim());
+    // Outro: any on-screen group that starts with "Siguiente/Next" (even if other groups precede it).
+    const nextEm = ems.find((e) => /^(siguiente|next)\b/i.test(e))
+      || (/^(siguiente|next)\b/i.test(clean(scene.onscreen)) ? clean(scene.onscreen) : null);
+    if (nextEm) {
+      const big = nextEm.replace(/^(siguiente|next)\s*[:·]?\s*/i, '').trim();
       return `<div class="f A out"><div class="grid"></div>
         <div class="eyebrow">${esc(t.next)}</div>
         <div class="title">${esc(big)}</div><div class="arrow">→</div>
         <div class="logos"><img class="logo" src="${LOGO.kpex}" alt="Kpex"><span class="sep"></span><img class="logo" src="${LOGO.akdemy}" alt="Akdemy"><span class="sep"></span><img class="logo" src="${LOGO.caf}" alt="CAF"></div></div>`;
+    }
+    // Key-idea statement slide: brand background + the phrase baked in, centred.
+    if (/idea\s*clave|key\s*idea/i.test(scene.heading)) {
+      const stmt = ems[0] || clean(scene.onscreen);
+      return `<div class="f A idea"><div class="grid"></div>
+        <div class="eyebrow">${esc(t.idea)}</div>
+        <div class="stmt">${esc(stmt)}</div>
+        <div class="logos"><img class="logo" src="${LOGO.kpex}" alt="Kpex"><span class="sep"></span><img class="logo" src="${LOGO.akdemy}" alt="Akdemy"></div></div>`;
     }
     return `<div class="f A"><div class="grid"></div><div class="curve">C = a · Qⁿ</div>
       <div class="avz"></div>
