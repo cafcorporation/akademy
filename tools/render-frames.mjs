@@ -41,7 +41,9 @@ function parse(file, lang) {
   const blocks = body.split(/^##\s+(?:Escena|Scene)\s+/m).slice(1);
   const scenes = blocks.map((b) => {
     const layout = (b.match(/\*\*Layout:\*\*\s*([AB])/) || [])[1] || 'B';
-    const bg = (b.match(/\*\*(?:Fondo|Background):\*\*\s*`([^`]+)`/) || [])[1] || '';
+    // Take the first backtick-quoted path on the Fondo/Background line, even when prose precedes it
+    // (e.g. "primera mitad `screenshots/a.png`, segunda mitad `screenshots/b.png`").
+    const bg = (b.match(/\*\*(?:Fondo|Background):\*\*[^`\n]*`([^`]+)`/) || [])[1] || '';
     const onscreen = (b.match(/\*\*(?:Texto en pantalla|On-screen text):\*\*\s*(.+)/) || [])[1] || '';
     return { layout, bg: bg.trim(), onscreen: onscreen.trim() };
   });
@@ -49,8 +51,9 @@ function parse(file, lang) {
 }
 
 function dataUri(rel) {
+  if (!rel) return null;
   const abs = path.resolve(COURSE, rel);
-  if (!fs.existsSync(abs)) return null;
+  if (!fs.existsSync(abs) || !fs.statSync(abs).isFile()) return null;
   const ext = path.extname(abs).slice(1).toLowerCase();
   const mime = ext === 'jpg' ? 'jpeg' : ext;
   return `data:image/${mime};base64,${fs.readFileSync(abs).toString('base64')}`;
