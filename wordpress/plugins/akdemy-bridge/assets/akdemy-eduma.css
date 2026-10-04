@@ -154,4 +154,25 @@ html body #popup-sidebar .course-item .course-item__info span.course-item-order 
   z-index: 10;
   background: #fff;
   box-shadow: 0 6px 14px rgba(0, 0, 0, .08);
+  margin-bottom: 14px;
+}
+/* Compact the video band: less space above it and the player ~10% smaller (centred, 16:9 kept),
+   so more of the lesson text is visible while the video stays pinned. */
+.course-summary .content-item-wrap { padding-top: 12px; }
+.course-summary .content-item-summary { padding-top: 6px; }
+.course-summary .learn-press-video-intro .responsive-iframe {
+  position: relative;
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+.course-summary .learn-press-video-intro .responsive-iframe iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }
