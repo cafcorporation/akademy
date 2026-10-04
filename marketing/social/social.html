@@ -38,6 +38,9 @@
                 font-size: calc(1.9 * var(--u)); font-weight: 900; text-transform: uppercase; letter-spacing: .05em; line-height: 1.15; }
   .price .now { font-size: calc(6 * var(--u)); font-weight: 900; letter-spacing: -.03em; line-height: 1; }
   .price .was { font-size: calc(2.6 * var(--u)); color: #888; text-decoration: line-through; font-weight: 600; margin-left: calc(1 * var(--u)); }
+  .pricewrap { display: inline-block; }
+  .free { margin-top: calc(1.6 * var(--u)); font-size: calc(2.5 * var(--u)); font-weight: 800; color: #F5A011; letter-spacing: -.01em; }
+  .light .free { color: #d4880a; }
   .cta { position: relative; margin-top: calc(3 * var(--u)); display: inline-block; align-self: flex-start; background: var(--o); color: #fff;
          border-radius: calc(1.6 * var(--u)); padding: calc(1.8 * var(--u)) calc(3.2 * var(--u)); font-size: calc(3 * var(--u)); font-weight: 900; }
   .base { position: relative; display: flex; align-items: center; gap: calc(2.2 * var(--u)); border-top: calc(.2 * var(--u)) solid rgba(255,255,255,.14);
@@ -92,7 +95,7 @@
       title: 'Cómo usar <span>Kpex</span>',
       sub: 'Estimación de CAPEX de la Clase 5 a la Clase 2 con la plataforma de inteligencia de costos de CAF Corporation.',
       chips: ['<b>9</b> módulos', '<b>27</b> lecciones', 'Certificado', 'ES · EN'],
-      tag: 'Precio de<br>lanzamiento', cta: 'Inscripciones abiertas',
+      tag: 'Precio de<br>lanzamiento', cta: 'Inscripciones abiertas', free: 'o gratis con tu plan de Kpex',
       handsPill: 'Aprende haciendo', handsTitle: 'Tu primer estimado Clase 5, <span>paso a paso</span>',
       handsSub: 'Una planta solar de 100 MWp: de la curva de costo al reporte PDF, dentro de Kpex.',
       certPill: 'Al terminar', certTitle: 'Tu certificado, <span>y más</span>',
@@ -103,7 +106,7 @@
       title: 'How to Use <span>Kpex</span>',
       sub: 'CAPEX estimating from Class 5 to Class 2 with CAF Corporation’s cost intelligence platform.',
       chips: ['<b>9</b> modules', '<b>27</b> lessons', 'Certificate', 'EN · ES'],
-      tag: 'Launch<br>price', cta: 'Enrolment now open',
+      tag: 'Launch<br>price', cta: 'Enrolment now open', free: 'or free with your Kpex plan',
       handsPill: 'Learn by doing', handsTitle: 'Your first Class 5 estimate, <span>step by step</span>',
       handsSub: 'A 100 MWp solar PV plant: from the cost curve to the PDF report, inside Kpex.',
       certPill: 'When you finish', certTitle: 'Your certificate, <span>and more</span>',
@@ -114,7 +117,7 @@
   const light = piece === 'cert';
   document.body.classList.toggle('light', light);
   const img = (f) => `../brochure/img/${f}`;
-  const price = `<div class="price"><div class="tag">${T.tag}</div><div><span class="now">50 €</span><span class="was">200 €</span></div></div>`;
+  const price = `<div class="pricewrap"><div class="price"><div class="tag">${T.tag}</div><div><span class="now">20 €</span><span class="was">100 €</span></div></div><div class="free">${T.free}</div></div>`;
   const base = `<div class="base"><img src="${img('caf-white.svg')}" alt="CAF"><div class="sup"><small>Supported by</small><b>KPEX</b> · Project Cost Intelligence Platform</div><div class="url">Akdemy · CAF Corporation</div></div>`;
   const topBar = (pill) => `<div class="top"><img class="logo" src="${img(light ? 'akdemy.svg' : 'akdemy-white.svg')}" alt="Akdemy"><span class="pill">${pill}</span></div>`;
 
