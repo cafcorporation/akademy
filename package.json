@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node tools/build-course.mjs",
     "publish:local": "node tools/build-course.mjs && powershell -NoProfile -File scripts/publish-local.ps1",
-    "render-frames": "node tools/render-frames.mjs"
+    "render-frames": "node tools/render-frames.mjs",
+    "render-brochure-images": "node tools/render-brochure-images.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0",
