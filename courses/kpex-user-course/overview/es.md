@@ -47,4 +47,4 @@ No necesitas experiencia previa con Kpex. Sí te ayudará conocer lo básico de 
 
 ## Precio de lanzamiento
 
-> **50 €** en lugar de 200 €, solo durante el lanzamiento. Las lecciones del Módulo 0 y la lección 1.1 son de vista previa gratuita: puedes verlas antes de inscribirte.
+> **20 €** en lugar de 100 €, solo durante el lanzamiento. Y **gratis** si ya tienes cualquier plan de Kpex. Las lecciones del Módulo 0 y la lección 1.1 son de vista previa gratuita: puedes verlas antes de inscribirte.

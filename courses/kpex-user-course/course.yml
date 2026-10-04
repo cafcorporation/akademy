@@ -17,13 +17,15 @@ subtitle:
 
 pricing:
   currency: EUR
-  regular_price: 200
-  launch_price: 50           # launch promotion (LearnPress sale price)
+  regular_price: 100         # updated 2026-10-04 (was 200): lower regular price to maximise enrolments
+  launch_price: 20           # launch promotion (LearnPress sale price); updated 2026-10-04 (was 50)
   launch_window: TBD         # start/end dates of the promotion — to be defined
+  free_with_kpex_tier: true  # any Kpex tier includes this course free — fulfilled via a 100%-off LearnPress
+                             # coupon or manual enrolment (not enforced by Stripe)
 
 enrolment_access:            # comes with the purchase (lesson 0.2), not a completion reward
-  kpex_access: 15 days       # decided 2026-09-24: Kpex user ID provisioned at purchase, the 15 days count
-                             # from the purchase, then app access expires (course lessons stay). Tier TBD.
+  kpex_access: 15 days       # Practitioner tier (decided 2026-10-04). Kpex user ID provisioned at purchase; the
+                             # 15 days count from the purchase, then app access expires (course lessons stay).
 
 completion_rewards:          # delivered in lesson 8.2 + completion email
   certificate: true          # "Kpex Certified User" — Akdemy + CAF Corporation, QR-verifiable

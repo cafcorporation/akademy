@@ -47,4 +47,4 @@ No previous Kpex experience is needed. Knowing the basics of cost estimating hel
 
 ## Launch price
 
-> **€50** instead of €200, during the launch only. Module 0 and lesson 1.1 are free previews: you can watch them before enrolling.
+> **€20** instead of €100, during the launch only. And **free** if you already have any Kpex plan. Module 0 and lesson 1.1 are free previews: you can watch them before enrolling.
