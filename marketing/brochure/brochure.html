@@ -6,8 +6,11 @@
 <title>Akdemy — Cómo usar Kpex · Brochure</title>
 <!--
   Akdemy · marketing brochure for the pilot course. 6 × A4 portrait pages, screen + print (Save as PDF).
-  ?lang=es|en  ·  CTA link: set CTA_URL below once Akdemy has its public domain.
-  Build: tools/render-brochure.ps1 → brochure-<lang>.pdf + page previews.
+  ?lang=es|en  ·  ?cover=dark|light|window|curve|custom  (swappable cover, default dark)
+    custom = your own cover art (e.g. AI-generated): drop it at img/cover-custom.jpg and use ?cover=custom.
+            The brand overlay (logo, title, price) stays on top; see COVER-CUSTOM.md.
+  CTA link: set CTA_URL below once Akdemy has its public domain.
+  Build: tools/render-brochure.ps1 [-Cover dark|light|window|curve|custom] → brochure-<lang>[-<cover>].pdf.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -64,6 +67,11 @@
   .cover .base .sup b { color: #fff; font-weight: 900; }
   .cover .base .sup small { display: block; color: var(--orange); font-weight: 800; letter-spacing: .6px; text-transform: uppercase; font-size: 7.5pt; }
   .cover .base .by { margin-left: auto; font-size: 9pt; color: #aaa; text-align: right; }
+  /* Swappable cover bank (?cover=dark|light|window|curve). JS sets the background; the curve
+     flourish only shows for the photo-less 'curve' option. */
+  .cover .cvbg { display: none; position: absolute; right: 0; bottom: 0; width: 150mm; height: 150mm; z-index: 0; pointer-events: none; }
+  .cover.is-curve .cvbg { display: block; }
+  .cover .logo, .cover .badge-launch, .cover .content, .cover .price-card, .cover .base { z-index: 1; }
 
   /* Page 2 — why */
   .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 8mm; }
@@ -144,6 +152,12 @@
 
 <!-- 1 · COVER -->
 <section class="page cover">
+  <svg class="cvbg" viewBox="0 0 900 900" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+    <path d="M60 820 C 260 520, 480 360, 880 250 L 880 170 C 470 290, 250 450, 60 760 Z" fill="#F5A011" opacity="0.10"/>
+    <path d="M60 790 C 260 490, 470 330, 880 210" fill="none" stroke="#F5A011" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="520" cy="366" r="15" fill="#F5A011"/>
+    <circle cx="520" cy="366" r="29" fill="none" stroke="#F5A011" stroke-width="3" opacity="0.6"/>
+  </svg>
   <img class="logo" src="img/akdemy-white.svg" alt="Akdemy — Cost Engineering Campus">
   <span class="pill badge-launch" data-t="launch"></span>
   <div class="content">
@@ -390,6 +404,24 @@
   document.querySelectorAll('[data-h]').forEach((el) => { el.innerHTML = H[el.dataset.h]; });
   document.querySelector('.facil .list').style.gridTemplateColumns = `repeat(${L.facil.length}, 1fr)`;
   document.querySelector('[data-cert]').src = `img/cert-${lang}.jpg`;
+
+  // Swappable cover (?cover=dark|light|window|curve). Photo covers share the same legibility scrim.
+  const scrim = 'linear-gradient(90deg, rgba(26,26,24,.92) 0%, rgba(26,26,24,.70) 55%, rgba(26,26,24,.35) 100%), '
+    + 'linear-gradient(0deg, rgba(26,26,24,.95) 0%, rgba(26,26,24,.2) 45%, rgba(26,26,24,.55) 100%), ';
+  const COVERS = {
+    dark:   `${scrim}url("img/bg-dark.jpg") 62% center / cover no-repeat, #1a1a18`,
+    light:  `${scrim}url("img/bg-light.jpg") 62% center / cover no-repeat, #1a1a18`,
+    window: `${scrim}url("img/bg-window.jpg") 62% center / cover no-repeat, #1a1a18`,
+    curve:  'radial-gradient(120% 140% at 85% 20%, #585856 0%, #3F3F3D 70%)',
+    // Your own cover art (AI-generated or a custom graphic). Drop it at img/cover-custom.jpg.
+    custom: `${scrim}url("img/cover-custom.jpg") center / cover no-repeat, #1a1a18`,
+  };
+  const coverParam = new URLSearchParams(location.search).get('cover');
+  const coverKey = COVERS[coverParam] ? coverParam : 'dark';
+  const coverEl = document.querySelector('.cover');
+  coverEl.style.background = COVERS[coverKey];
+  if (coverKey === 'curve') coverEl.classList.add('is-curve');
+
   const cta = document.querySelector('[data-cta]');
   cta.href = CTA_URL[lang] || 'mailto:support@caf-corporation.com?subject=Akdemy%20—%20Kpex%20course';
 </script>
