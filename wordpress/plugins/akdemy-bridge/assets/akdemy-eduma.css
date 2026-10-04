@@ -143,3 +143,15 @@ html body #popup-sidebar .course-item .course-item__info span.course-item-order 
   .akdemy-page-lp-checkout .top_site_main h1,
   .akdemy-page-lp-checkout .top_site_main .page-title { font-size: 32px !important; }
 }
+
+/* Sticky lesson video — pins the video band at the top of the lesson while the written content
+   scrolls beneath it, so the student can watch/listen and read at the same time. LearnPress has no
+   native option for this; this is Akdemy's own enhancement (validated against the course player's
+   scroll container). */
+.course-summary .learn-press-video-intro {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .08);
+}
