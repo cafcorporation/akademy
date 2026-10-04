@@ -60,6 +60,7 @@
   .price-card .now { font-size: 28pt; font-weight: 900; letter-spacing: -1px; line-height: 1; }
   .price-card .was { font-size: 11pt; color: var(--muted); text-decoration: line-through; margin-left: 6px; font-weight: 600; }
   .price-card .note { font-size: 8.5pt; color: var(--muted); margin-top: 3px; }
+  .price-card .free { font-size: 8.5pt; font-weight: 800; color: var(--orange-dark); margin-top: 5px; letter-spacing: .2px; }
   .cover .base { position: absolute; left: 16mm; right: 16mm; bottom: 14mm; display: flex; align-items: center; gap: 14px;
                  border-top: 1px solid rgba(255,255,255,.14); padding-top: 6mm; }
   .cover .base img { height: 10mm; }
@@ -144,6 +145,9 @@
   .cta { display: inline-block; text-align: center; background: var(--orange); color: #fff; text-decoration: none; font-weight: 900; font-size: 13pt;
          border-radius: 12px; padding: 4.5mm 6mm; box-shadow: 0 10px 26px rgba(245,160,17,.35); }
   .pricebox .r small { display: block; margin-top: 3mm; font-size: 8.5pt; color: #777; line-height: 1.45; }
+  .pricebox .l .free-note { position: relative; z-index: 1; margin-top: 5mm; padding-top: 4mm; border-top: 1px solid rgba(245,160,17,.4); }
+  .pricebox .l .free-note b { display: block; color: var(--orange); font-size: 13pt; font-weight: 900; letter-spacing: -.3px; }
+  .pricebox .l .free-note span { display: block; color: #cfcac0; font-size: 8.5pt; margin-top: 1.5mm; line-height: 1.45; }
   .contact { margin-top: 8mm; display: flex; align-items: center; gap: 6mm; font-size: 9.5pt; color: #555; }
   .contact b { color: var(--ink); }
 </style>
@@ -168,7 +172,7 @@
   </div>
   <div class="price-card">
     <div class="tag" data-h="priceTag"></div>
-    <div><div class="now">50 €<span class="was">200 €</span></div><div class="note" data-t="priceNote"></div></div>
+    <div><div class="now">20 €<span class="was">100 €</span></div><div class="note" data-t="priceNote"></div><div class="free" data-t="freeTier"></div></div>
   </div>
   <div class="base">
     <img src="img/caf-white.svg" alt="CAF Corporation">
@@ -185,7 +189,7 @@
   <div class="grid2" data-h="whyCards"></div>
   <div class="numbers" data-h="numbers"></div>
   <p class="numbers-cap" data-t="numbersCap"></p>
-  <div style="margin-top:7mm"><img class="shot" src="img/shot-dashboard.jpg" alt="Kpex dashboard"></div>
+  <div style="margin-top:5mm;text-align:center"><img class="shot" src="img/shot-dashboard.jpg" alt="Kpex dashboard" style="width:auto;max-width:100%;max-height:66mm;margin:0 auto"></div>
   <div class="foot"><span><b>Akdemy</b> · Cost Engineering Campus</span><span class="pg">02</span></div>
 </section>
 
@@ -236,9 +240,10 @@
   </div>
   <div class="pricebox">
     <div class="l">
-      <div class="now">50 €</div>
+      <div class="now">20 €</div>
       <div class="was" data-t="was"></div>
       <p data-t="priceLong"></p>
+      <div class="free-note"><b data-t="freeTierTitle"></b><span data-t="freeTierSub"></span></div>
     </div>
     <div class="r">
       <a class="cta" data-cta data-t="cta"></a>
@@ -312,12 +317,16 @@
       offerPill: 'Qué obtienes', offerTitle: 'Todo lo que incluye <span>tu inscripción</span>',
       gets: [
         '<b>27 lecciones</b> con capturas reales de Kpex y ejercicios guiados.',
+        '<b>Manual del curso (guía del usuario)</b> en PDF, tu material de consulta permanente.',
         '<b>7 quizzes de módulo y un examen final</b> para medir tu avance.',
         '<b>Certificado de finalización</b> verificable con código QR, firmado por los facilitadores.',
-        '<b>15 días de acceso a Kpex</b> desde tu inscripción, para hacer todas las prácticas.',
+        '<b>15 días de Kpex como Practitioner</b> desde tu inscripción, para hacer todas las prácticas.',
         '<b>Descuento exclusivo</b> en tu membresía de Kpex como alumno.',
       ],
-      was: 'Precio regular 200 €',
+      was: 'Precio regular 100 €',
+      freeTier: '✦ Gratis con cualquier plan de Kpex',
+      freeTierTitle: 'O gratis con tu plan de Kpex',
+      freeTierSub: 'Cualquier tier de Kpex incluye este curso de cómo usarlo. ¿Ya eres cliente? Escríbenos y te lo activamos.',
       priceLong: 'Precio de lanzamiento por tiempo limitado. Pago único, con acceso al curso completo en su edición española.',
       cta: 'Inscríbete en Akdemy →', ctaNote: 'Pago seguro con tarjeta. ¿Eres una empresa y quieres inscribir a tu equipo? Escríbenos.',
       contact: 'Contacto: <b>support@caf-corporation.com</b> · <b>caf-corporation.com</b>',
@@ -370,12 +379,16 @@
       offerPill: 'What you get', offerTitle: 'Everything included in <span>your enrolment</span>',
       gets: [
         '<b>27 lessons</b> with real Kpex screenshots and guided exercises.',
+        '<b>Course manual (user guide)</b> as a PDF — your permanent reference material.',
         '<b>7 module quizzes and a final exam</b> to track your progress.',
         '<b>Certificate of completion</b>, verifiable by QR code and signed by the facilitators.',
-        '<b>15 days of Kpex access</b> from your enrolment, to do every exercise.',
+        '<b>15 days of Kpex as Practitioner</b> from your enrolment, to do every exercise.',
         '<b>Exclusive discount</b> on your Kpex membership as a student.',
       ],
-      was: 'Regular price €200',
+      was: 'Regular price €100',
+      freeTier: '✦ Free with any Kpex plan',
+      freeTierTitle: 'Or free with your Kpex plan',
+      freeTierSub: 'Every Kpex tier includes this how-to-use course. Already a customer? Get in touch and we’ll unlock it.',
       priceLong: 'Limited-time launch price. One-off payment for the complete course in its English edition.',
       cta: 'Enrol on Akdemy →', ctaNote: 'Secure card payment. Want to enrol your team? Get in touch.',
       contact: 'Contact: <b>support@caf-corporation.com</b> · <b>caf-corporation.com</b>',
