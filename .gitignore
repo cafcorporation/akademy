@@ -11,3 +11,9 @@ Eduma/
 marketing/social/out/
 *.pdf
 *.zip
+
+# Recorded video exports — host on Vimeo, never in git
+*.mp4
+
+# Stray dev helper (Kpex2G debugging, unrelated to Akdemy)
+tools/_kpex-check.mjs
