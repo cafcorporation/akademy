@@ -1,0 +1,13 @@
+Vamos a hacerlo de verdad. El caso: una empresa quiere saber, en orden de magnitud, cuánto costaría una planta solar fotovoltaica de cien megavatios pico en Chile. No hay ingeniería todavía; solo una tecnología, una capacidad y un país. Es el escenario perfecto de una Clase 5. Soy Carlos Fuenmayor, y lo recorremos paso a paso.
+
+Primer paso: en la barra lateral abres Intelligence, Benchmarks, Cost Curves. Segundo paso: con el selector guiado Find your facility recorres sector, familia y facility hasta la curva de solar fotovoltaica a escala de servicio público. Antes de seguir, lee dos datos del panel: la unidad de capacidad, que son megavatios pico, y el rango validado, que va de diez a mil. Tu capacidad debe caer dentro de ese rango.
+
+Tercer paso: introduces los datos. Un nombre de proyecto para el reporte; la capacidad, cien; y el país de destino, Chile. En cuanto eliges el país, Kpex rellena el Location Factor de destino y te muestra el país de origen del modelo. Deja la contingencia que la plataforma propone para Clase 5.
+
+Cuarto paso: pulsas Calculate. Kpex devuelve el costo total instalado con su banda y marca tu punto sobre la curva, con una etiqueta de valor fija. Verás tres tarjetas: el AACE Low, a menos cincuenta por ciento; el punto estimado con contingencia; y el AACE High, a más cien por ciento. La escalación al mes actual ya está incluida. Quinto paso: pulsas Print Class 5 report y guardas el reporte de una página.
+
+Sexto paso, y es el que separa a un profesional: contrasta tu número con la historia. Abre la KPI Library y busca el indicador de costo total instalado por megavatio pico de la familia solar. Divide tu punto estimado entre cien y comprueba dónde cae respecto de los percentiles diez, cincuenta y noventa. Si cae entre el diez y el noventa, tu estimado es defendible.
+
+Paso opcional, el séptimo: vuelve a la curva y pulsa Create Class 5 Estimate with this Curve. Se abre el asistente de la lección cuatro punto uno con la curva ya elegida, y de ahí sacas su PDF. Tu paquete de entregables queda así: la tabla de resultados completa, el reporte PDF guardado, una frase sobre dónde cae tu costo unitario frente a los percentiles, y una frase con los supuestos: tecnología, capacidad, país y mes del cálculo.
+
+Quédate con esto: una Clase 5 bien hecha no es un número; es un número con su banda, calibrado a un país y a un mes, contrastado con la historia y documentado en un reporte. Con esto cierras el módulo de tu primer estimado. En el siguiente entramos a los módulos de costo de Kpex. Vamos.

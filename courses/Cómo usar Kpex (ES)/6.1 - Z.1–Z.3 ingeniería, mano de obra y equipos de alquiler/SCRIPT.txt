@@ -1,0 +1,13 @@
+Ya conoces los módulos de costo: ellos ponen el dato. Pero un dato de costo solo sirve si está en tu país y en dinero de hoy. De eso se encarga el Módulo Zeta, la capa de calibración de Kpex. Soy Carlos Fuenmayor, y en esta lección vemos sus tres primeras herramientas: las que convierten horas y máquinas en dinero.
+
+El Módulo Zeta vive en la barra lateral, en Support Tools, Zeta — Support Tools. No son complementos opcionales: sostienen cada estimado de Kpex. Contiene seis herramientas. En esta lección vemos las tres primeras: Zeta uno, ingeniería y oficina central; Zeta dos, mano de obra; y Zeta tres, equipos de alquiler. Las otras tres, Location Factor, Cost Index y evaluaciones, llegan en las próximas lecciones.
+
+Zeta uno cubre el componente EPCM: ingeniería, compras y gestión de la construcción. Te da tarifas de referencia por disciplina y los gastos de la oficina central, para construir esa partida sin contar horas-hombre en detalle, algo muy útil en las clases tempranas. Zeta dos es la base de mano de obra: eliges oficio, jurisdicción, turno y horas extra, y te devuelve una tarifa de cuadrilla totalmente cargada, con salarios directos, cargas sociales, alojamiento en obra y supervisión. Es imprescindible a partir de la Clase tres.
+
+Zeta tres es un catálogo navegable de equipos de construcción en alquiler, organizado por familia: excavación, izaje, compactación, bombeo y más. Expandes una familia, abres un equipo, y se inicia una sesión de tarifa: Kpex construye el precio por hora, día, semana y mes a partir del costo de inversión de la máquina, propiedad más operación. Ajustas las opciones de capacidad y especificación, y el precio se mueve.
+
+Y aquí está la magia de la calibración: esas tarifas se escalan al mes actual con el Cost Index por familia de equipo, se ajustan a tu territorio con el Location Factor y a tu moneda, con base en dólares. Además, Zeta tres se conecta con Zeta dos para armar tarifas diarias de costo de construcción: máquina más cuadrilla, en un solo número.
+
+Quédate con esto: Zeta uno, Zeta dos y Zeta tres traducen disciplinas, cuadrillas y máquinas a tarifas escaladas al día y ajustadas a tu ubicación. Son la base de los costos indirectos y de construcción cuando el estimado gana definición.
+
+Un ejercicio rápido: abre Zeta tres, elige una grúa y mira cuánto cambia su tarifa al cambiar de país. En la siguiente lección entramos a Zeta cuatro, el Location Factor: la herramienta que lleva cualquier costo a cualquier lugar del mundo.

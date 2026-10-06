@@ -1,0 +1,15 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 35 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (6 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-5.1-modulo-a-catalogo.png. Texto en pantalla: "Módulo A · Process Plant Components" · "+700 modelos paramétricos".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-5.1-modulo-a-catalogo.png. Texto en pantalla: "A.1.1 Rotating · A.1.2 Static · A.1.3 Heat Transfer · A.1.4 Material Handling · A.1.5–A.1.6 Packages · A.2–A.6 BOP".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-5.1-modulo-a-catalogo.png. Texto en pantalla: "1 · Base conocida (Gulf Coast · LFI 1,0)" · "2 · Material de construcción" · "3 · Rango, no un punto".
+Escena 5 (párrafo 5): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "Equipo + material + base al día + banda de confianza".
+Escena 6 (párrafo 6): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 5.2 · Módulo B: curvas de costo".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, LFI, BOP (deletreado), CAPEX, y los nombres en inglés de la interfaz (Process Plant Components, Rotating Equipment, Cost Index, allowances, bulks). Genera primero la escena 3 (la más cargada) y escúchala.

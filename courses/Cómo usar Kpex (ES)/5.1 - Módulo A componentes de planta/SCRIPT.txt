@@ -1,0 +1,11 @@
+Empezamos a abrir la base de datos de Kpex por su capa más fina: el costo de un solo equipo. Soy Carlos Fuenmayor, y en esta lección vemos el Módulo A, el ladrillo con el que se construyen los estimados más detallados.
+
+El Módulo A, Process Plant Components, es el costo de los equipos individuales de una planta de proceso: más de setecientos modelos paramétricos de bombas, compresores, recipientes, intercambiadores y transportadores. Todos funcionan igual: introduces los parámetros de dimensionamiento del equipo, su capacidad, tamaño o potencia, en sistema métrico o imperial, y Kpex te devuelve un rango de costo, no un número único.
+
+Los equipos se agrupan por familias. En A punto uno punto uno están los rotativos: compresores, bombas, turbinas y ventiladores. En A punto uno punto dos, los estáticos: recipientes, columnas y tanques. Luego la transferencia de calor, el manejo de materiales y los paquetes de proceso. Y fíjate en la última fila: los bulks, es decir tubería, instrumentación, electricidad y civil, no se cotizan pieza por pieza en esta etapa, se estiman como allowances, una proporción del equipo mayor. Esos factores vienen del Módulo B, que veremos en la próxima lección.
+
+Cada precio llega con tres propiedades. Primera, una base conocida: Costa del Golfo de Estados Unidos, con Location Factor igual a uno, y al mes actual, escalado automáticamente con el CAF Cost Index, así que nunca trabajas con una cifra vieja. Segunda, es sensible al material: el mismo equipo no cuesta igual en acero al carbono que en inoxidable o en una aleación especial. Y tercera, es un rango con límites de confianza estadísticos, que en un estimado temprano es justo lo que necesitas: saber cuánto y con cuánta incertidumbre.
+
+Quédate con esto: el Módulo A te da el costo de cada equipo, dimensionado por ti, con su material, su base al día y su banda de confianza. Es el ladrillo con el que se arman los estimados más detallados de Kpex.
+
+Un ejercicio: elige una bomba centrífuga, dale una capacidad y anota el rango; luego cambia el material y mira cuánto se mueve. En la siguiente lección subimos un nivel con el Módulo B y sus curvas de costo.

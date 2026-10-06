@@ -1,0 +1,15 @@
+Imagina que tienes el costo de una planta, pero se construyó con datos de la Costa del Golfo de Estados Unidos, y tu proyecto está en otro continente. ¿Cómo lo trasladas? Con el Location Factor. Soy Carlos Fuenmayor, y en esta lección vemos Zeta cuatro, el motor que lleva cualquier costo a cualquier lugar del mundo.
+
+El CAF LFI, el Location Factor Index, ajusta cualquier costo base a cualquier ubicación del planeta. Cubre ciento noventa y seis países en seis continentes. Su punto de referencia es la Costa del Golfo de Estados Unidos, que vale uno: el estándar de AACE. Por encima de uno, más caro que la Costa del Golfo; por debajo de uno, más barato.
+
+El factor final de cada país combina cuatro componentes: los factores propios del país, las compras con aranceles y flete, la mano de obra y la ingeniería. Compras, mano de obra e ingeniería se promedian, y ese promedio se multiplica por los factores del país. Esa es la fórmula que ves en pantalla.
+
+Y aquí viene lo fino. No todos los modelos están calibrados en la Costa del Golfo; algunos vienen de otro país. Por eso Kpex guarda el país de origen de cada modelo y aplica el LFI del destino dividido por el LFI del origen. Cuando eliges el país de tu proyecto, Kpex mueve el costo desde su origen real hasta tu ubicación. Los números del ejemplo en pantalla son inventados, solo para ver la mecánica.
+
+Para cada país, Kpex abre un dossier completo: los cuatro factores, los datos de compras, mano de obra e ingeniería, un perfil con bandera y mapa de ciudades principales, y los grandes proyectos recientes con su CAPEX publicado. Es mucho más que un número.
+
+¿Cómo lo usas en un estimado? De dos formas. Globalmente: el país que eliges en el paso Basis of Estimate del Estimate Wizard fija el LFI de todo el estimado. Y por partida: en proyectos con varias ubicaciones, ajustas el LFI de cada línea por separado en el WBS Builder. ¿Tu país o región no tiene factor estándar? La herramienta Zeta seis punto uno te construye uno a medida.
+
+Quédate con esto: el LFI no es solo cuánto más caro es aquí. Es un factor de origen a destino, LFI del destino dividido por LFI del origen, construido con país, compras, mano de obra e ingeniería.
+
+En la siguiente lección vemos el otro motor, Zeta cinco, el Cost Index: el que mantiene los costos al día en el tiempo.

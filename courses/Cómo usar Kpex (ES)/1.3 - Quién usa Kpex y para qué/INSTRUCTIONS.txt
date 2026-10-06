@@ -1,0 +1,15 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 40 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (6 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-2.3-sidebar-by-profile.png. Texto en pantalla: "4 perfiles" · "Ingeniero de costos · Gerente de proyecto · Contratista EPC · Dueño / Operador".
+Escena 3 (párrafo 3): Layout B. Fondo: 03-1.1-dashboard.png. Texto en pantalla: "Clase 5 → Clase 2" · "Componentes · Factores de ubicación · Índices" · "Gerente: lenguaje de gestión → WBS".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-2.3-sidebar-by-profile.png. Texto en pantalla: "EPC: comparar · validar · reporte PDF" · "Dueño: evaluar · Kpex Exchange · CAPEX → OPEX → ABEX".
+Escena 5 (párrafo 5): Layout A. Fondo: 04-bg-light.jpg. Texto en pantalla: "El idioma de quien estima y de quien decide" · "El mismo número: ingeniero · gerente · inversionista".
+Escena 6 (párrafo 6): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 2.1 · Acceso y registro".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, CAPEX, OPEX, ABEX, EPC, NOC y los nombres en inglés (Kpex Exchange, Estimate Wizard, WBS). Deletrea los acrónimos letra por letra (A-A-C-E, E-P-C, C-A-P-E-X) o graba una muestra de la escena 4 y escúchala.

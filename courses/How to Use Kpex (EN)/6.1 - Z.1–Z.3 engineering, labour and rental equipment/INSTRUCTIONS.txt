@@ -1,0 +1,16 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 58 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (7 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-1.2-sidebar.png. On-screen text: "Support Tools → Z — Support Tools" · "Z.1 Eng. & Home Office · Z.2 Labor Rates · Z.3 Rental Equipment".
+Scene 3 (paragraph 3): Layout B. Background: 02-1.2-sidebar.png. On-screen text: "Z.1 · EPCM by discipline" · "Z.2 · fully-loaded crew rate".
+Scene 4 (paragraph 4): Layout B. Background: 03-6.1-z3-sesion-tarifa.png. On-screen text: "Z.3 Rental Equipment" · "hour · day · week · month".
+Scene 5 (paragraph 5): Layout B. Background: 03-6.1-z3-sesion-tarifa.png. On-screen text: "Cost Index by family · Location Factor · currency base USD" · "Z.3 + Z.2 = daily construction rate".
+Scene 6 (paragraph 6): Layout A. Background: 04-bg-light.jpg. On-screen text: "Disciplines · crews · machines → rates escalated and adjusted to your location".
+Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Next: 6.2 · Z.4 · the Location Factor (LFI)".
+
+Pronunciation: set up Kpex, AACE, EPCM (spelled out), CAPEX and the UI names (Support Tools, Labor Rates, Rental Equipment, Location Factor, Cost Index) in HeyGen's dictionary. The menu codes Z.1, Z.2, Z.3 are read "Z one / two / three"; on screen they stay as Z.1, Z.2, Z.3. Generate scene 3 first (the busiest one) and listen.

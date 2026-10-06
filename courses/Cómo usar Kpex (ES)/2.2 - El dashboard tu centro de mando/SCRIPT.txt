@@ -1,0 +1,13 @@
+Cada vez que inicias sesión en Kpex llegas al mismo lugar: el Dashboard, tu centro de mando. Desde aquí ves el estado de tu trabajo y llegas a cualquier parte de la plataforma. Y aunque parezca mucha información, la pantalla se entiende con una idea muy simple: tres zonas. En esta lección las recorremos una por una. Soy Carlos Fuenmayor.
+
+El Dashboard tiene tres zonas. A la izquierda, la barra lateral: con ella navegas por todas las secciones de Kpex. En el centro, el área central: el resumen de tus proyectos y estimados. Y arriba a la derecha, la barra superior: notificaciones, modo claro u oscuro y tu cuenta. Navegar, ver tu estado, gestionar tu sesión: tres zonas, tres funciones.
+
+Empecemos por la barra lateral. Todas las secciones están aquí, agrupadas por función, y son las mismas capas que viste en la lección uno punto dos: Cost Estimation, Cost Modules, Support Tools, Intelligence y Kpex Exchange. Arriba están el propio Dashboard y tu Project Portfolio. Fíjate en que algunos elementos aparecen atenuados y con un candado: eso no es un error, significa que esa función requiere un nivel de membresía superior al tuyo. Si pasas el cursor, verás el aviso Upgrade to unlock. El elemento sigue visible a propósito, para que sepas que la función existe.
+
+El área central resume tu actividad con tarjetas y gráficos. Arriba, cuatro tarjetas: Total Projects, Total Estimates, Companies y Kpex Data Source, que muestra el estado de la conexión con la base de datos. Debajo, tus estimados agrupados por clase AACE y tu portafolio por tipo de facility, más las listas de proyectos y estimados recientes. Si tu cuenta es nueva verás mensajes como No projects yet; es normal, se llenarán cuando crees tu primer estimado en el módulo cuatro.
+
+La tercera zona es la barra superior, arriba a la derecha. La luna o el sol cambian entre modo claro y modo oscuro. La campana abre tus notificaciones y muestra las veinte más recientes. Y tu nombre abre el menú con My Account y Sign Out. Recuerda que la interfaz de la aplicación está solo en inglés: el selector de idioma solo existe en el sitio web y en la página de inicio de sesión.
+
+Quédate con esta idea: el Dashboard tiene tres zonas. Navegas con la barra lateral, ves dónde estás en el área central y gestionas tu sesión en la barra superior. Y un candado no es un error: simplemente marca una función de otro nivel de membresía. Con ese mapa en la cabeza, nunca te vas a perder en Kpex.
+
+Un ejercicio rápido: en tu Dashboard, identifica las tres zonas, anota qué elementos tienen candado en tu cuenta y prueba a cambiar entre modo claro y oscuro. En la siguiente lección veremos por qué dos usuarios pueden ver dashboards distintos: los tipos de perfil. Siguiente: dos punto tres, Tipos de perfil.

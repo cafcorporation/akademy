@@ -1,0 +1,13 @@
+Let's do it for real. The case: a company wants to know, in order of magnitude, how much a one-hundred-megawatt-peak solar PV plant in Chile would cost. There's no engineering yet; just a technology, a capacity and a country. It's the textbook Class 5 situation. I'm Carlos Fuenmayor, and we'll walk through it step by step.
+
+Step one: in the sidebar you open Intelligence, Benchmarks, Cost Curves. Step two: with the Find your facility guided picker you go through sector, family and facility to the utility-scale solar PV curve. Before you go on, read two things off the panel: the capacity unit, which is megawatts peak, and the validated range, which runs from ten to one thousand. Your capacity must sit inside that range.
+
+Step three: you enter the inputs. A project name for the report; the capacity, one hundred; and the destination country, Chile. As soon as you pick the country, Kpex fills in the destination Location Factor and shows you the model's country of origin. Keep the contingency the platform suggests for Class 5.
+
+Step four: you click Calculate. Kpex returns the total installed cost with its band and plots your point on the curve, with a fixed value label. You'll see three cards: the AACE Low, at minus fifty percent; the point estimate with contingency; and the AACE High, at plus one hundred percent. Escalation to the current month is already included. Step five: you click Print Class 5 report and save the one-page report.
+
+Step six, and this is the one that marks out a professional: cross-check your number against history. Open the KPI Library and find the total-installed-cost-per-megawatt-peak indicator for the solar family. Divide your point estimate by one hundred and see where it lands against the tenth, fiftieth and ninetieth percentiles. If it falls between the tenth and the ninetieth, your estimate is defensible.
+
+Optional step, the seventh: go back to the curve and click Create Class 5 Estimate with this Curve. The wizard from lesson four point one opens with the curve already selected, and from there you get its PDF. Your deliverables package looks like this: the completed results table, the saved PDF report, one sentence on where your unit cost sits against the percentiles, and one sentence with the assumptions: technology, capacity, country and month of calculation.
+
+Hold on to this: a proper Class 5 isn't a number; it's a number with its band, calibrated to a country and a month, checked against history and documented in a report. With this you close the module on your first estimate. Next, we step into the Kpex cost modules. Let's go.

@@ -1,0 +1,13 @@
+A good estimate doesn't just say how much it costs; it says how accurate, where, when and at what level of definition. I'm Carlos Fuenmayor, and in this lesson we get it ready to hand over to the client.
+
+First, your currency. You can read the whole estimate in your own currency: totals, breakdown, line items, printed report and Excel. You choose the currency in the wizard, on the Estimate Identity card. And there are two rules: the base is always kept in US dollars, so benchmarking stays consistent, and the rate, which comes from the European Central Bank daily reference, is frozen on the estimate.
+
+Second, your units. In the cost-curve catalogue and on the facility pages you switch between metric and imperial with a single toggle. Watch one detail: the switch is read-only, it shows the equivalents; neither the underlying model nor the prices change.
+
+Third, the PDRI, the Project Definition Rating Index. It gives an objective score of how well defined your project is, and you run it at any stage from Z six, Assessment Tools. It has seven variants, from industrial to infrastructure and buildings, and it scores from zero to one thousand, where lower means better defined. Why does it matter? Because it's your methodology evidence that a Class 3 really is a Class 3. For now you run it separately and keep its PDF as backup.
+
+Fourth, the report. From the workspace you click Preview slash Print PDF and Kpex opens a print-ready version in a new tab, where you print it or save it as PDF. The branded report includes the project header, the AACE class declaration, the accuracy range, the cost breakdown by discipline, the LFI and Cost Index factors applied, the PDRI score and the estimator signature block.
+
+Next to the PDF sits Export Excel, which downloads the estimate as a workbook with three sheets: Summary, Detail and Basis. For Class 4 the workspace points you to the BOE report buttons, and Class 5 also gets Print Basis of Estimate. Hold on to the key idea: a defensible report doesn't just say how much; it says how accurate, where, when and at what level of definition.
+
+With this you know how to build and deliver a complete estimate. In the next lesson you put it into practice: a Class 5 estimate from start to finish. Let's go.

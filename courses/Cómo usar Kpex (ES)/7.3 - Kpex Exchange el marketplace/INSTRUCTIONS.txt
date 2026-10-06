@@ -1,0 +1,16 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 45 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (7 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-7.3-exchange-home.png. Texto en pantalla: "último eslabón de la cadena" · "dato paramétrico → precio real" · "compras + datos".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-7.3-exchange-home.png. Texto en pantalla: "Owner/Operator · EPC · Vendor · Data Partner · Estimator".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-7.3-exchange-home.png. Texto en pantalla: "RFQ en 3 pasos" · "1 crear · 2 cotizar · 3 comparar" · "sustituye paramétrico → congela la línea base".
+Escena 5 (párrafo 5): Layout B. Fondo: 03-2.3-sidebar-by-profile.png. Texto en pantalla: "depende de tu perfil" · "todos: Exchange Home · Product Catalog · Vendors" · "Owner: Procurement · Vendor: Vendor Portal · Data Partner: Datasets".
+Escena 6 (párrafo 6): Layout A. Fondo: 04-bg-light.jpg. Texto en pantalla: "Estimas y compras en el mismo lugar → un ecosistema".
+Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Ejercicio: abre una ficha de Vendor" · "Fin del Módulo 7 · Siguiente: 8.1 · Soporte y próximos pasos".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, RFQ, EPC, CAPEX, AACE. Mantén en inglés los nombres de la interfaz (Kpex Exchange, Exchange Home, Product Catalog, Vendors, Procurement, My RFQs, New RFQ, Vendor Portal, My Products, Browse RFQs, Data Partner, datasets). RFQ puede decirse "erre efe cu" o "request for quotation" la primera vez; en el guion se apoya en "solicitud de cotización".

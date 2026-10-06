@@ -1,0 +1,13 @@
+Picking the AACE class isn't just labelling the estimate: it's deciding which Kpex tool you're going to open. I'm Carlos Fuenmayor, and in this lesson I give you the practical recipe, class by class.
+
+When you create an estimate, Kpex asks you for the target class. From that choice it does three things: it activates the right module set, it applies the PDRI checklist through the Z six point three tool to check your definition matches the class, and it tags the report with the accuracy range and the class justification, ready for client delivery.
+
+On to the recipe. A Class 5, order of magnitude, is built with the Module B cost curves and a Module C facility model: you pick the facility, enter the one capacity that drives it and press Calculate; Kpex returns the cost with its band. A Class 4, feasibility, uses the Module C parametric facility models: you enter the parameters for your technology and read the total installed cost broken down discipline by discipline.
+
+Drop down to a Class 3, budget and investment decision, and the number stops being parametric and becomes built up from the bottom: you raise the WBS, add the major equipment from Module A with its bulk material take-off, and price labour, rental and engineering with the Module Z tools. And a Class 2, control, refines that take-off to detail and replaces the parametric prices with real vendor quotes, gathered through Kpex Exchange.
+
+Notice the progression: from one curve and one capacity figure, you move to facility parameters, then to equipment and quantities, and finally to real vendor prices. It's exactly the same analogous, parametric, bottom-up path you saw in the previous lesson; here we just attach concrete Kpex tools to it.
+
+And one thing never changes, whatever class you work at: the calibration is always on. The Location Factor, in Z four, moves the cost to your country; the CAF Cost Index, in Z five, escalates it to today. Hold on to the key idea: picking the class means picking the tool, but the calibration of location and time is the same at every class.
+
+With the recipe clear, you now know what to open for your level of definition. In the next lesson we create your first estimate step by step, with the Estimate Wizard. Let's go.

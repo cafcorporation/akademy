@@ -1,0 +1,13 @@
+Every time you sign in to Kpex you land in the same place: the Dashboard, your command centre. From here you can see where your work stands and reach any part of the platform. And although it looks like a lot of information, the screen makes sense through one simple idea: three zones. In this lesson we go through them one by one. I'm Carlos Fuenmayor.
+
+The Dashboard has three zones. On the left, the sidebar: you use it to navigate every section of Kpex. In the centre, the main content area: a summary of your projects and estimates. And in the top right, the top bar: notifications, light or dark mode, and your account. Navigate, see where you stand, manage your session: three zones, three jobs.
+
+Let's start with the sidebar. Every section lives here, grouped by function, and these are the same layers you met in lesson one point two: Cost Estimation, Cost Modules, Support Tools, Intelligence and Kpex Exchange. Above them are the Dashboard itself and your Project Portfolio. Notice that some items appear dimmed, with a lock icon: that's not an error, it means the feature needs a higher membership tier than yours. Hover over it and you'll see Upgrade to unlock. The item stays visible on purpose, so you know the feature exists.
+
+The main area summarises your activity with cards and charts. At the top, four cards: Total Projects, Total Estimates, Companies and Kpex Data Source, which shows the status of the connection to the database. Below them, your estimates grouped by AACE class and your portfolio by facility type, plus the lists of recent projects and recent estimates. On a new account you'll see messages such as No projects yet; that's expected, they fill up once you create your first estimate in Module four.
+
+The third zone is the top bar, in the top right. The moon or the sun switches between light and dark mode. The bell opens your notifications and shows the latest twenty. And your name opens the menu with My Account and Sign Out. Remember that the application interface is English only: the language selector exists only on the public website and the sign-in page.
+
+Hold on to this idea: the Dashboard has three zones. You navigate with the sidebar, see where you stand in the main area, and manage your session in the top bar. And a lock isn't an error: it simply marks a feature from another membership tier. With that map in your head, you'll never get lost in Kpex.
+
+A quick exercise: on your Dashboard, identify the three zones, note which items show a lock on your account, and try switching between light and dark mode. In the next lesson we'll see why two users can see different dashboards: profile types. Next: two point three, Profile types.

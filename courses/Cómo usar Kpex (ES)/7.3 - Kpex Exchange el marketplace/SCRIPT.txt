@@ -1,0 +1,13 @@
+En todo el curso trabajaste con datos de costo: curvas, modelos y componentes calibrados por lugar y por tiempo. Son perfectos para las Clases cinco a tres. Pero cuando el proyecto madura hacia las Clases dos y uno, el estimado pide algo más: precios reales de proveedores. Soy Carlos Fuenmayor, y hoy cerramos la cadena con Kpex Exchange.
+
+Kpex Exchange es el último eslabón de la cadena que viste en la lección uno punto dos: el lugar donde el dato paramétrico se reemplaza por el precio real. Y no es una simple tienda: es un marketplace de varios lados, de compras y de datos, que conecta a los participantes de la plataforma para que cada uno aporte algo y reciba algo a cambio.
+
+Son cinco participantes. El owner u operador emite solicitudes de cotización, las RFQ, y recibe las ofertas dentro de la plataforma. El EPC consulta precios para alimentar las partidas de su estimado. El vendor publica sus familias de equipos y responde a las RFQ. El data partner aporta datos históricos de costos y gana reconocimiento en los benchmarks. Y el estimador usa precios en vivo y esos mismos benchmarks para validar sus Clases cinco y cuatro. El círculo se cierra solo: unos piden, otros responden, y la historia de costos crece con cada uno.
+
+El corazón del Exchange es la RFQ, la solicitud de cotización. Funciona en tres pasos: el owner crea la RFQ describiendo el paquete de equipos; los vendors la ven en su portal y envían su cotización; y el owner recibe todas las ofertas dentro de Kpex, las compara y conserva el historial. En el flujo de Clase dos que viste en el Módulo tres, este es el paso en que sustituyes los costos paramétricos por cotizaciones reales y congelas tu línea base de control.
+
+¿Dónde lo ves? Depende de tu perfil. Todos tienen el grupo Kpex Exchange, con Exchange Home, Product Catalog y Vendors. El owner suma una sección de Procurement, con My RFQs y New RFQ. El vendor tiene su Vendor Portal, con My Products y Browse RFQs. Y el data partner, su propio portal para enviar datasets. La misma plataforma se adapta a lo que cada uno viene a hacer.
+
+Quédate con esto: Kpex Exchange convierte la plataforma en un ecosistema. El mismo lugar donde estimas es el lugar donde pides, recibes y comparas precios reales, y donde la historia de costos crece con cada participante.
+
+Un ejercicio de cuatro minutos: abre Exchange Home, recorre el Product Catalog y abre la ficha de un proveedor. Piensa en el estimado del Módulo cuatro: ¿qué equipo principal llevarías primero a una RFQ al llegar a Clase dos? Con esto cierras el Módulo siete. En el siguiente módulo vemos el soporte, la Knowledge Library y hacia dónde va Kpex. Nos vemos allí.

@@ -1,0 +1,17 @@
+Vídeo educativo en español, 16:9, 1080p, unos 3 minutos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (8 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Support Tools → Z.6 Assessment Tools" · "evidencia metodológica".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Z.6.1 LFI Assessment · Z.6.2 PEI · Z.6.3 PDRI · Z.6.4 CRI".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "7 variantes" · "Industrial · Infrastructure · Buildings · Oil & Gas EPC (+ Small)".
+Escena 5 (párrafo 5): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Escala 0–1000 · menos es mejor" · "Start → Live PDRI Score → PDF".
+Escena 6 (párrafo 6): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Declarar clase → PDRI · Productividad → PEI · Movilizar → CRI · Sin LFI → LFI Assessment".
+Escena 7 (párrafo 7): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "Z.6 convierte el juicio en evidencia medible · un PDRI bajo respalda tu clase AACE".
+Escena 8 (párrafo 8): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 7.1 · benchmarks y el Global CAPEX Monitor".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, y las siglas que se deletrean: PDRI ("pe-de-erre-i"), PEI ("pe-e-i"), CRI ("ce-erre-i"), LFI ("ele-efe-i"). Los nombres en inglés de la interfaz (Assessment Tools, LFI Assessment, PEI Assessment, PDRI Assessment, CRI Assessment, Live PDRI Score, Start, CAF Accuracy Calculator, Oil & Gas EPC) se mantienen tal cual. El código de menú Z.6 se dice "Zeta seis" y Z.6.3 "Zeta seis punto tres"; en pantalla van como Z.6, Z.6.3. Genera primero la escena 4 (la de las variantes) y escúchala.

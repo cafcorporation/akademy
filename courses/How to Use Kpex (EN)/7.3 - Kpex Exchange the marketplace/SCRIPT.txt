@@ -1,0 +1,13 @@
+Throughout the course you worked with cost data: curves, models and components calibrated for location and time. They're exactly right for Classes 5 to 3. But as the project matures towards Class 2 and Class 1, the estimate needs something more: real vendor prices. I'm Carlos Fuenmayor, and today we close the chain with Kpex Exchange.
+
+Kpex Exchange is the last link in the chain you saw in lesson one point two: the place where parametric data is replaced by the real price. And it isn't a simple shop: it's a multi-sided procurement and data marketplace that connects the platform's participants, so each one contributes something and gets something back.
+
+There are five participants. The owner or operator issues requests for quotation, the RFQs, and receives the bids inside the platform. The EPC browses pricing to inform the line items of its estimate. The vendor lists its equipment families and responds to RFQs. The data partner contributes historical cost datasets and earns recognition in the benchmarks. And the estimator uses live pricing and those same benchmarks to validate Class 5 and Class 4. The loop closes on its own: some ask, others answer, and the cost history grows with every one of them.
+
+The heart of the Exchange is the RFQ, the request for quotation. It works in three steps: the owner creates the RFQ describing the equipment package; vendors see it in their portal and submit a quote; and the owner receives all the bids inside Kpex, compares them and keeps the history. In the Class 2 workflow you saw in Module 3, this is the step where you replace parametric costs with real quotes and freeze your control baseline.
+
+Where do you see it? It depends on your profile. Everyone has the Kpex Exchange group, with Exchange Home, Product Catalog and Vendors. The owner adds a Procurement section, with My RFQs and New RFQ. The vendor has its Vendor Portal, with My Products and Browse RFQs. And the data partner, its own portal for submitting datasets. The same platform adapts to what each one comes to do.
+
+Hold on to this: Kpex Exchange turns the platform into an ecosystem. The place where you estimate is the same place where you request, receive and compare real prices, and where the cost history grows with every participant.
+
+A four-minute exercise: open Exchange Home, browse the Product Catalog and open a vendor's page. Think about the estimate from Module 4: which major item of equipment would you take to an RFQ first once the project reaches Class 2? With that you close Module 7. In the next module we look at support, the Knowledge Library and where Kpex is heading. See you there.

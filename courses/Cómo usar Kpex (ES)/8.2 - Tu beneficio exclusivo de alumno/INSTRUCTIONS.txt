@@ -1,0 +1,15 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 40 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (6 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-8.1-knowledge-library.png. Texto en pantalla: "Clasificar · Crear · Elegir la herramienta" · "Calibrar · Ciclo de vida · Comparar y reportar · Pedir precios reales".
+Escena 3 (párrafo 3): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "1 · Certificado Kpex Certified User · Akdemy + CAF · QR" · "2 · Descuento de bienvenida en tu membresía".
+Escena 4 (párrafo 4): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "1 · Completa las lecciones" · "2 · Examen final ≥ 70 %" · "3 · Certificado + código por correo" · "4 · Canjéalo antes de que venza".
+Escena 5 (párrafo 5): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "Credencial que demuestra lo que sabes + descuento para seguir".
+Escena 6 (párrafo 6): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Presenta ahora el examen final · 30 min" · "¡Enhorabuena! · Kpex Certified User".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, PMI, WBS, PDRI, CAPEX, OPEX, ABEX, QR. Mantén en inglés Estimate Wizard, Kpex Certified User, Kpex Exchange. QR se dice "cu erre".

@@ -1,0 +1,11 @@
+Kpex wasn't designed for a single kind of user. It's used by the engineer who estimates every day, but also by the project manager, the contractor and the asset owner. In this lesson we look at the four user profiles and what each one gets, so you can find your own case. I'm Carlos Fuenmayor.
+
+There are four profiles on one platform. The cost engineer and estimator, who prepares the estimates. The project manager, who works in management language. The EPC contractor and engineering consultant, who benchmark and deliver reports. And the owner, operator or national oil company, who reviews and decides. Each one sees and uses Kpex in a different way.
+
+Let's start with the first two. The cost engineer prepares parametric and detailed estimates, from Class five, order of magnitude, through to Class two, the control estimate; component costs, location factors and cost indices all sit in one workflow. The project manager, by contrast, can start an estimate in project-management language, without being a cost-engineering expert: Kpex translates the scope into a structured cost breakdown.
+
+The other two profiles look at cost from the outside. The EPC contractor and the consultant benchmark their project costs against historical data, validate feasibility and produce client-ready PDF reports. And the owner, operator or national oil company reviews the estimates EPCs submit, requests equipment pricing through Kpex Exchange, and tracks the full lifecycle cost: CAPEX, OPEX and ABEX, in a single platform.
+
+Which profile are you? If you estimate every day, your starting point is the first-estimate and calibration modules. If you manage projects, the AACE classes and the Estimate Wizard. If you work at an EPC, the cost modules and the reports. And if you're an owner, the benchmarks and the Exchange. Hold on to this idea: Kpex speaks the language of those who estimate and of those who decide. That is why the same number works for the engineer, the manager and the investor.
+
+Before you move on, think about your own organisation and place each colleague, client or supplier into one of these four profiles. That closes Module one. In the next lesson we start using the platform: how to access and sign up for Kpex. Next: two point one, Access and sign-up.

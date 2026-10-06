@@ -1,0 +1,15 @@
+Picture this: you have the cost of a plant, but it was built from US Gulf Coast data, and your project is on another continent. How do you move it? With the Location Factor. I'm Carlos Fuenmayor, and in this lesson we look at Z four, the engine that takes any cost to any location on earth.
+
+The CAF LFI, the Location Factor Index, adjusts any base cost to any location on earth. It covers one hundred and ninety-six countries across six continents. Its reference point is the US Gulf Coast, which equals one: the AACE standard. Above one, costlier than the Gulf Coast; below one, cheaper.
+
+Each country's final factor combines four components: the country's own drivers, procurement with duty and freight, labour, and engineering. Procurement, labour and engineering are averaged, and that average is multiplied by the country drivers. That's the formula you see on screen.
+
+And here's the subtle part. Not every model is calibrated on the Gulf Coast; some come from another country. So Kpex records each model's country of origin and applies the destination LFI divided by the origin LFI. When you pick your project country, Kpex moves the cost from its true origin to your location. The numbers in the on-screen example are made up, purely to show the mechanics.
+
+For every country, Kpex opens a full dossier: the four factors, the procurement, labour and engineering inputs, a profile with flag and a map of principal cities, and the major recent projects with their published CAPEX. It's far more than a single number.
+
+How do you use it in an estimate? Two ways. Globally: the country you set in the Estimate Wizard's Basis of Estimate step drives the LFI for the whole estimate. And per line: for projects spanning several locations, you adjust each line item's LFI separately in the WBS Builder. Your country or region has no standard factor? The Z six point one tool builds you a custom one.
+
+Hold on to this: the LFI is not just how much dearer it is here. It is an origin-to-destination factor, destination LFI divided by origin LFI, built from country, procurement, labour and engineering.
+
+In the next lesson we look at the other engine, Z five, the Cost Index: the one that keeps costs current over time.

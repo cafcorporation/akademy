@@ -97,7 +97,9 @@ const instructions = [
 const script = scenes.map((s) => s.script).filter(Boolean).join('\n\n') + '\n';
 
 // ── Write the kit ─────────────────────────────────────────────────────────────
-const kitDir = path.join(ROOT, 'courses', COURSE_DIR[lang], `${id} - ${meta.title}`);
+// Windows forbids <>:"/\|?* and trailing dots/spaces in folder names — sanitise the title.
+const safeTitle = (meta.title || id).replace(/[<>:"/\\|?*]/g, '').replace(/\s+/g, ' ').trim().replace(/[. ]+$/, '');
+const kitDir = path.join(ROOT, 'courses', COURSE_DIR[lang], `${id} - ${safeTitle}`);
 fs.mkdirSync(kitDir, { recursive: true });
 let copied = 0, missing = 0;
 for (const abs of order) {

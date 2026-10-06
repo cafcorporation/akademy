@@ -1,0 +1,11 @@
+Kpex no fue diseñada para un solo tipo de usuario. La usa el ingeniero que estima todos los días, pero también el gerente de proyecto, el contratista y el dueño del activo. En esta lección vemos los cuatro perfiles de usuario y qué obtiene cada uno, para que identifiques tu propio caso. Soy Carlos Fuenmayor.
+
+Son cuatro perfiles sobre una misma plataforma. El ingeniero de costos y estimador, que prepara los estimados. El gerente de proyecto, que trabaja en lenguaje de gestión. El contratista EPC y la consultora de ingeniería, que comparan y entregan reportes. Y el dueño, operador o compañía nacional, que evalúa y decide. Cada uno ve y usa Kpex de una manera distinta.
+
+Empecemos por los dos primeros. El ingeniero de costos prepara estimados paramétricos y detallados, desde la Clase cinco, de orden de magnitud, hasta la Clase dos, el estimado de control; tiene en un solo flujo los costos de componentes, los factores de ubicación y los índices de costo. El gerente de proyecto, en cambio, puede iniciar un estimado en lenguaje de gestión de proyectos, sin ser experto en ingeniería de costos: Kpex traduce el alcance a una estructura de costos ordenada.
+
+Los otros dos perfiles miran el costo desde fuera. El contratista EPC y la consultora comparan los costos de sus proyectos con datos históricos, validan la factibilidad y generan reportes PDF listos para el cliente. Y el dueño, operador o compañía nacional evalúa los estimados que le presentan los EPC, pide precios de equipos a través de Kpex Exchange y sigue el costo del ciclo de vida completo: CAPEX, OPEX y ABEX, en una sola plataforma.
+
+¿Cuál es tu perfil? Si estimas todos los días, tu punto de partida son los módulos del primer estimado y de la calibración. Si gestionas proyectos, las clases AACE y el Estimate Wizard. Si trabajas en un EPC, los módulos de costo y los reportes. Y si eres dueño, los benchmarks y el Exchange. Quédate con esta idea: Kpex habla el idioma de quien estima y el de quien decide. Por eso el mismo número sirve al ingeniero, al gerente y al inversionista.
+
+Antes de seguir, piensa en tu organización y ubica a cada colega, cliente o proveedor en uno de estos cuatro perfiles. Con esto cerramos el módulo uno. En la siguiente lección empezamos a usar la plataforma: cómo acceder y registrarte en Kpex. Siguiente: dos punto uno, Acceso y registro.

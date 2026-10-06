@@ -1,0 +1,17 @@
+Educational video in English, 16:9, 1080p, about 3 minutes. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (8 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-6.3-cost-index.png. On-screen text: "Geography: LFI · Time: Cost Index" · "monthly · per family".
+Scene 3 (paragraph 3): Layout B. Background: 02-6.3-cost-index.png. On-screen text: "No buttons · prices "current to" this month · today's money".
+Scene 4 (paragraph 4): Layout B. Background: 02-6.3-cost-index.png. On-screen text: "CME-CI (composite)" · "EQ · ST · PI · EL · IN · CV · LB · +6".
+Scene 5 (paragraph 5): Layout B. Background: 02-6.3-cost-index.png. On-screen text: "Americas · Europe · Asia-Pacific · Japan · Middle East & Africa" · "base 2010 = 100".
+Scene 6 (paragraph 6): Layout B. Background: 02-6.3-cost-index.png. On-screen text: "Historical Chart · Escalation Calculator · Data Table · Index Comparison · PPI Source Data".
+Scene 7 (paragraph 7): Layout A. Background: 03-bg-light.jpg. On-screen text: "Monthly · per family · multi-region · applied itself, on read".
+Scene 8 (paragraph 8): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Next: 6.4 · Z.6 · PDRI, PEI and CRI assessments".
+
+Pronunciation: set up Kpex, CEPCI, ENR (spelled out), CME-CI (spelled out), PPI (spelled out) and the English tab names (Historical Chart, Escalation Calculator, Data Table, Index Comparison, PPI Source Data) in HeyGen's dictionary. The sub-index codes (EQ, ST, PI, EL, IN, CV, LB) appear only on screen; in speech the families are named in words. The menu code Z.5 is read "Z five"; on screen it stays as Z.5. Generate scene 4 first (the sub-indices) and listen.

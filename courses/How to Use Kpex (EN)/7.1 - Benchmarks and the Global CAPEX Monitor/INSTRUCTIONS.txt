@@ -1,0 +1,16 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 50 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (7 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-7.1-cost-curve.png. On-screen text: "B.1 · Cost Curves" · "Find your facility → Calculate" · "your point + ± band".
+Scene 3 (paragraph 3): Layout B. Background: 02-7.1-cost-curve.png. On-screen text: "exponent n < 1 → cost per unit falls" · "level: Facility · Functional Unit" · "country of origin → LFI · Cost Index".
+Scene 4 (paragraph 4): Layout B. Background: 03-7.2-reports-menu.png. On-screen text: "B.2 · KPI Library" · "P10 low · P50 median · P90 high" · "reality check".
+Scene 5 (paragraph 5): Layout B. Background: 03-7.2-reports-menu.png. On-screen text: "Global CAPEX Monitor" · "public register · by country · announced CAPEX" · "Insights · from Practitioner".
+Scene 6 (paragraph 6): Layout A. Background: 04-bg-light.jpg. On-screen text: "Calculate → check → contextualise".
+Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Exercise: double the capacity and watch the cost per unit" · "Next: 7.2 · The three portfolio reports".
+
+Pronunciation: set up Kpex, AACE, PMI, CAPEX, PDRI in HeyGen's dictionary, and check the percentiles read as "P ten", "P fifty", "P ninety". Keep Cost Curves, KPI Library, Find your facility, Calculate, Global CAPEX Monitor, Insights, Location Factor, Cost Index, Practitioner in English.

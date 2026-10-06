@@ -1,0 +1,15 @@
+Ya sabemos llevar un costo a cualquier lugar. Ahora falta llevarlo a cualquier momento: a dinero de hoy. Ese es el trabajo del segundo motor de Kpex, el CAF Cost Index. Soy Carlos Fuenmayor, y en esta lección lo vemos por dentro.
+
+Si el Location Factor se ocupa de la geografía, el Cost Index se ocupa del tiempo: es la base de datos propia de Kpex para la escalación de costos. Frente a índices anuales como CEPCI o ENR tiene dos ventajas: se actualiza cada mes, y se desagrega en subíndices por familia, para que cada componente de costo escale con el índice que de verdad lo mueve.
+
+Y este es el punto más importante: no hay que pulsar ningún botón. El catálogo muestra los precios actualizados al mes en curso y se vuelve a calcular solo cada vez que el índice se actualiza. Lo que ves siempre está en dinero de hoy.
+
+¿Qué subíndices hay? Un compuesto general, el CME-CI, que se usa como factor único cuando no necesitas desglose. Y luego, por familia: equipos, acero estructural, tubería, eléctrico, instrumentación, civil, mano de obra, y seis subíndices más para aislamiento, pintura, mecánica, ingeniería, gestión de proyectos e indirectos. El conjunto vigente lo ves en la propia herramienta.
+
+Además, el índice es multirregión. Junto al original de Americas hay índices para Europa, Asia-Pacífico, Japón y Oriente Medio y África, cada uno construido con las estadísticas oficiales de su región, con el mismo método y el mismo árbol de familias. Así la escalación refleja de dónde viene realmente el equipo del proyecto. El periodo base es dos mil diez igual a cien, con datos mensuales desde entonces hasta hoy.
+
+Dentro de Zeta cinco trabajas por pestañas. Historical Chart grafica la serie histórica por subíndice. El Escalation Calculator calcula el factor de escalación entre dos periodos para un importe. Data Table trae los valores mensuales. Index Comparison pone todos los subíndices lado a lado. Y PPI Source Data muestra las series oficiales que los componen. También puedes generar un snapshot imprimible.
+
+Quédate con esto: el CAF Cost Index es mensual, por familia y multirregión, y se aplica solo, al leer. Por eso en Kpex nunca trabajas con una cifra vieja.
+
+En la siguiente lección cerramos el Módulo Zeta con Zeta seis, las evaluaciones: la evidencia que respalda la clase de tu estimado.

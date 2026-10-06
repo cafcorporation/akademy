@@ -1,0 +1,16 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 45 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (7 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-7.3-exchange-home.png. On-screen text: "last link in the chain" · "parametric data → real price" · "procurement + data".
+Scene 3 (paragraph 3): Layout B. Background: 02-7.3-exchange-home.png. On-screen text: "Owner/Operator · EPC · Vendor · Data Partner · Estimator".
+Scene 4 (paragraph 4): Layout B. Background: 02-7.3-exchange-home.png. On-screen text: "RFQ in 3 steps" · "1 create · 2 quote · 3 compare" · "replaces parametric → freezes the baseline".
+Scene 5 (paragraph 5): Layout B. Background: 03-2.3-sidebar-by-profile.png. On-screen text: "depends on your profile" · "all: Exchange Home · Product Catalog · Vendors" · "Owner: Procurement · Vendor: Vendor Portal · Data Partner: Datasets".
+Scene 6 (paragraph 6): Layout A. Background: 04-bg-light.jpg. On-screen text: "You estimate and buy in the same place → an ecosystem".
+Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Exercise: open a Vendor page" · "End of Module 7 · Next: 8.1 · Support and next steps".
+
+Pronunciation: set up Kpex, RFQ, EPC, CAPEX, AACE in HeyGen's dictionary. Keep the interface names in English (Kpex Exchange, Exchange Home, Product Catalog, Vendors, Procurement, My RFQs, New RFQ, Vendor Portal, My Products, Browse RFQs, Data Partner, datasets). RFQ can be read "R-F-Q" or "request for quotation" the first time.

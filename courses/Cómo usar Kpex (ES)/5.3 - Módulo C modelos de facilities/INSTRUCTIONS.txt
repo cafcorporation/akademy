@@ -1,0 +1,15 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 45 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (6 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "Módulo C · Facilities Cost Models" · "150 modelos · 6 sectores".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "C.1 Process Plants · C.2 Infrastructure · C.3 Buildings · C.4 Renewable Energy · C.5 Nuclear · C.6 Mining".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "CBS · Cost Breakdown Structure · AACE 18R-97" · "de la cuenta a la hoja".
+Escena 5 (párrafo 5): Layout B. Fondo: 03-5.2-curva-de-costo.png. Texto en pantalla: "Curva Clase 5 = suma de componentes validados" · "Facility (B) ↔ Módulo C ↔ equipos (A)".
+Escena 6 (párrafo 6): Layout A. Fondo: 04-bg-light.jpg. Texto en pantalla: "El Módulo C es el puente entre la curva y el detalle" · "Siguiente: 5.4 · Módulos D y E".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, CBS (deletreado), AACE, FPSO (deletreado), IAEA (deletreado o "la agencia de energía atómica"), Power-to-X, y los nombres en inglés (Facilities Cost Models, Cost Drivers, Cost Breakdown Structure, topsides, Renewable Energy). Genera primero la escena 3 (la de los sectores) y escúchala.

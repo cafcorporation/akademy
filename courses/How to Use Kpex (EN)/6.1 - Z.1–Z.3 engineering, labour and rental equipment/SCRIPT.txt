@@ -1,0 +1,13 @@
+You already know the cost modules: they supply the data. But a cost figure is only useful if it's in your country and in today's money. That's the job of Module Z, Kpex's calibration layer. I'm Carlos Fuenmayor, and in this lesson we look at its first three tools: the ones that turn hours and machines into money.
+
+Module Z lives in the sidebar, under Support Tools, Z — Support Tools. These are not optional add-ons: they underpin every Kpex estimate. It holds six tools. In this lesson we cover the first three: Z one, engineering and home office; Z two, labour; and Z three, rental equipment. The other three, Location Factor, Cost Index and assessments, come in the next lessons.
+
+Z one covers the EPCM component: engineering, procurement and construction management. It gives you reference rates by discipline plus home-office overheads, so you can build that line without detailed man-hour counting, which is very handy at the early classes. Z two is the labour database: you pick trade, jurisdiction, shift and overtime, and it returns a fully-loaded crew rate, with direct wages, social charges, site accommodation and supervision. It's essential from Class three onward.
+
+Z three is a browsable catalogue of construction-equipment rentals, organised by family: excavation, lifting, compaction, pumping and more. You expand a family, open an item, and a rate session starts: Kpex builds the price per hour, day, week and month from the machine's investment cost, ownership plus operating. You adjust the capacity and spec options, and the price moves.
+
+And here's the calibration magic: those rates are escalated to the current month on the Cost Index by equipment family, adjusted to your territory with the Location Factor and to your currency, with a US dollar base. On top of that, Z three connects to Z two to build daily construction cost rates: machine plus crew, in a single number.
+
+Hold on to this: Z one, Z two and Z three turn disciplines, crews and machines into rates escalated to today and adjusted to your location. They are the foundation of indirect and construction costs once an estimate gains definition.
+
+A quick exercise: open Z three, pick a crane and see how much its rate changes when you switch country. In the next lesson we step into Z four, the Location Factor: the tool that takes any cost to any location on earth.

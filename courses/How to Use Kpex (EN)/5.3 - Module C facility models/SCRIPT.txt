@@ -1,0 +1,11 @@
+We already have the item, with Module A, and the curve, with Module B. What's missing is the middle: a whole plant you can open account by account. I'm Carlos Fuenmayor, and in this lesson we look at Module C, the facility models.
+
+If Module A gives you the cost of one piece of equipment, Module C, Facilities Cost Models, gives you the cost of an entire facility: from a solar PV plant to the topsides of an offshore FPSO. You enter the facility parameters, its capacity, area and configuration, and you get total installed cost ranges. Kpex holds one hundred and fifty facility models across six sectors, aligned with the Module B curves.
+
+The models split into six sectors. C one, industrial process plants: refineries, chemicals, power generation. C two, infrastructure: highways, railroads, pipelines and terminals. C three, buildings. C four, renewable energy, very complete: solar, onshore and offshore wind, green and blue hydrogen, battery storage and Power-to-X. C five, nuclear, with IAEA methodology. And C six, mining.
+
+A facility model is not a black box. Every facility opens element by element, from the CBS account, the Cost Breakdown Structure, down to the leaf, the smallest element in the breakdown. The estimator is a step-by-step wizard: you complete the Cost Drivers, capacity and configuration, and Kpex generates the breakdown automatically in the CBS table aligned with AACE eighteen R ninety-seven. There is no separate button: the CBS appears once the drivers are complete.
+
+And here is the idea that ties Kpex together: a facility's Class five cost curve equals the sum of its validated components. That is why Module B's Facility-level curves map one-to-one to Module C models. The practical payoff is useful: when your project matures and you move from a capacity-based estimate to one with more definition, you don't switch worlds, you keep working on the same structure, just in more detail.
+
+To sum up: Module C is the bridge between the curve, at Class five, and the detail, a complete facility opened account by account. But building is not the asset's whole story. In the next lesson we complete the lifecycle with Modules D and E: OPEX and ABEX.

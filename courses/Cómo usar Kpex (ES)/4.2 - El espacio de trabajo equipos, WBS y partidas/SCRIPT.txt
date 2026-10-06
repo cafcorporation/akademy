@@ -1,0 +1,13 @@
+El asistente crea el estimado; pero quien lo llena de verdad es el espacio de trabajo. Soy Carlos Fuenmayor, y en esta lección entramos a ese espacio: equipos, WBS y partidas de costo.
+
+Al crear un estimado, Kpex lo abre en su propio espacio de trabajo. Arriba tienes los botones de acción y, debajo, cuatro bloques de resumen: AACE Classification, con la clase, el rango de precisión y la moneda; Basis of Estimate, con fechas, ubicación y notas; Cost Adjustments, la cascada del costo que va del TIC base, más contingencia y escalación, hasta el total ajustado; y WBS Cost Breakdown, el desglose por estructura de trabajo.
+
+Los botones principales son cuatro. Continue Estimate te lleva a la herramienta correcta según la clase: en Clase 5 abre el formulario de curva y capacidad, y en las demás clases, el Equipment List Builder. WBS Builder es el constructor de las partidas. Edit cambia título, fechas, contingencia, escalación y ubicación, pero no toca las partidas de costo. Y Procurement aparece solo en los estimados de Clase 3, para gestionar paquetes y ofertas.
+
+El Equipment List Builder trabaja en tres pasos: primero defines las áreas de la planta, luego añades los equipos a cada área, y por último eliges el método de costo directo, con las asignaciones KPEX-HF o el Lang Factor. Los equipos salen del catálogo del Módulo A, y cada uno entra con su cantidad y sus parámetros de dimensionamiento; el costo aparece al instante, ya con los ajustes de ubicación y escalación aplicados.
+
+Todo esto se organiza en la WBS, la estructura de desglose del trabajo, alineada con el marco TCM de AACE y con el estándar de WBS del PMI. En el WBS Builder construyes la jerarquía Facility, Area, Unit y Cost Item, e introduces cada partida con su cantidad, su precio unitario y su total. Puedes agrupar, reordenar y etiquetar las partidas por disciplina o por sistema; y esa WBS alimenta el resumen del estimado y los reportes.
+
+Y por debajo de todo, dos motores trabajan solos. El CAF LFI, en Zeta cuatro, lleva cada costo desde el país de origen del modelo hasta tu ubicación. El CAF Cost Index, en Zeta cinco, lo escala al mes actual. El LFI se aplica de forma global, pero también puedes ajustarlo partida por partida en el WBS Builder, útil en proyectos con varias ubicaciones. La idea clave: el asistente crea el estimado, el espacio de trabajo lo llena, y la calibración corre sola.
+
+Ya tienes el estimado construido. En la siguiente lección lo dejamos listo para el cliente: moneda, unidades, el PDRI y el reporte en PDF. Vamos.

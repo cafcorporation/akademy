@@ -1,0 +1,11 @@
+We start opening Kpex's database at its finest-grained layer: the cost of a single piece of equipment. I'm Carlos Fuenmayor, and in this lesson we look at Module A, the building block of the most detailed estimates.
+
+Module A, Process Plant Components, is the cost of the individual equipment items in a process plant: more than seven hundred parametric models of pumps, compressors, vessels, heat exchangers and conveyors. They all work the same way: you enter the item's sizing parameters, its capacity, size or power, in metric or imperial, and Kpex returns a cost range, not a single number.
+
+The equipment is grouped by families. A one one holds the rotating equipment: compressors, pumps, turbines and fans. A one two, the static equipment: vessels, columns and tanks. Then heat transfer, material handling and process packages. And look at the last row: the bulks, that is piping, instrumentation, electrical and civil, are not priced piece by piece at this stage, they are estimated as allowances, a proportion of the major equipment. Those factors come from Module B, which we will meet in the next lesson.
+
+Every price arrives with three properties. First, a known basis: US Gulf Coast, with a Location Factor of one, in the current month, escalated automatically on the CAF Cost Index, so you never work from a stale figure. Second, it is material-aware: the same item does not cost the same in carbon steel, stainless steel or a special alloy. And third, it is a range with statistical confidence bounds, which in an early estimate is exactly what you need: how much, and how uncertain.
+
+Hold on to this: Module A gives you the cost of each piece of equipment, sized by you, with its material, an up-to-date basis and a confidence band. It is the building block of Kpex's most detailed estimates.
+
+A quick exercise: pick a centrifugal pump, give it a capacity and note the range; then change the material and see how far it moves. In the next lesson we move up a level to Module B and its cost curves.

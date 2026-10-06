@@ -1,0 +1,13 @@
+Un buen estimado no solo dice cuánto cuesta; dice con qué precisión, dónde, cuándo y con qué nivel de definición. Soy Carlos Fuenmayor, y en esta lección lo dejamos listo para entregar al cliente.
+
+Primero, tu moneda. Puedes leer todo el estimado en tu propia moneda: totales, desglose, partidas, reporte impreso y Excel. La moneda se elige en el asistente, en la tarjeta Estimate Identity. Y hay dos reglas: la base se guarda siempre en dólares, para que las comparaciones con benchmarks sean coherentes, y la tasa, que viene de la referencia diaria del Banco Central Europeo, queda congelada en el estimado.
+
+Segundo, tus unidades. En los catálogos de curvas de costo y en las páginas de facilities cambias entre sistema métrico e imperial con un solo interruptor. Ojo con un detalle: el cambio es solo de lectura, muestra las equivalencias; ni el modelo subyacente ni los precios se alteran.
+
+Tercero, el PDRI, el Project Definition Rating Index. Puntúa de forma objetiva qué tan definido está tu proyecto, y lo ejecutas en cualquier etapa desde Zeta seis, Assessment Tools. Tiene siete variantes, de industrial a infraestructura o edificación, y puntúa de cero a mil, donde más bajo es mejor definido. ¿Por qué importa? Porque es tu evidencia metodológica de que una Clase 3 es, de verdad, una Clase 3. Por ahora se corre por separado y conservas su PDF como respaldo.
+
+Cuarto, el reporte. Desde el espacio de trabajo pulsas Preview slash Print PDF y Kpex abre una versión lista para imprimir en una pestaña nueva, desde donde la imprimes o la guardas como PDF. El reporte con la marca incluye el encabezado del proyecto, la declaración de la clase AACE, el rango de precisión, el desglose del costo por disciplina, los factores de LFI y de Cost Index aplicados, la puntuación PDRI y el bloque de firma del estimador.
+
+Junto al PDF tienes Export Excel, que descarga el estimado como un libro con tres hojas: Summary, Detail y Basis. En Clase 4 el espacio de trabajo te remite a los botones del informe BOE, y en Clase 5 tienes además Print Basis of Estimate. Quédate con la idea clave: un reporte defendible no dice solo cuánto; dice con qué precisión, dónde, cuándo y con qué nivel de definición.
+
+Con esto ya sabes construir y entregar un estimado completo. En la siguiente lección lo pones en práctica: un estimado Clase 5 de principio a fin. Vamos.

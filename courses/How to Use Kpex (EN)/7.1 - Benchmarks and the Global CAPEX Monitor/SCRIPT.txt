@@ -1,0 +1,13 @@
+So far you've built estimates. Now comes the reverse question: what should this cost, before a design even exists? That's what the Intelligence group is for, and inside it, the Benchmarks: the Class 5 and Class 4 screening engine. I'm Carlos Fuenmayor, and in this lesson we look at the two kinds of historical reference and the Global CAPEX Monitor.
+
+The first kind are the Cost Curves. Each curve shows how total installed cost scales with capacity: dollars per barrel a day for a refinery, dollars per kilowatt for a power plant. You open Intelligence, Benchmarks, Cost Curves, and use the Find your facility guided picker, which walks you from sector to family to facility. You enter the capacity, press Calculate, and Kpex plots your point on the curve, with its plus-minus band around it. Then you print the one-page report and attach it to your Class 5 estimate.
+
+Two things worth being clear about. First, the curves are magnitude-aware: because the exponent n is below one, the cost per unit falls as the project grows. A flat rate misses that behaviour. Second, every curve has a level — a whole facility or a functional unit — and it carries its country of origin, so the Location Factor points the right way and its escalation lives on the Cost Index.
+
+The second kind of reference are the KPI ranges, in the KPI Library. They're a reality check: for each project type, region and decade they give you three numbers. P10, the low end, where only ten percent of projects cost less; P50, the median, the typical value; and P90, the high end. If your estimate lands outside the P10-to-P90 band it isn't necessarily wrong, but you should be able to explain why.
+
+And to see what is actually being built around the world, there's the Global CAPEX Monitor: a public register of large industrial, energy and infrastructure projects, organised by country. Each project shows its announced CAPEX and capacity, and when you open it you see its area-by-area breakdown. It's the reference set behind the curves. You'll find it on the public website under Insights; without a membership you see a preview of the first five countries, and with an active membership, from the Practitioner tier, the full register opens.
+
+Hold on to the order: first you calculate with the curve, then you check against the P10, P50, P90 ranges, and finally you use the Global CAPEX Monitor to see where capital is actually being committed. Calculate, check, contextualise.
+
+A five-minute exercise: open a Cost Curve, calculate a cost, double the capacity and watch what happens to the cost per unit. In the next lesson we move to the three portfolio reports, where these benchmarks turn into portfolio decisions. See you there.

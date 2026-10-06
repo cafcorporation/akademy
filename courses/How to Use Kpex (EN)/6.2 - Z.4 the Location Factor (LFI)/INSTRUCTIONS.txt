@@ -1,0 +1,17 @@
+Educational video in English, 16:9, 1080p, about 3 minutes. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (8 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "196 countries · 6 continents" · "US Gulf Coast = LFI 1.000".
+Scene 3 (paragraph 3): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "E = A × (B + C + D) / 3" · "A country · B procurement · C labour · D engineering".
+Scene 4 (paragraph 4): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "Applied factor = LFI(destination) ÷ LFI(origin)" · "example numbers: made up".
+Scene 5 (paragraph 5): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "Country dossier · factors · profile · major projects with published CAPEX".
+Scene 6 (paragraph 6): Layout B. Background: 03-4.1-estimate-wizard.png. On-screen text: "Global: Basis of Estimate" · "Per line: WBS Builder" · "no standard factor → Z.6.1".
+Scene 7 (paragraph 7): Layout A. Background: 04-bg-light.jpg. On-screen text: "The LFI is origin-to-destination: LFI(destination) ÷ LFI(origin)".
+Scene 8 (paragraph 8): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Next: 6.3 · Z.5 · the CAF Cost Index".
+
+Pronunciation: set up Kpex, AACE, CAPEX and the spelled-out acronym LFI in HeyGen's dictionary. The UI names (Location Factor, Basis of Estimate, Estimate Wizard, WBS Builder) stay in English. The menu code Z.4 is read "Z four"; on screen it stays as Z.4. Generate scene 4 first (the origin-to-destination formula) and listen.

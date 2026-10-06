@@ -1,0 +1,17 @@
+Vídeo educativo en español, 16:9, 1080p, unos 3 minutos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (8 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-6.3-cost-index.png. Texto en pantalla: "Geografía: LFI · Tiempo: Cost Index" · "mensual · por familia".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-6.3-cost-index.png. Texto en pantalla: "Sin botones · precios "current to" el mes actual · dinero de hoy".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-6.3-cost-index.png. Texto en pantalla: "CME-CI (compuesto)" · "EQ · ST · PI · EL · IN · CV · LB · +6".
+Escena 5 (párrafo 5): Layout B. Fondo: 02-6.3-cost-index.png. Texto en pantalla: "Americas · Europe · Asia-Pacific · Japan · Middle East & Africa" · "base 2010 = 100".
+Escena 6 (párrafo 6): Layout B. Fondo: 02-6.3-cost-index.png. Texto en pantalla: "Historical Chart · Escalation Calculator · Data Table · Index Comparison · PPI Source Data".
+Escena 7 (párrafo 7): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "Mensual · por familia · multirregión · aplicado solo, al leer".
+Escena 8 (párrafo 8): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 6.4 · Z.6 · evaluaciones PDRI, PEI y CRI".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, CEPCI ("cep-ci"), ENR (deletreado), CME-CI (deletreado), PPI ("pe-pe-i"), y los nombres en inglés de las pestañas (Historical Chart, Escalation Calculator, Data Table, Index Comparison, PPI Source Data). Las siglas de subíndice (EQ, ST, PI, EL, IN, CV, LB) solo van en pantalla; en el habla se nombran las familias en palabras. El código de menú Z.5 se dice "Zeta cinco"; en pantalla va como Z.5. Genera primero la escena 4 (la de los subíndices) y escúchala.

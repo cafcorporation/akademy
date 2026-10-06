@@ -1,0 +1,16 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 55 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (7 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-3.2-cost-curves.png. Texto en pantalla: "Clase objetivo" · "Módulos · PDRI (Z.6.3) · Reporte etiquetado".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-3.2-cost-curves.png. Texto en pantalla: "Clase 5 · Cost Curves (B) + facility (C)" · "Clase 4 · modelos paramétricos (C)".
+Escena 4 (párrafo 4): Layout B. Fondo: 03-4.2-estimate-workspace.png. Texto en pantalla: "Clase 3 · Módulo A + WBS" · "Clase 2 · MTO + cotizaciones (Exchange)".
+Escena 5 (párrafo 5): Layout B. Fondo: 04-3.1-aace-classes.png. Texto en pantalla: "curva → parámetros → equipos → precios reales" · "análoga → paramétrica → ascendente".
+Escena 6 (párrafo 6): Layout A. Fondo: 05-bg-light.jpg. Texto en pantalla: "Z.4 LFI (dónde) · Z.5 Cost Index (cuándo)" · "Elegir la clase = elegir la herramienta".
+Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 4.1 · El Estimate Wizard en 5 pasos".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE (deletreado, "A-A-C-E"), PDRI, PMI, WBS, MTO, TIC, LFI, CAI, KPEX-HF ("Kpex-hache-efe"), Lang Factor, y los nombres de la UI (Cost Curves, Calculate, Kpex Exchange, Estimate Progression). "Zeta cuatro / cinco / seis punto tres" para los módulos Z. Genera primero la escena 4 y escúchala.
