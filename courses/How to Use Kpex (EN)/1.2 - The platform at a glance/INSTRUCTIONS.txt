@@ -1,0 +1,15 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 25 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (6 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-1.2-sidebar.png. On-screen text: "5 layers" · "Cost Estimation · Modules A–E · Support Tools Z · Intelligence · Kpex Exchange".
+Scene 3 (paragraph 3): Layout B. Background: first half 03-5.1-modulo-a-catalogo.png; second half, from "Support Tools Z calibrates it", 04-6.3-cost-index.png. On-screen text: "1 · Data" · "2 · Calibration" · "LFI · Cost Index · PDRI".
+Scene 4 (paragraph 4): Layout B. Background: three cuts in sequence: 05-4.2-estimate-workspace.png → 06-7.1-cost-curve.png → 07-7.3-exchange-home.png. On-screen text: "3 · Estimate" · "4 · Benchmark" · "5 · Real price".
+Scene 5 (paragraph 5): Layout A. Background: 08-bg-light.jpg. On-screen text: "Data → calibration → estimate → benchmark → real price".
+Scene 6 (paragraph 6): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Next: 1.3 · Who uses Kpex".
+
+Pronunciation: set up Kpex, AACE, PDRI, CAPEX and the UI names (Location Factor, Cost Index, Kpex Exchange) in HeyGen's dictionary. Generate scene 3 or 4 first (the busiest ones) and listen.

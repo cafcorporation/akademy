@@ -1,0 +1,11 @@
+Cuando abres Kpex por primera vez, la barra lateral tiene muchos grupos y es fácil perderse. Pero detrás hay una estructura muy simple: cinco capas. Si entiendes las cinco, ya sabes moverte por toda la plataforma. Soy Carlos Fuenmayor, y en esta lección recorremos Kpex de un vistazo.
+
+Cada capa es un grupo de la barra lateral. La primera, Cost Estimation, es donde creas tus estimados. La segunda, los Módulos de costo A a E, es la base de datos: equipos, facilities, curvas, operación y abandono. La tercera, Support Tools Z, calibra esos datos. La cuarta, Intelligence, compara y reporta. Y la quinta, Kpex Exchange, es el marketplace con precios reales de proveedores.
+
+La clave es cómo se conectan, como una cadena. Primero, los Módulos de costo aportan el dato: un equipo, una facility o una curva. Luego, el Módulo Z lo calibra: lo lleva a tu país con el Location Factor, a hoy con el Cost Index, y a tu nivel de definición con el PDRI.
+
+Después, Cost Estimation organiza ese dato en un estimado, con su clase AACE y su WBS. Intelligence lo compara contra más de cuatrocientas treinta curvas históricas y lo reporta. Y cuando el proyecto madura, Kpex Exchange reemplaza la estimación por precios reales de proveedores.
+
+Quédate con esta frase: dato, calibración, estimado, comparación, precio real. Cada capa de Kpex es un eslabón de esa cadena. En cuanto la ves así, la barra lateral deja de ser una lista y se convierte en un recorrido.
+
+Un ejercicio: abre un elemento de cada grupo y escribe en una línea qué ves. Al final del curso vuelve a esa lista y notarás cuánto más entiendes. En la siguiente lección vemos quién usa Kpex en el día a día.

@@ -1,0 +1,15 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 40 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (6 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-2.1-sign-in.png. On-screen text: "caf-corporation.com" · "Chrome · Edge · Firefox · Safari" · "No installation".
+Scene 3 (paragraph 3): Layout B. Background: 03-2.2-dashboard-zones.png. On-screen text: "App interface: English only" · "In the course: English names + explanation".
+Scene 4 (paragraph 4): Layout B. Background: 04-0.2-register.png. On-screen text: "1 · Choose Plan" · "2 · Account" · "3 · Payment" · "Verify your email · 6-digit code".
+Scene 5 (paragraph 5): Layout B. Background: 02-2.1-sign-in.png. On-screen text: "Course: account provisioned with your purchase" · "Sign In · Keep me signed in · Forgot password? · Sign Out".
+Scene 6 (paragraph 6): Layout A. Background: 01-bg-dark.jpg. On-screen text: "support@caf-corporation.com" · "Next: 2.2 · The Dashboard".
+
+Pronunciation: set up Kpex in HeyGen's dictionary, and check how the web address (caf-corporation.com) and email (support@caf-corporation.com) read — in the script they're written phonetically ("dash", "dot", "at") so the avatar reads them cleanly. Keep the UI names in English (Sign In, Keep me signed in, Forgot password?, Sign Out, Choose Plan, Account, Payment, My Account).

@@ -1,0 +1,15 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 40 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (6 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-2.1-sign-in.png. Texto en pantalla: "caf-corporation.com" · "Chrome · Edge · Firefox · Safari" · "Sin instalación".
+Escena 3 (párrafo 3): Layout B. Fondo: 03-2.2-dashboard-zones.png. Texto en pantalla: "Interfaz de la app: solo inglés" · "En el curso: nombres en inglés + explicación en español".
+Escena 4 (párrafo 4): Layout B. Fondo: 04-0.2-register.png. Texto en pantalla: "1 · Choose Plan" · "2 · Account" · "3 · Payment" · "Verify your email · código de 6 dígitos".
+Escena 5 (párrafo 5): Layout B. Fondo: 02-2.1-sign-in.png. Texto en pantalla: "Curso: cuenta provisionada con la compra" · "Sign In · Keep me signed in · Forgot password? · Sign Out".
+Escena 6 (párrafo 6): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "support@caf-corporation.com" · "Siguiente: 2.2 · El Dashboard".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, y cómo quieres que suenen la dirección web (caf-corporation.com) y el correo (support@caf-corporation.com) — en el guion van escritos en fonética ("guion", "punto", "arroba") para que el avatar los lea bien; revisa que suenen naturales. Mantén en inglés los nombres de la interfaz (Sign In, Keep me signed in, Forgot password?, Sign Out, Choose Plan, Account, Payment, My Account).

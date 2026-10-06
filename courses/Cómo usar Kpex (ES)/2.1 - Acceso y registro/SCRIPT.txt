@@ -1,0 +1,11 @@
+Antes de estimar, hay que entrar. Y lo bueno de Kpex es que no instalas nada: se abre en el navegador. En esta lección vemos cómo acceder, cómo es el registro y cómo iniciar y cerrar sesión. Soy Carlos Fuenmayor.
+
+Kpex es una plataforma en la nube. Entras en caf guion corporation punto com desde cualquier navegador moderno: Chrome, Edge, Firefox o Safari. No instalas nada. Y como todo vive en el navegador, trabajas desde cualquier equipo: tus estimados están en tu cuenta, no en un archivo local.
+
+Un punto importante sobre el idioma: la interfaz de la aplicación está, por ahora, solo en inglés. El selector de idioma existe en el sitio web y en la pantalla de acceso, pero dentro de la aplicación todo aparece en inglés. Por eso, en este curso los nombres de pantallas y botones van en inglés, con su explicación en español. Familiarízate con ellos.
+
+El registro tiene tres etapas, que aparecen arriba del formulario. Choose Plan: eliges tu plan de membresía. Account: creas tu cuenta con nombre, correo corporativo y contraseña, y aceptas los términos y la política de privacidad. Y Payment: revisas el pedido y pasas al pago seguro. Entre medias, Kpex te pide verificar tu correo con un código de seis dígitos. La contraseña necesita al menos ocho caracteres, con una mayúscula y un número.
+
+Si estás siguiendo este curso, tu cuenta de prueba viene provisionada con la compra y no pasa por Choose Plan ni por Payment; la activaste en la lección cero punto dos. Para entrar, escribes tu correo y tu contraseña y pulsas Sign In. En tu propio equipo marca Keep me signed in. Si olvidaste la contraseña, Forgot password te envía un enlace. Y en equipos compartidos, cierra siempre con Sign Out, desde el menú de tu nombre arriba a la derecha.
+
+Si tienes algún problema de acceso, el canal es support arroba caf guion corporation punto com. Recuerda: Kpex no se instala, se abre. En la siguiente lección recorremos el Dashboard, tu punto de partida cada día.

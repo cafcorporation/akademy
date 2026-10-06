@@ -1,0 +1,13 @@
+Cuando entregas un estimado, la pregunta no es solo cuánto cuesta, sino cuánto puedes confiar en ese número. Para responderla existe la clasificación AACE, y es el corazón conceptual de Kpex. Soy Carlos Fuenmayor, y en esta lección la vemos clara.
+
+Kpex está construida alrededor de la Práctica Recomendada 18R-97 de AACE International, el estándar mundial para clasificar estimados de costo. Cada estimado que creas lleva una clase, contada de la cinco a la uno. Y la clase define dos cosas: el rango de precisión que puedes esperar, y el nivel de definición del proyecto que necesitas para producirlo.
+
+La regla es sencilla: cuanto más definido está el proyecto, más estrecho es el rango. Un Clase 5, de screening, va de menos cincuenta a más cien por ciento. Y fíjate en un detalle importante: los rangos son asimétricos. El riesgo de quedarse corto es mayor que el de pasarse, sobre todo al principio. Un Clase 5 puede terminar costando el doble.
+
+Kpex trabaja de la Clase 5 a la Clase 2. La Clase 1, el estimado definitivo, se prepara con la ingeniería completa y ofertas firmes de contratistas, y eso queda fuera del alcance de la plataforma.
+
+Ahora bien, el gerente certificado PMI no dice Clase 4; dice estimación paramétrica. Kpex conecta los dos mundos: mapea las clases AACE con las técnicas del capítulo siete del PMBOK. La Clase 5 es estimación análoga, la Clase 4 paramétrica, y de la Clase 3 en adelante, ascendente. Así el estimador formado en AACE y el gerente certificado PMI trabajan sobre el mismo estimado, cada uno desde su propio marco.
+
+Y un error muy común: decir "este es un proyecto Clase 3". No. En Kpex la clase pertenece al estimado, no al proyecto. Un mismo proyecto puede tener varios estimados de distintas clases a medida que madura: un screening Clase 5 hoy, y un Clase 3 más adelante. Por eso Kpex agrupa y cuenta los estimados por clase, en lugar de sellar el proyecto con una sola.
+
+Quédate con esto: la clase AACE te dice cuánto puedes confiar en un número, según cuánto sabes del proyecto. En la siguiente lección vemos qué herramienta de Kpex te conviene usar en cada clase. Empecemos.

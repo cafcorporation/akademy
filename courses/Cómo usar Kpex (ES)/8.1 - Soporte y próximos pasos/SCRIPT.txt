@@ -1,0 +1,9 @@
+Si has llegado hasta aquí, ya recorriste la plataforma completa: las cinco capas, el estimado con su clase AACE, los módulos de costo, las herramientas Z, los benchmarks, los reportes y el Exchange. Lo único que falta es saber dónde pedir ayuda cuando la necesites. Soy Carlos Fuenmayor.
+
+Tienes un canal para cada tipo de duda. Para acceso a la cuenta, funciones o facturación, escribe a support. Para preguntas de metodología —la alineación de AACE con PMI, o dudas sobre el Location Factor y el Cost Index— escribe a methodology. Y para cuentas Enterprise o acuerdos de Data Partner, a partnerships. Un consejo práctico: cuando escribas a methodology, incluye la clase AACE, el país del proyecto y el mes base del estimado. Son los datos que el equipo técnico necesita para reproducir tu número.
+
+Pero antes de escribir a nadie, mira la Knowledge Library. Aparece en la barra lateral de Kpex y reúne guías de uso, documentos de referencia de AACE y plantillas. Es la primera parada: muchas veces la respuesta ya está ahí. Según tu membresía puede aparecer con un candado; al pulsarla verás qué plan la desbloquea.
+
+¿Y hacia dónde va Kpex? La línea principal de desarrollo son los estimadores con inteligencia artificial: asistentes conversacionales que, a partir de la descripción de tu facility o de preguntas en lenguaje de gestión de proyectos, preparan un estimado de orden de magnitud usando los mismos módulos que ya conoces, con el Location Factor y el Cost Index aplicados automáticamente. Todo lo que aprendiste en este curso es la base sobre la que funcionarán: entender qué hace la IA es lo que te permite revisar y defender su resultado.
+
+Tus próximos pasos: guarda support y methodology en tus contactos, abre la Knowledge Library y marca una guía útil para tu próximo proyecto, y completa el examen final del curso. Ese examen es la puerta a tu certificado y a tu beneficio de alumno, que vemos en la siguiente y última lección. Nos vemos allí.

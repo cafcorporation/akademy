@@ -1,0 +1,13 @@
+A cost manager almost never asks about a single number. They want to know what it all adds up to, how it has moved, and where each project stands. For that, Kpex ships three pre-built portfolio reports. I'm Carlos Fuenmayor, and in this lesson we look at which one to use.
+
+You find them under Intelligence, Reports, in the sidebar. There are three, and they read directly from your estimates: Cost Summary, Estimate Progression and Project Portfolio. The easiest way to choose is to start from the question you're being asked.
+
+First question: what does everything in our pipeline add up to, by discipline? That's the Cost Summary. It works like a pivot table: the same set of estimates, grouped by project, by class, by discipline or by cost element. This is the report you take into a management meeting or a client cost summary.
+
+Second question: how did the cost change moving from one class to the next? That's the Estimate Progression. It places each of the project's estimates by its AACE class, from five to two, and traces how the cost tightens as definition grows. A new point appears when you create an estimate at a different class, not when you edit an existing one. It's your evidence when an auditor or a client asks how the number changed as the project matured.
+
+Third question: where does each project in the programme stand? That's the Project Portfolio. It's the dashboard: every project, active and archived, with its status, its AACE class, the CAPEX, OPEX and ABEX flags you set in the wizard, and the accuracy range of each estimate.
+
+And remember from Module 4: the class belongs to the estimate, not the project. One project can carry a Class 5 today and a Class 3 later on. That's why all three reports group and count estimates by class, instead of stamping the project with a single one. You get a much truer picture of where the work actually stands.
+
+To close: Cost Summary tells you how much, Estimate Progression tells you how it changed, and Project Portfolio tells you where we are. All three are fed by your estimates, so good reporting starts with well-classified estimates. In the next lesson we look at the Kpex Exchange.

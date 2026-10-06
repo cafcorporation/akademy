@@ -1,0 +1,15 @@
+¿Cuántas veces has hecho un estimado con un libro de costos de hace tres años, de otro país, y has tenido que adivinar el ajuste? Kpex nació para que eso no vuelva a pasar. Soy Carlos Fuenmayor, y en esta lección te cuento qué hace única a Kpex.
+
+Kpex es una plataforma en la nube de inteligencia de costos CAPEX, creada por CAF Corporation. No instalas nada: abres el navegador y estimas. Y armoniza las dos grandes referencias de la profesión, AACE International y el PMI, para que el ingeniero de costos y el gerente de proyecto trabajen en la misma herramienta y hablen el mismo idioma.
+
+Primera idea: una base de datos que se mantiene al día sola. Cada costo está anclado a la Costa del Golfo de Estados Unidos, en un mes base. El Location Factor lo lleva a cualquiera de ciento noventa y seis países, y el Cost Index lo escala al mes actual. Automáticamente, cada vez que lo consultas. Tu estimado siempre está en dinero de hoy y en tu ubicación.
+
+Segunda: profundidad. Más de setecientos modelos paramétricos de equipos, ciento cincuenta facilities completas y más de cuatrocientas treinta curvas de costo. Cada una con su driver de capacidad, su rango válido y su procedencia.
+
+Tercera: el ciclo de vida completo. No solo CAPEX: el Módulo D añade los costos de operación, el OPEX, y el Módulo E los de abandono y desmantelamiento, el ABEX. Muy pocas plataformas llegan hasta ahí.
+
+Cuarta: métrico o imperial con un solo interruptor, y el estimado en tu propia moneda, al tipo de cambio del día. La base se guarda siempre en dólares, para que las comparaciones sean coherentes.
+
+Y quinta: el Módulo Z. Factor de ubicación, índice de costos, tarifas de mano de obra, de equipos de alquiler y de ingeniería, y evaluaciones como el PDRI. Lo que normalmente vive en diez hojas de cálculo distintas, aquí está integrado.
+
+En este curso vas a aprender a usar todo esto paso a paso, practicando en Kpex desde el primer día. Al terminarlo tendrás tu certificado y un descuento en tu membresía. En la siguiente lección recorremos la plataforma de un vistazo. Empecemos.

@@ -1,0 +1,16 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 55 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (7 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-7.2-reports-menu.png. On-screen text: "Intelligence → Reports" · "Cost Summary · Estimate Progression · Project Portfolio".
+Scene 3 (paragraph 3): Layout B. Background: 02-7.2-reports-menu.png. On-screen text: "How much does it all add up to?" · "Cost Summary · pivot table · project / class / discipline / element".
+Scene 4 (paragraph 4): Layout B. Background: 02-7.2-reports-menu.png. On-screen text: "How did it change as it matured?" · "Estimate Progression · one point per estimate · Class 5 → 2".
+Scene 5 (paragraph 5): Layout B. Background: 02-7.2-reports-menu.png. On-screen text: "Where does each project stand?" · "Project Portfolio · status · class · CAPEX/OPEX/ABEX · accuracy range".
+Scene 6 (paragraph 6): Layout B. Background: 03-3.1-aace-classes.png. On-screen text: "The reports count ESTIMATES, not projects".
+Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Cost Summary = how much · Progression = how it changed · Portfolio = where we are" · "Next: 7.3 · Kpex Exchange".
+
+Pronunciation: set up Kpex, AACE, CAPEX, OPEX, ABEX in HeyGen's dictionary, and keep the report names in English (Cost Summary, Estimate Progression, Project Portfolio) and the group (Intelligence · Reports).

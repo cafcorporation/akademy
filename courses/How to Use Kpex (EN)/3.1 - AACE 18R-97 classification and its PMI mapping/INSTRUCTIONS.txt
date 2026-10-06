@@ -1,0 +1,16 @@
+Educational video in English, 16:9, 1080p, about 2 minutes 55 seconds. Use the script EXACTLY as written, word for word: do not rewrite, summarise or add sentences. Each paragraph of the script is one scene (7 scenes).
+
+Style: sober and professional, CAF brand: orange #F5A011, dark grey #585856, dark backgrounds #1a1a18. Sans-serif type. Short on-screen text. No loud music; if any, soft and low. Captions on.
+
+Layout A = large avatar over the dark background 01-bg-dark.jpg.
+Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
+
+Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
+Scene 2 (paragraph 2): Layout B. Background: 02-3.1-aace-classes.png. On-screen text: "AACE 18R-97" · "Class 5 → Class 1".
+Scene 3 (paragraph 3): Layout B. Background: 02-3.1-aace-classes.png. On-screen text: "Better definition → narrower range" · "Class 5: −50% / +100%".
+Scene 4 (paragraph 4): Layout B. Background: 02-3.1-aace-classes.png. On-screen text: "Kpex: Class 5 → Class 2".
+Scene 5 (paragraph 5): Layout B. Background: 02-3.1-aace-classes.png. On-screen text: "AACE ⇄ PMI · PMBOK Ch. 7" · "5: analogous · 4: parametric · 3+: bottom-up".
+Scene 6 (paragraph 6): Layout B. Background: 02-3.1-aace-classes.png. On-screen text: "The class belongs to the ESTIMATE, not the project".
+Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Next: 3.2 · Which tool per class".
+
+Pronunciation: set up AACE (spelled out, "A-A-C-E"), PMI, PMBOK ("P-M-bok"), PDRI, CAPEX, FID and Kpex in HeyGen's dictionary. Generate scene 5 first (the most acronym-heavy) and listen.

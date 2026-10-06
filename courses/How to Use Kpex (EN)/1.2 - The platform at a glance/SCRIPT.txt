@@ -1,0 +1,11 @@
+When you open Kpex for the first time, the sidebar has a lot of groups and it's easy to get lost. But behind it there's a very simple structure: five layers. If you understand the five, you already know how to move around the whole platform. I'm Carlos Fuenmayor, and in this lesson we tour Kpex at a glance.
+
+Each layer is a group in the sidebar. The first, Cost Estimation, is where you create your estimates. The second, the cost Modules A through E, is the database: equipment, facilities, curves, operation and abandonment. The third, Support Tools Z, calibrates that data. The fourth, Intelligence, compares and reports. And the fifth, Kpex Exchange, is the marketplace with real vendor prices.
+
+The key is how they connect, like a chain. First, the cost Modules provide the data: a piece of equipment, a facility or a curve. Then Support Tools Z calibrates it: it takes it to your country with the Location Factor, to today with the Cost Index, and to your level of definition with the PDRI.
+
+Next, Cost Estimation organises that data into an estimate, with its AACE class and its WBS. Intelligence compares it against more than four hundred and thirty historical curves and reports it. And as the project matures, Kpex Exchange replaces the estimate with real vendor prices.
+
+Hold on to this line: data, calibration, estimate, benchmark, real price. Each layer of Kpex is one link in that chain. Once you see it that way, the sidebar stops being a list and becomes a journey.
+
+A small exercise: open one item from each group and write one line about what you see. Come back to that list at the end of the course and you'll notice how much more you understand. In the next lesson we look at who uses Kpex day to day.

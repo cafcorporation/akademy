@@ -1,0 +1,11 @@
+Before you can estimate, you have to get in. And the good thing about Kpex is that you install nothing: it opens in your browser. In this lesson we look at how to access it, what sign-up looks like, and how to sign in and out. I'm Carlos Fuenmayor.
+
+Kpex is a cloud platform. You go to caf dash corporation dot com from any modern browser: Chrome, Edge, Firefox or Safari. You install nothing. And because everything runs in the browser, you can work from any computer: your estimates sit in your account, not in a local file.
+
+One important point about language: the application interface is, for now, English only. A language selector exists on the public website and the sign-in page, but inside the application everything appears in English. So throughout this course the names of screens and buttons stay in English, exactly as you'll see them in Kpex. Get used to them.
+
+Sign-up has three stages, shown at the top of the form. Choose Plan: you pick your membership plan. Account: you create your account with your name, corporate email and password, and accept the terms of service and privacy policy. And Payment: you review the order and continue to secure payment. In between, Kpex asks you to verify your email with a six-digit code. The password needs at least eight characters, with an uppercase letter and a number.
+
+If you're following this course, your trial account comes provisioned with your purchase and skips the Choose Plan and Payment stages; you activated it in lesson zero point two. To get in, you enter your email and password and click Sign In. On your own computer, tick Keep me signed in. If you've forgotten your password, Forgot password emails you a link. And on shared computers, always finish with Sign Out, from the menu under your name in the top right.
+
+If you run into any access problem, the channel is support at caf dash corporation dot com. Remember: you don't install Kpex, you open it. In the next lesson we tour the Dashboard, your starting point every day.

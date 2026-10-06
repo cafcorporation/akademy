@@ -1,0 +1,13 @@
+When you hand over an estimate, the question isn't only how much it costs, but how far you can trust that number. To answer it, there's the AACE classification, and it's the conceptual heart of Kpex. I'm Carlos Fuenmayor, and in this lesson we'll make it clear.
+
+Kpex is built around AACE International Recommended Practice 18R-97, the global standard for cost estimate classification. Every estimate you create carries a class, counted down from five to one. And the class defines two things: the accuracy range you can expect, and the level of project definition you need to produce it.
+
+The rule is simple: the better defined the project, the narrower the range. A Class 5, a screening estimate, runs from minus fifty to plus one hundred percent. And notice an important detail: the ranges are asymmetric. The risk of under-running is smaller than the risk of over-running, especially early on. A Class 5 number can end up doubling.
+
+Kpex works from Class 5 to Class 2. Class 1, the definitive estimate, is prepared from complete engineering and firm contractor bids, and that is outside the platform's scope.
+
+Now, a PMI-certified project manager rarely says Class 4; they say parametric estimating. Kpex bridges the two worlds: it maps the AACE classes to the techniques in Chapter 7 of the PMBOK. Class 5 is analogous estimating, Class 4 is parametric, and from Class 3 onward, bottom-up. So the AACE-trained estimator and the PMI-certified manager work on the same estimate, each from their own framework.
+
+And a very common mistake: saying "this is a Class 3 project". No. In Kpex the class belongs to the estimate, not to the project. One project can carry several estimates at different classes as its definition matures: a Class 5 screening today, and a Class 3 later on. That's why Kpex groups and counts estimates by class, instead of stamping the project with a single one.
+
+Hold on to this: the AACE class tells you how far you can trust a number, given how much you know about the project. In the next lesson we look at which Kpex tool to use for each class. Let's get started.

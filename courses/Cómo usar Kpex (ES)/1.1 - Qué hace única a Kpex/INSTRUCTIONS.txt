@@ -1,0 +1,17 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 40 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (8 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-1.1-dashboard.png. Texto en pantalla: "Kpex · Inteligencia de costos CAPEX en la nube" · "AACE International" · "PMI".
+Escena 3 (párrafo 3): Layout B. Fondo: primera mitad 03-6.2-z4-pagina-pais.png, segunda mitad, desde "y el Cost Index…", 04-6.3-cost-index.png. Texto en pantalla: "1 · Geografía × tiempo" · "196 países" · "Mes actual".
+Escena 4 (párrafo 4): Layout B. Fondo: tres cortes seguidos, uno por cifra: 05-5.1-modulo-a-catalogo.png → 06-5.3-facility-cbs.png → 07-5.2-curva-de-costo.png. Texto en pantalla: "2 · Profundidad" · "700+ equipos" · "150 facilities" · "430+ curvas de costo".
+Escena 5 (párrafo 5): Layout B. Fondo: 08-5.4-lifecycle-cost-scope.png. Texto en pantalla: "3 · Ciclo de vida completo" · "CAPEX · OPEX · ABEX".
+Escena 6 (párrafo 6): Layout B. Fondo: 09-4.2-estimate-workspace.png. Texto en pantalla: "4 · Métrico ⇄ Imperial · Tu moneda".
+Escena 7 (párrafo 7): Layout B. Fondo: 10-1.2-sidebar.png (barra lateral con *Support Tools Z*); desde "y evaluaciones como el PDRI", 11-6.4-pdri.png. Texto en pantalla: "5 · Módulo Z" · "Ubicación · Índice de costos · Tarifas · PDRI".
+Escena 8 (párrafo 8): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 1.2 · La plataforma de un vistazo".
+
+Pronunciación: antes de generar, configura en el diccionario de pronunciación de HeyGen cómo se dice Kpex (como lo dices tú), además de AACE, PDRI, CAPEX/OPEX/ABEX y los nombres en inglés (Location Factor, Cost Index). Genera primero solo la escena 3, que es la más cargada de términos, y escúchala.

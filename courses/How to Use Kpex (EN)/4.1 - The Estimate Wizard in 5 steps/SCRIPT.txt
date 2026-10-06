@@ -1,0 +1,13 @@
+This is where it gets good: you're going to create your first estimate. In Kpex you do that with the Estimate Wizard, a five-step assistant. I'm Carlos Fuenmayor, and in this lesson we go through it card by card.
+
+First, where it is. In the sidebar you open Cost Estimation, then AACE Estimates, and click New Estimate. A form opens with five cards on the left and a sticky reference panel on the right. If you start from a project, the estimate is already linked to it.
+
+Card one, Estimate Identity: the estimate title, the project, the currency and the dates. One important detail: the estimate is always stored in US dollars and shown converted at a rate that is frozen on the estimate. Card two, AACE Classification: you pick the target class, from five to two, and a banner shows its accuracy range and its definition maturity.
+
+Card three, Cost Data: the base total installed cost, the TIC, before contingency, plus the contingency and escalation percentages. Card four, Basis of Estimate: you pick the project country and the Location Factor fills itself in, tagged AUTO, though you can override it. For escalation you choose the base year, the execution year and the index, click Fetch CAI, and Kpex works out the percentage.
+
+Card five, Lifecycle Cost Scope: CAPEX is always included. You tick OPEX to add Module D, and ABEX to add Module E. When you do, the plant lifetime appears, used for net present value and for discounting the ABEX. And you finish with Create Estimate.
+
+There's a block that only appears if you choose Class 5: the Cost Curve Basis. You select a cost curve model, enter the plant capacity and the location factor, and click Calculate from Curve. Kpex shows you the low value, the mid-point with contingency and the high value, and auto-fills the TIC on card three. It's the fastest way to start an order-of-magnitude estimate.
+
+To sum up: the wizard pins down what you're estimating, how much it costs to start with, where and when, and how much of the lifecycle you cover. In the next lesson we step into the estimate workspace to build the WBS. Let's go.

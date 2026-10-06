@@ -1,0 +1,16 @@
+Vídeo educativo en español, 16:9, 1080p, unos 2 minutos 55 segundos. Usa el guion TAL CUAL, palabra por palabra: no lo reescribas, no lo resumas y no añadas frases. Cada párrafo del guion es una escena (7 escenas).
+
+Estilo: sobrio y profesional, marca CAF: naranja #F5A011, gris oscuro #585856, fondos oscuros #1a1a18. Tipografía sans-serif. Textos en pantalla cortos. Sin música estridente; si hay música, suave y baja. Subtítulos activados.
+
+Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
+Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
+
+Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-7.2-reports-menu.png. Texto en pantalla: "Intelligence → Reports" · "Cost Summary · Estimate Progression · Project Portfolio".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-7.2-reports-menu.png. Texto en pantalla: "¿Cuánto suma todo?" · "Cost Summary · tabla dinámica · proyecto / clase / disciplina / elemento".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-7.2-reports-menu.png. Texto en pantalla: "¿Cómo cambió al madurar?" · "Estimate Progression · un punto por estimado · Clase 5 → 2".
+Escena 5 (párrafo 5): Layout B. Fondo: 02-7.2-reports-menu.png. Texto en pantalla: "¿Dónde está cada proyecto?" · "Project Portfolio · estado · clase · CAPEX/OPEX/ABEX · rango de exactitud".
+Escena 6 (párrafo 6): Layout B. Fondo: 03-3.1-aace-classes.png. Texto en pantalla: "Los reportes cuentan ESTIMADOS, no proyectos".
+Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Cost Summary = cuánto · Progression = cómo cambió · Portfolio = dónde estamos" · "Siguiente: 7.3 · Kpex Exchange".
+
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, CAPEX, OPEX, ABEX, y mantén en inglés los nombres de los reportes (Cost Summary, Estimate Progression, Project Portfolio) y del grupo (Intelligence · Reports).
