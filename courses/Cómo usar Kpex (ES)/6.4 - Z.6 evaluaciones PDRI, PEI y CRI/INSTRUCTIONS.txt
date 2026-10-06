@@ -8,7 +8,7 @@ Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pe
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
 Escena 2 (párrafo 2): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Support Tools → Z.6 Assessment Tools" · "evidencia metodológica".
 Escena 3 (párrafo 3): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Z.6.1 LFI Assessment · Z.6.2 PEI · Z.6.3 PDRI · Z.6.4 CRI".
-Escena 4 (párrafo 4): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "7 variantes" · "Industrial · Infrastructure · Buildings · Oil & Gas EPC (+ Small)".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "7 variantes" · "Industrial · Infrastructure · Buildings (+ Small) · Oil & Gas EPC".
 Escena 5 (párrafo 5): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Escala 0–1000 · menos es mejor" · "Start → Live PDRI Score → PDF".
 Escena 6 (párrafo 6): Layout B. Fondo: 02-6.4-pdri.png. Texto en pantalla: "Declarar clase → PDRI · Productividad → PEI · Movilizar → CRI · Sin LFI → LFI Assessment".
 Escena 7 (párrafo 7): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "Z.6 convierte el juicio en evidencia medible · un PDRI bajo respalda tu clase AACE".
