@@ -17,3 +17,9 @@ marketing/social/out/
 
 # Stray dev helper (Kpex2G debugging, unrelated to Akdemy)
 tools/_kpex-check.mjs
+
+# Working files (covers, banners, slide sources) — not part of the published courses (Carlos, 2026-10-30)
+courses/*.png
+courses/*.pptx
+courses/How to Use Kpex (EN)/**/*cover*.png
+courses/Cómo usar Kpex (ES)/**/*cover*.png
