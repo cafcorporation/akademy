@@ -21,7 +21,13 @@ for f in $files; do [ -f "$SRC/$f" ] || { echo "✖ falta $SRC/$f"; missing=1; }
 [ $missing -eq 0 ] || exit 1
 
 echo "→ 1/2 Carpeta en el servidor: $DEST"
-ssh "$AKDEMY_SSH" "sudo mkdir -p '$DEST' && sudo chown \$(whoami):www-data '$DEST' && sudo chmod 2775 '$DEST'"
+# The folder is created once with sudo (password needed, so it runs in an interactive terminal):
+#   ssh -t akdemy-vps "sudo mkdir -p /var/www/akdemy/wp-content/uploads/kpex-videos && sudo chown deploy:www-data /var/www/akdemy/wp-content/uploads/kpex-videos && sudo chmod 2775 /var/www/akdemy/wp-content/uploads/kpex-videos"
+if ! ssh "$AKDEMY_SSH" "test -d '$DEST' && test -w '$DEST'"; then
+  echo "✖ La carpeta no existe o no tiene permiso de escritura. Créala una vez (pide tu contraseña de sudo):"
+  echo "   ssh -t $AKDEMY_SSH \"sudo mkdir -p $DEST && sudo chown deploy:www-data $DEST && sudo chmod 2775 $DEST\""
+  exit 1
+fi
 
 echo "→ 2/2 Copiando $(echo "$files" | wc -l | tr -d ' ') archivos ($(cd "$SRC" && du -ch $files | tail -1 | cut -f1))"
 ( cd "$SRC" && tar -cf - $files ) | ssh "$AKDEMY_SSH" "tar -xf - -C '$DEST' && chmod 664 '$DEST'/* && ls '$DEST' | wc -l"
