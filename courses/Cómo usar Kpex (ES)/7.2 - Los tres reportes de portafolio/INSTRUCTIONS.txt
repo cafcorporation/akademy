@@ -13,4 +13,4 @@ Escena 5 (párrafo 5): Layout B. Fondo: 02-7.2-reports-menu.png. Texto en pantal
 Escena 6 (párrafo 6): Layout B. Fondo: 03-3.1-aace-classes.png. Texto en pantalla: "Los reportes cuentan ESTIMADOS, no proyectos".
 Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Cost Summary = cuánto · Progression = cómo cambió · Portfolio = dónde estamos" · "Siguiente: 7.3 · Kpex Exchange".
 
-Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, CAPEX, OPEX, ABEX, y mantén en inglés los nombres de los reportes (Cost Summary, Estimate Progression, Project Portfolio) y del grupo (Intelligence · Reports).
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, CAPEX, OPEX, ABEX, 1G ("uno G"), 2G ("dos G"), y mantén en inglés los nombres de los reportes (Cost Summary, Estimate Progression, Project Portfolio) y del grupo (Intelligence · Reports).

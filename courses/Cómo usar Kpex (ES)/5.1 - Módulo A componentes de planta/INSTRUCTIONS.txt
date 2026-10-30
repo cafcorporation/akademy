@@ -7,7 +7,7 @@ Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pe
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
 Escena 2 (párrafo 2): Layout B. Fondo: 02-5.1-modulo-a-catalogo.png. Texto en pantalla: "Módulo A · Process Plant Components" · "+700 modelos paramétricos".
-Escena 3 (párrafo 3): Layout B. Fondo: 02-5.1-modulo-a-catalogo.png. Texto en pantalla: "A.1.1 Rotating · A.1.2 Static · A.1.3 Heat Transfer · A.1.4 Material Handling · A.1.5–A.1.6 Packages · A.2–A.6 BOP".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-5.1-modulo-a-catalogo.png. Texto en pantalla: "A.1 Process Equipment · A.2 Piping (7 familias · ~207) · A.3 Fire & Gas · A.4 Instruments · A.5 Electrical · A.6 Civil Works · A.7 Assemblies".
 Escena 4 (párrafo 4): Layout B. Fondo: 02-5.1-modulo-a-catalogo.png. Texto en pantalla: "1 · Base conocida (Gulf Coast · LFI 1,0)" · "2 · Material de construcción" · "3 · Rango, no un punto".
 Escena 5 (párrafo 5): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "Equipo + material + base al día + banda de confianza".
 Escena 6 (párrafo 6): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 5.2 · Módulo B: curvas de costo".

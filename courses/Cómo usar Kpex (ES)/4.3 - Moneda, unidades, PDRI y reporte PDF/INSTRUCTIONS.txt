@@ -9,8 +9,8 @@ Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótu
 Escena 2 (párrafo 2): Layout B. Fondo: 02-4.1-estimate-wizard.png. Texto en pantalla: "Estimate Identity → Estimate Currency" · "Base en USD · tasa congelada (BCE)".
 Escena 3 (párrafo 3): Layout B. Fondo: 03-3.2-cost-curves.png. Texto en pantalla: "Métrico ⇄ Imperial" · "solo lectura · no cambia modelo ni precios".
 Escena 4 (párrafo 4): Layout B. Fondo: 04-6.4-pdri.png. Texto en pantalla: "Support Tools (Z) → Z.6 Assessment Tools" · "7 variantes · 0–1000, más bajo = mejor".
-Escena 5 (párrafo 5): Layout B. Fondo: 05-4.3-estimate-pdf.png. Texto en pantalla: "Preview / Print PDF" · "clase · rango · desglose · LFI/Index · PDRI · firma".
-Escena 6 (párrafo 6): Layout A. Fondo: 06-bg-light.jpg. Texto en pantalla: "Export Excel · Summary · Detail · Basis" · "Cuánto + con qué precisión, dónde, cuándo y definición".
+Escena 5 (párrafo 5): Layout B. Fondo: 05-4.3-estimate-pdf.png. Texto en pantalla: "Preview / Print PDF" · "libro Excel de marca · 1G sesión · 2G estimado" · "cover · basis · summary · components · sources".
+Escena 6 (párrafo 6): Layout A. Fondo: 06-bg-light.jpg. Texto en pantalla: "Download Excel · color (Professional)" · "Cuánto + con qué precisión, dónde, cuándo y definición".
 Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 4.4 · Ejercicio Clase 5 de principio a fin".
 
-Pronunciación: configura en el diccionario de HeyGen Kpex, PDRI, AACE, LFI, BOE (deletreado), USD, EUR, BCE ("be-ce-e") o "Banco Central Europeo", y los nombres de la UI (Estimate Identity, Estimate Currency, Preview / Print PDF, Export Excel, Print Basis of Estimate, Assessment Tools, Summary · Detail · Basis). "Zeta seis / seis punto tres" para los módulos Z. Genera primero la escena 4 y escúchala.
+Pronunciación: configura en el diccionario de HeyGen Kpex, PDRI, AACE, LFI, USD, EUR, BCE ("be-ce-e") o "Banco Central Europeo", 1G ("uno G"), 2G ("dos G"), y los nombres de la UI (Estimate Identity, Estimate Currency, Preview / Print PDF, Download Excel, Prepared for, Report logo, Report clients, Assessment Tools). "Zeta seis / seis punto tres" para los módulos Z. Genera primero la escena 4 y escúchala.

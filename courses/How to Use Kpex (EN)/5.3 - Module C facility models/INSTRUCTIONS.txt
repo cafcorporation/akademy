@@ -6,8 +6,8 @@ Layout A = large avatar over the dark background 01-bg-dark.jpg.
 Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
 
 Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
-Scene 2 (paragraph 2): Layout B. Background: 02-5.3-facility-cbs.png. On-screen text: "Module C · Facilities Cost Models" · "150 models · 6 sectors".
-Scene 3 (paragraph 3): Layout B. Background: 02-5.3-facility-cbs.png. On-screen text: "C.1 Process Plants · C.2 Infrastructure · C.3 Buildings · C.4 Renewable Energy · C.5 Nuclear · C.6 Mining".
+Scene 2 (paragraph 2): Layout B. Background: 02-5.3-facility-cbs.png. On-screen text: "Module C · Facilities Cost Models" · "150 models · 7 groups".
+Scene 3 (paragraph 3): Layout B. Background: 02-5.3-facility-cbs.png. On-screen text: "C.1 Process Plants · C.2 Infrastructure · C.3 Buildings · C.4 Renewable Energy · C.5 Nuclear · C.6 Mining · C.7 New Technologies".
 Scene 4 (paragraph 4): Layout B. Background: 02-5.3-facility-cbs.png. On-screen text: "CBS · Cost Breakdown Structure · AACE 18R-97" · "from account to leaf".
 Scene 5 (paragraph 5): Layout B. Background: 03-5.2-curva-de-costo.png. On-screen text: "Class 5 curve = sum of validated components" · "Facility (B) ↔ Module C ↔ equipment (A)".
 Scene 6 (paragraph 6): Layout A. Background: 04-bg-light.jpg. On-screen text: "Module C is the bridge between curve and detail" · "Next: 5.4 · Modules D and E".

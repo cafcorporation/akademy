@@ -1,6 +1,6 @@
 Un gerente de costos casi nunca pregunta por un solo número. Quiere saber cuánto suma todo, cómo ha evolucionado y en qué estado está cada proyecto. Para eso, Kpex trae tres reportes de portafolio ya construidos. Soy Carlos Fuenmayor, y en esta lección vemos cuál usar.
 
-Los encuentras en Intelligence, Reports, en la barra lateral. Son tres, y leen directamente tus estimados: Cost Summary, Estimate Progression y Project Portfolio. La forma más fácil de elegir es partir de la pregunta que te hacen.
+Los encuentras en Intelligence, Reports, en la barra lateral. Son tres, y leen directamente tus estimados: Cost Summary, Estimate Progression y Project Portfolio. Ojo: estos tres son reportes de portafolio; no los confundas con los reportes de un solo estimado o sesión que viste en el Módulo 4, el Kpex uno G, de la sesión, y el Kpex dos G, por estimado, ambos libros de Excel con tu marca. La forma más fácil de elegir es partir de la pregunta que te hacen.
 
 Primera pregunta: ¿cuánto suma todo lo que tenemos en cartera, por disciplina? Ese es el Cost Summary. Funciona como una tabla dinámica: el mismo conjunto de estimados, agrupado por proyecto, por clase, por disciplina o por elemento de costo. Es el reporte que llevas a una reunión de dirección o a un resumen de costo para el cliente.
 

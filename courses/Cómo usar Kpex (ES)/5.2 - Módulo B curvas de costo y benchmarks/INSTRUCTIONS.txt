@@ -6,7 +6,7 @@ Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
 Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
-Escena 2 (párrafo 2): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "Módulo B · Historical Benchmarks & Cost Curves" · "+430 curvas · 10 sectores".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "Módulo B · Historical Benchmarks & Cost Curves" · "653 curvas · 10 sectores · 60 familias".
 Escena 3 (párrafo 3): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "C = a·Qⁿ" · "n < 1 → el costo por unidad baja con el tamaño" · "magnitude-aware".
 Escena 4 (párrafo 4): Layout B. Fondo: 03-5.3-facility-cbs.png. Texto en pantalla: "Facility = planta completa ↔ Módulo C" · "Functional Unit = unidad de proceso".
 Escena 5 (párrafo 5): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "B.2 · rangos P10/P50/P90 · KPI Library" · "KPEX-HF Allowances → Módulo A".

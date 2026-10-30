@@ -1,15 +1,15 @@
-We already know how to take a cost to any place. Now we need to take it to any point in time: to today's money. That's the job of Kpex's second engine, the CAF Cost Index. I'm Carlos Fuenmayor, and in this lesson we look inside it.
+We already know how to take a cost to any place. Now we need to take it to any point in time: to today's money. That's the job of Kpex's second engine, the Kpex Cost Index. I'm Carlos Fuenmayor, and in this lesson we look inside it.
 
 If the Location Factor handles geography, the Cost Index handles time: it is Kpex's own cost-escalation database. Compared with annual indices such as CEPCI or ENR it has two advantages: it updates every month, and it breaks down into per-family sub-indices, so each cost component escalates on the index that actually drives it.
 
 And this is the key point: there is no button to press. The catalogue shows prices current to the present month and re-prices itself whenever the index refreshes. What you see is always in today's money.
 
-Which sub-indices are there? An overall composite, the CME-CI, used as the single factor when you don't need a breakdown. And then, per family: equipment, structural steel, piping, electrical, instrumentation, civil, labour, and six more sub-indices for insulation, painting, mechanical, engineering, project management and indirect costs. The live set is shown in the tool itself.
+Which sub-indices are there? An overall composite, the CAF_CI, used as the single factor when you don't need a breakdown. And then, per family: equipment, structural steel, piping, electrical, instrumentation, civil, labour, and six more sub-indices for insulation, painting, mechanical, engineering, project management and indirect costs. The live set is shown in the tool itself.
 
 On top of that, the index is multi-region. Alongside the original Americas index there are indices for Europe, Asia-Pacific, Japan, and the Middle East and Africa, each built from its region's own official statistics, on the same method and the same family tree. So escalation reflects where the project's equipment actually comes from. The base period is two thousand and ten equals one hundred, with monthly data from then to the present.
 
 Inside Z five you work in tabs. Historical Chart plots the historical series by sub-index. The Escalation Calculator computes the escalation factor between two periods for an amount. Data Table gives the monthly values. Index Comparison puts every sub-index side by side. And PPI Source Data shows the official series behind them. You can also produce a printable snapshot.
 
-Hold on to this: the CAF Cost Index is monthly, per family and multi-region, and it applies itself, on read. That is why in Kpex you never work from a stale figure.
+Hold on to this: the Kpex Cost Index is monthly, per family and multi-region, and it applies itself, on read. That is why in Kpex you never work from a stale figure.
 
 In the next lesson we close Module Z with Z six, the assessments: the evidence that backs up your estimate's class.

@@ -7,7 +7,7 @@ Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pe
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
 Escena 2 (párrafo 2): Layout B. Fondo: 02-3.2-cost-curves.png. Texto en pantalla: "Clase objetivo" · "Módulos · PDRI (Z.6.3) · Reporte etiquetado".
-Escena 3 (párrafo 3): Layout B. Fondo: 02-3.2-cost-curves.png. Texto en pantalla: "Clase 5 · Cost Curves (B) + facility (C)" · "Clase 4 · modelos paramétricos (C)".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-3.2-cost-curves.png. Texto en pantalla: "Clase 5 · Cost Curves (B) + facility (C)" · "Clase 4 · Equipment List Builder (A) + bulk (B)".
 Escena 4 (párrafo 4): Layout B. Fondo: 03-4.2-estimate-workspace.png. Texto en pantalla: "Clase 3 · Módulo A + WBS" · "Clase 2 · MTO + cotizaciones (Exchange)".
 Escena 5 (párrafo 5): Layout B. Fondo: 04-3.1-aace-classes.png. Texto en pantalla: "curva → parámetros → equipos → precios reales" · "análoga → paramétrica → ascendente".
 Escena 6 (párrafo 6): Layout A. Fondo: 05-bg-light.jpg. Texto en pantalla: "Z.4 LFI (dónde) · Z.5 Cost Index (cuándo)" · "Elegir la clase = elegir la herramienta".

@@ -7,8 +7,8 @@ Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pe
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
 Escena 2 (párrafo 2): Layout B. Fondo: 02-5.4-lifecycle-cost-scope.png. Texto en pantalla: "CAPEX (A·B·C) → OPEX (D) → ABEX (E)" · "Construir · Operar · Desmantelar".
-Escena 3 (párrafo 3): Layout B. Fondo: 02-5.4-lifecycle-cost-scope.png. Texto en pantalla: "Módulo D · OPEX Models" · "D.1 Oil & Gas · fijo · variable · mantenimiento · dotación".
-Escena 4 (párrafo 4): Layout B. Fondo: 02-5.4-lifecycle-cost-scope.png. Texto en pantalla: "Módulo E · Abandonment & Decommissioning" · "E.1 Oil & Gas · E.2 Proceso · E.3 Renovables · E.4 Minería · E.5 Nuclear".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-5.4-lifecycle-cost-scope.png. Texto en pantalla: "Módulo D · OPEX Models" · "D.1 OPEX Estimator · 80 tipos · 9 sectores".
+Escena 4 (párrafo 4): Layout B. Fondo: 02-5.4-lifecycle-cost-scope.png. Texto en pantalla: "Módulo E · Abandonment & Decommissioning · 6 catálogos LIVE · 171 APU" · "E.1.1 Onshore · E.1.2 Offshore · E.2 Proceso · E.3 Renovables · E.4 Minería · E.5 Nuclear".
 Escena 5 (párrafo 5): Layout B. Fondo: 02-5.4-lifecycle-cost-scope.png. Texto en pantalla: "Estimate Wizard · paso Lifecycle Cost Scope" · "CAPEX ALWAYS · OPEX y ABEX OPTIONAL · Plant Lifetime".
 Escena 6 (párrafo 6): Layout A. Fondo: 03-bg-light.jpg. Texto en pantalla: "Del primer CAPEX al desmantelamiento final" · "Siguiente: Módulo Z · las herramientas de calibración".
 

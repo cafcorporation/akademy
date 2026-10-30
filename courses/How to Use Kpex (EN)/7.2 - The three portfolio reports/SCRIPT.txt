@@ -1,6 +1,6 @@
 A cost manager almost never asks about a single number. They want to know what it all adds up to, how it has moved, and where each project stands. For that, Kpex ships three pre-built portfolio reports. I'm Carlos Fuenmayor, and in this lesson we look at which one to use.
 
-You find them under Intelligence, Reports, in the sidebar. There are three, and they read directly from your estimates: Cost Summary, Estimate Progression and Project Portfolio. The easiest way to choose is to start from the question you're being asked.
+You find them under Intelligence, Reports, in the sidebar. There are three, and they read directly from your estimates: Cost Summary, Estimate Progression and Project Portfolio. Note: these three are portfolio reports; don't confuse them with the single-estimate or session reports you saw in Module 4, the Kpex one G, of the session, and the Kpex two G, per estimate, both branded Excel workbooks. The easiest way to choose is to start from the question you're being asked.
 
 First question: what does everything in our pipeline add up to, by discipline? That's the Cost Summary. It works like a pivot table: the same set of estimates, grouped by project, by class, by discipline or by cost element. This is the report you take into a management meeting or a client cost summary.
 

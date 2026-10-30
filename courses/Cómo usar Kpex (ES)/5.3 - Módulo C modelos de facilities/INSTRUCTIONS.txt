@@ -6,8 +6,8 @@ Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
 Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
-Escena 2 (párrafo 2): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "Módulo C · Facilities Cost Models" · "150 modelos · 6 sectores".
-Escena 3 (párrafo 3): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "C.1 Process Plants · C.2 Infrastructure · C.3 Buildings · C.4 Renewable Energy · C.5 Nuclear · C.6 Mining".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "Módulo C · Facilities Cost Models" · "150 modelos · 7 grupos".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "C.1 Process Plants · C.2 Infrastructure · C.3 Buildings · C.4 Renewable Energy · C.5 Nuclear · C.6 Mining · C.7 New Technologies".
 Escena 4 (párrafo 4): Layout B. Fondo: 02-5.3-facility-cbs.png. Texto en pantalla: "CBS · Cost Breakdown Structure · AACE 18R-97" · "de la cuenta a la hoja".
 Escena 5 (párrafo 5): Layout B. Fondo: 03-5.2-curva-de-costo.png. Texto en pantalla: "Curva Clase 5 = suma de componentes validados" · "Facility (B) ↔ Módulo C ↔ equipos (A)".
 Escena 6 (párrafo 6): Layout A. Fondo: 04-bg-light.jpg. Texto en pantalla: "El Módulo C es el puente entre la curva y el detalle" · "Siguiente: 5.4 · Módulos D y E".
