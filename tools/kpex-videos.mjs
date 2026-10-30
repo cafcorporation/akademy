@@ -2,13 +2,13 @@
 // into the lessons of the Kpex course, between markers, so it can be re-run whenever videos are added.
 //   node tools/kpex-videos.mjs [en|es]        (default en)
 // Video catalogue: courses/kpex-user-course/video/kpex-navigation-videos.json (exported from Kpex config).
-// Files are served by Kpex at /media/kpex-videos/<file> (CORS for the subtitle tracks, Range for seeking).
+// Files: Akdemy's own copy in wp-content/uploads/kpex-videos/ (tools/sync-kpex-videos.sh), independent of the Kpex server.
 // The estimate chapters (Class 5, Class 4) are the guided-demo videos on Vimeo (embed-only, Akdemy domain allowed).
 import fs from 'node:fs';
 import path from 'node:path';
 
 const lang = process.argv[2] || 'en';
-const BASE = process.env.KPEX_VIDEO_BASE || 'https://caf-corporation.com/media/kpex-videos/';
+const BASE = process.env.KPEX_VIDEO_BASE || '/wp-content/uploads/kpex-videos/';   // Akdemy's own copy (tools/sync-kpex-videos.sh)
 const ROOT = path.resolve('courses/kpex-user-course');
 const cat = JSON.parse(fs.readFileSync(path.join(ROOT, 'video/kpex-navigation-videos.json'), 'utf8'));
 
@@ -53,7 +53,7 @@ function block(key) {
   const u = BASE + v.file;
   const tracks = [['en', 'English'], ['es', 'Español']]
     .map(([l, n]) => `<track kind="subtitles" srclang="${l}" label="${n}" src="${u}_${l.toUpperCase()}.vtt"${l === lang ? ' default' : ''}>`).join('');
-  return `<figure class="kpex-vid"><video controls preload="none" playsinline crossorigin="anonymous" controlslist="nodownload" oncontextmenu="return false" poster="${u}.jpg">`
+  return `<figure class="kpex-vid"><video controls preload="none" playsinline controlslist="nodownload" oncontextmenu="return false" poster="${u}.jpg">`
     + `<source src="${u}.mp4" type="video/mp4">${tracks}</video>`
     + `<figcaption><strong>${esc(v.code)} · ${esc(v.title)}</strong> · ${mmss(v.secs)}</figcaption></figure>`;
 }
