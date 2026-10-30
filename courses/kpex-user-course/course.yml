@@ -92,7 +92,7 @@ modules:
     lessons:
       - { id: "6.1", title: { es: "Z.1–Z.3: ingeniería, mano de obra y equipos de alquiler", en: "Z.1–Z.3: engineering, labour and rental equipment" } }
       - { id: "6.2", title: { es: "Z.4: el Location Factor (LFI)", en: "Z.4: the Location Factor (LFI)" } }
-      - { id: "6.3", title: { es: "Z.5: el CAF Cost Index", en: "Z.5: the CAF Cost Index" } }
+      - { id: "6.3", title: { es: "Z.5: el Kpex Cost Index", en: "Z.5: the Kpex Cost Index" } }
       - { id: "6.4", title: { es: "Z.6: evaluaciones PDRI, PEI y CRI", en: "Z.6: PDRI, PEI and CRI assessments" } }
     quiz: m6
 
