@@ -1,0 +1,261 @@
+{
+  "1g": {
+    "code": "Kpex 1G",
+    "title": "Quick component estimator",
+    "intro": "The installed cost, the weight and the installation man-hours of any process plant component, in seconds.",
+    "file": "Kpex_1G",
+    "secs": 103
+  },
+  "reports": {
+    "code": "Kpex",
+    "title": "One report format: your brand, your client",
+    "intro": "Every Kpex 1G session and every Kpex 2G estimate prints as an Excel workbook with your logo and your client's.",
+    "file": "Kpex_Reports",
+    "secs": 115
+  },
+  "a": {
+    "code": "Module A",
+    "title": "Process Plant Components",
+    "intro": "Parametric cost models for every component of a process plant — equipment, piping, fire & gas, instruments, electrical and civil works. In Kpex 2G each piece of process equipment comes together with its inside-battery-limits installation, shown graphically, on its way into a full AACE estimate.",
+    "file": "Kpex2G_Module_A",
+    "secs": 146
+  },
+  "a1": {
+    "code": "A.1",
+    "title": "Process Equipment & ISBL",
+    "intro": "Rotating and static equipment, heat transfer, material handling and miscellaneous process equipment — each one together with its inside-battery-limits installation: the piping, instruments, electrical and civil works around it, shown graphically.",
+    "file": "Kpex2G_A1_Process_Equipment",
+    "secs": 118
+  },
+  "a2": {
+    "code": "A.2",
+    "title": "Piping",
+    "intro": "Pipes, valves, fittings, strainers, hangers and supports, steam specialties and the fabrication and assembly activities of a piping system.",
+    "file": "Kpex2G_A2_Piping",
+    "secs": 107
+  },
+  "a3": {
+    "code": "A.3",
+    "title": "Fire & Gas",
+    "intro": "Active and passive fire protection: fire pumps and their accessories, fire protection piping, hydrants, detection systems, suppression systems and passive firefighting measures.",
+    "file": "Kpex2G_A3_Fire_Gas",
+    "secs": 107
+  },
+  "a4": {
+    "code": "A.4",
+    "title": "Instruments",
+    "intro": "Relief and control valves, level, pressure, flow and temperature instruments, distributed control systems, control panels and instrument tubing.",
+    "file": "Kpex2G_A4_Instruments",
+    "secs": 80
+  },
+  "a5": {
+    "code": "A.5",
+    "title": "Electrical",
+    "intro": "Power distribution and control, motor control stations, lighting and signals, heat tracing, raceways and conduit, hazardous-area equipment, cables and busways.",
+    "file": "Kpex2G_A5_Electrical",
+    "secs": 91
+  },
+  "a6": {
+    "code": "A.6",
+    "title": "Civil Works",
+    "intro": "Site preparation and infrastructure, building construction and finishing, concrete, masonry and structural steel works.",
+    "file": "Kpex2G_A6_Civil_Works",
+    "secs": 87
+  },
+  "b": {
+    "code": "Module B",
+    "title": "Historical Project Cost Benchmarks",
+    "intro": "Cost curves and KPI ranges built from documented projects, to test an early estimate against what similar projects really cost before committing to an estimate class.",
+    "file": "Kpex2G_Module_B",
+    "secs": 112
+  },
+  "b1": {
+    "code": "B.1",
+    "title": "Benchmark Cost Curves",
+    "intro": "Capacity–cost curves of complete facilities and project types, fitted on documented projects and grouped in families.",
+    "file": "Kpex2G_B1_Cost_Curves",
+    "secs": 83
+  },
+  "b2": {
+    "code": "B.2",
+    "title": "KPI Ranges Library",
+    "intro": "Key performance indicators of capital projects — cost ratios, unit costs and percentages — with their typical ranges by facility family.",
+    "file": "Kpex2G_B2_KPI_Library",
+    "secs": 102
+  },
+  "b3": {
+    "code": "B.3",
+    "title": "Offshore Oil & Gas Benchmarks",
+    "intro": "Benchmarks of offshore developments — platforms, subsea systems and floating units — with their cost breakdown structures.",
+    "file": "Kpex2G_B_Offshore_OG",
+    "secs": 79
+  },
+  "b4": {
+    "code": "B.4",
+    "title": "Railway Benchmarks",
+    "intro": "Cost benchmarks of railway projects — lines, high-speed rail, stations and systems — by length and type.",
+    "file": "Kpex2G_B4_Railway",
+    "secs": 84
+  },
+  "c": {
+    "code": "Module C",
+    "title": "Facilities Cost Models",
+    "intro": "Parametric cost models for complete facilities — industrial plants, infrastructure, buildings, renewable energy, nuclear and mining — sized by capacity, from early feasibility through Class 3 estimates.",
+    "file": "Kpex2G_Module_C",
+    "secs": 103
+  },
+  "c1": {
+    "code": "C.1",
+    "title": "Industrial Process Plants",
+    "intro": "Oil & gas production onshore and offshore, LNG, refineries, power, water, chemicals, food, pharmaceuticals, paper, metals, textiles, steam and chilled water, manufacturing, solid waste and plant retrofits.",
+    "file": "Kpex2G_C1_Industrial_Plants",
+    "secs": 99
+  },
+  "c2": {
+    "code": "C.2",
+    "title": "Infrastructure Projects",
+    "intro": "Nine infrastructure types: highways, railways, tunnels, airport runways, high-voltage lines, substations, pipelines, aqueducts and dams, each one estimated from capital cost to operation and decommissioning.",
+    "file": "Kpex2G_C2_Infrastructure_Projects",
+    "secs": 95
+  },
+  "c3": {
+    "code": "C.3",
+    "title": "Building Projects",
+    "intro": "Twenty building types, from offices, schools and hospitals to hotels, warehouses, airport terminals and control buildings, each one estimated element by element and carried through its operation and demolition.",
+    "file": "Kpex2G_C3_Building_Projects",
+    "secs": 101
+  },
+  "c4": {
+    "code": "C.4",
+    "title": "Renewable Energy Facilities",
+    "intro": "Twelve technologies: solar PV, onshore and offshore wind, battery storage, CSP, green hydrogen, hydropower, geothermal, bioenergy, power-to-X, hybrid systems and large heat pumps, each one estimated from capital cost to operation and decommissioning.",
+    "file": "Kpex2G_C4_Renewable_Energy",
+    "secs": 112
+  },
+  "c5": {
+    "code": "C.5",
+    "title": "Nuclear Projects",
+    "intro": "Six nuclear designs: large PWR, BWR, small modular reactors, CANDU / PHWR, HTGR and Generation IV, and life extension of existing units — each one estimated from capital cost to operation and decommissioning.",
+    "file": "Kpex2G_C5_Nuclear_Projects",
+    "secs": 117
+  },
+  "c6": {
+    "code": "C.6",
+    "title": "Mining Projects",
+    "intro": "Six mine types: open-pit copper, underground gold, open-pit coal, iron ore, copper heap leach and lithium — each one estimated from capital cost to operation and mine closure.",
+    "file": "Kpex2G_C6_Mining_Projects",
+    "secs": 105
+  },
+  "d": {
+    "code": "Module D",
+    "title": "Operating Cost (OPEX)",
+    "intro": "Operating cost of process plants: manufacturing cost per unit of product, split into raw materials, utilities, labour and depreciation, and scaled to the plant capacity.",
+    "file": "Kpex2G_Module_D",
+    "secs": 87
+  },
+  "d1": {
+    "code": "D.1",
+    "title": "OPEX Cost Estimator",
+    "intro": "The operating cost of 80 plant types in nine sectors — chemicals, food, power, water, refining, metals, mining, pulp and paper, and renewables — per unit of product and per year, for the capacity you enter.",
+    "file": "Kpex2G_D1_OPEX_Estimator",
+    "secs": 77
+  },
+  "e": {
+    "code": "Module E",
+    "title": "Decommissioning (ABEX)",
+    "intro": "Abandonment and decommissioning cost of oil & gas, process, renewable, mining and nuclear facilities — the end-of-life cost that completes the life-cycle estimate.",
+    "file": "Kpex2G_Module_E",
+    "secs": 87
+  },
+  "e11": {
+    "code": "E.1.1",
+    "title": "Oil & Gas Onshore",
+    "intro": "Decommissioning of onshore oil & gas fields: 32 activities in six scope groups — process equipment, electrical and instrumentation, pipelines and piping, metal structures, civil structures, and wells and subsurface remediation.",
+    "file": "Kpex2G_E11_Onshore_ABEX",
+    "secs": 77
+  },
+  "e12": {
+    "code": "E.1.2",
+    "title": "Oil & Gas Offshore",
+    "intro": "Decommissioning of offshore installations: 30 activities in seven scope groups — well P&A, topsides, jackets and substructures, subsea infrastructure, pipelines and risers, the marine spread and onshore disposal, and site remediation.",
+    "file": "Kpex2G_E12_Offshore_ABEX",
+    "secs": 79
+  },
+  "e2": {
+    "code": "E.2",
+    "title": "Process Plants",
+    "intro": "Decommissioning of refineries, petrochemical and chemical plants, pharmaceuticals, fertilisers and industrial water and waste: 35 activities in six scope groups, from equipment dismantling and hazardous-material decontamination to environmental remediation and closure.",
+    "file": "Kpex2G_E2_Process_Plants_ABEX",
+    "secs": 87
+  },
+  "e3": {
+    "code": "E.3",
+    "title": "Renewable Energy",
+    "intro": "End-of-life of renewable and new-technology facilities: 31 activities in six scope groups — onshore and offshore wind, solar PV, hydrogen and power-to-X, battery storage, and the shared site works and disposal.",
+    "file": "Kpex2G_E3_Renewables_ABEX",
+    "secs": 79
+  },
+  "e4": {
+    "code": "E.4",
+    "title": "Mining",
+    "intro": "Mine closure: 23 activities in six scope groups — tailings storage closure, open pit and underground, plant demolition, water management and acid mine drainage, site rehabilitation, and post-closure monitoring.",
+    "file": "Kpex2G_E4_Mining_ABEX",
+    "secs": 86
+  },
+  "e5": {
+    "code": "E.5",
+    "title": "Nuclear",
+    "intro": "Decommissioning of nuclear facilities: 20 activities in six scope groups — reactor and primary systems dismantling, radioactive waste, spent fuel, balance of plant, site remediation and licence termination, and deferred storage.",
+    "file": "Kpex2G_E5_Nuclear_ABEX",
+    "secs": 86
+  },
+  "z": {
+    "code": "Module Z",
+    "title": "Cost Estimation Support Tools",
+    "intro": "The tools that turn a cost into an estimate: engineering and home office, labour and crews, rental equipment, location factors for 197 countries, the Kpex Cost Index and the assessment tools.",
+    "file": "Kpex2G_Module_Z",
+    "secs": 99
+  },
+  "z1": {
+    "code": "Z.1",
+    "title": "Engineering & Home Office",
+    "intro": "Four tools for the engineering behind a project: engineering and supervision man-hours from the direct labour cost, their spread across 31 disciplines, the home-office services ratio, and engineering hours equipment by equipment.",
+    "file": "Kpex2G_Z1_Engineering_Home_Office",
+    "secs": 77
+  },
+  "z2": {
+    "code": "Z.2",
+    "title": "Construction Labour & Crews",
+    "intro": "The construction resources behind a Class 3 and Class 2 estimate: 173 labour crafts, 242 equipment types, 560 crews built from them, and 22,005 construction activities with their crew and productivity.",
+    "file": "Kpex2G_Z2_Labour_Crews",
+    "secs": 79
+  },
+  "z3": {
+    "code": "Z.3",
+    "title": "Rental Equipment",
+    "intro": "The hourly cost of construction equipment, fully burdened (ownership + operating), by family, type and model — ready for Class 3 and Class 2 estimates.",
+    "file": "Kpex2G_Z3_Rental_Equipment",
+    "secs": 113
+  },
+  "z4": {
+    "code": "Z.4",
+    "title": "Location Factor",
+    "intro": "The CAF Location Factor Index: how much a capital project costs in each country compared with the US Gulf Coast.",
+    "file": "Kpex2G_Z4_Location_Factor",
+    "secs": 109
+  },
+  "z5": {
+    "code": "Z.5",
+    "title": "Kpex Cost Index",
+    "intro": "Monthly cost index of plant equipment, construction labour, engineering and buildings — one method, applied region by region.",
+    "file": "Kpex2G_Z5_Kpex_Cost_Index",
+    "secs": 94
+  },
+  "z6": {
+    "code": "Z.6",
+    "title": "Assessment Tools",
+    "intro": "Project Definition Rating Index (PDRI) and estimate accuracy assessment.",
+    "file": "Kpex2G_Z6_Assessment_Tools",
+    "secs": 93
+  }
+}
