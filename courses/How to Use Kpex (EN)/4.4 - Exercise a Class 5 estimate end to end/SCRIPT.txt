@@ -1,6 +1,6 @@
 Let's do it for real. The case: a company wants to know, in order of magnitude, how much a one-hundred-megawatt-peak solar PV plant in Chile would cost. There's no engineering yet; just a technology, a capacity and a country. It's the textbook Class 5 situation. I'm Carlos Fuenmayor, and we'll walk through it step by step.
 
-Step one: in the sidebar you open Intelligence, Benchmarks, Cost Curves. Step two: with the Find your facility guided picker you go through sector, family and facility to the utility-scale solar PV curve. Before you go on, read two things off the panel: the capacity unit, which is megawatts peak, and the validated range, which runs from ten to one thousand. Your capacity must sit inside that range.
+Step one: in the sidebar you open Intelligence, Benchmarks, Cost Curves. Step two: with the Guide me to a facility guided picker you go through sector, family and facility to the utility-scale solar PV curve. Before you go on, read two things off the panel: the capacity unit, which is megawatts peak, and the validated range, which runs from ten to one thousand. Your capacity must sit inside that range.
 
 Step three: you enter the inputs. A project name for the report; the capacity, one hundred; and the destination country, Chile. As soon as you pick the country, Kpex fills in the destination Location Factor and shows you the model's country of origin. Keep the contingency the platform suggests for Class 5.
 

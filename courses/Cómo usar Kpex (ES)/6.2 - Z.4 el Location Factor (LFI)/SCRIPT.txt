@@ -1,6 +1,6 @@
 Imagina que tienes el costo de una planta, pero se construyó con datos de la Costa del Golfo de Estados Unidos, y tu proyecto está en otro continente. ¿Cómo lo trasladas? Con el Location Factor. Soy Carlos Fuenmayor, y en esta lección vemos Zeta cuatro, el motor que lleva cualquier costo a cualquier lugar del mundo.
 
-El CAF LFI, el Location Factor Index, ajusta cualquier costo base a cualquier ubicación del planeta. Cubre ciento noventa y seis países en seis continentes. Su punto de referencia es la Costa del Golfo de Estados Unidos, que vale uno: el estándar de AACE. Por encima de uno, más caro que la Costa del Golfo; por debajo de uno, más barato.
+El CAF LFI, el Location Factor Index, ajusta cualquier costo base a cualquier ubicación del planeta. Cubre ciento noventa y siete países en seis continentes. Su punto de referencia es la Costa del Golfo de Estados Unidos, que vale uno: el estándar de AACE. Por encima de uno, más caro que la Costa del Golfo; por debajo de uno, más barato.
 
 El factor final de cada país combina cuatro componentes: los factores propios del país, las compras con aranceles y flete, la mano de obra y la ingeniería. Compras, mano de obra e ingeniería se promedian, y ese promedio se multiplica por los factores del país. Esa es la fórmula que ves en pantalla.
 

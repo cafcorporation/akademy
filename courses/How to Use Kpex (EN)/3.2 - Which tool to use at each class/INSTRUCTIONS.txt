@@ -8,7 +8,7 @@ Layout B = the attached screenshot full screen and clearly readable, with the av
 Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
 Scene 2 (paragraph 2): Layout B. Background: 02-3.2-cost-curves.png. On-screen text: "Target class" · "Modules · PDRI (Z.6.3) · Tagged report".
 Scene 3 (paragraph 3): Layout B. Background: 02-3.2-cost-curves.png. On-screen text: "Class 5 · Cost Curves (B) + facility (C)" · "Class 4 · Equipment List Builder (A) + bulk (B)".
-Scene 4 (paragraph 4): Layout B. Background: 03-4.2-estimate-workspace.png. On-screen text: "Class 3 · Module A + WBS" · "Class 2 · MTO + quotes (Exchange)".
+Scene 4 (paragraph 4): Layout B. Background: 03-4.2-estimate-workspace.png. On-screen text: "Class 3 · Module A + WBS + Procurement Contracts" · "Class 2 · MTO + real offers" · "Exchange = separate marketplace".
 Scene 5 (paragraph 5): Layout B. Background: 04-3.1-aace-classes.png. On-screen text: "curve → parameters → equipment → real prices" · "analogous → parametric → bottom-up".
 Scene 6 (paragraph 6): Layout A. Background: 05-bg-light.jpg. On-screen text: "Z.4 LFI (where) · Z.5 Cost Index (when)" · "Picking the class = picking the tool".
 Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Next: 4.1 · The Estimate Wizard in 5 steps".

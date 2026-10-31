@@ -1,6 +1,6 @@
 Vamos a hacerlo de verdad. El caso: una empresa quiere saber, en orden de magnitud, cuánto costaría una planta solar fotovoltaica de cien megavatios pico en Chile. No hay ingeniería todavía; solo una tecnología, una capacidad y un país. Es el escenario perfecto de una Clase 5. Soy Carlos Fuenmayor, y lo recorremos paso a paso.
 
-Primer paso: en la barra lateral abres Intelligence, Benchmarks, Cost Curves. Segundo paso: con el selector guiado Find your facility recorres sector, familia y facility hasta la curva de solar fotovoltaica a escala de servicio público. Antes de seguir, lee dos datos del panel: la unidad de capacidad, que son megavatios pico, y el rango validado, que va de diez a mil. Tu capacidad debe caer dentro de ese rango.
+Primer paso: en la barra lateral abres Intelligence, Benchmarks, Cost Curves. Segundo paso: con el selector guiado Guide me to a facility recorres sector, familia y facility hasta la curva de solar fotovoltaica a escala de servicio público. Antes de seguir, lee dos datos del panel: la unidad de capacidad, que son megavatios pico, y el rango validado, que va de diez a mil. Tu capacidad debe caer dentro de ese rango.
 
 Tercer paso: introduces los datos. Un nombre de proyecto para el reporte; la capacidad, cien; y el país de destino, Chile. En cuanto eliges el país, Kpex rellena el Location Factor de destino y te muestra el país de origen del modelo. Deja la contingencia que la plataforma propone para Clase 5.
 

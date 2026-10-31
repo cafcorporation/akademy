@@ -6,11 +6,11 @@ Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
 Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
-Escena 2 (párrafo 2): Layout B. Fondo: 02-7.1-cost-curve.png. Texto en pantalla: "B.1 · Cost Curves" · "Find your facility → Calculate" · "tu punto + banda ±".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-7.1-cost-curve.png. Texto en pantalla: "B.1 · Cost Curves" · "Guide me to a facility → Calculate" · "tu punto + banda ±".
 Escena 3 (párrafo 3): Layout B. Fondo: 02-7.1-cost-curve.png. Texto en pantalla: "exponente n < 1 → el costo por unidad baja" · "nivel: Facility · Functional Unit" · "país de origen → LFI · Cost Index".
 Escena 4 (párrafo 4): Layout B. Fondo: 03-7.2-reports-menu.png. Texto en pantalla: "B.2 · KPI Library" · "P10 bajo · P50 mediana · P90 alto" · "comprobación de realidad".
 Escena 5 (párrafo 5): Layout B. Fondo: 03-7.2-reports-menu.png. Texto en pantalla: "Global CAPEX Monitor" · "registro público · por país · CAPEX anunciado" · "Insights · desde Practitioner".
 Escena 6 (párrafo 6): Layout A. Fondo: 04-bg-light.jpg. Texto en pantalla: "Calcular → contrastar → contextualizar".
 Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Ejercicio: duplica la capacidad y mira el costo por unidad" · "Siguiente: 7.2 · Los tres reportes de portafolio".
 
-Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, PMI, CAPEX, PDRI y los percentiles (P10, P50, P90 se dicen "pe diez", "pe cincuenta", "pe noventa"). Mantén en inglés Cost Curves, KPI Library, Find your facility, Calculate, Global CAPEX Monitor, Insights, Location Factor, Cost Index, Practitioner.
+Pronunciación: configura en el diccionario de HeyGen Kpex, AACE, PMI, CAPEX, PDRI y los percentiles (P10, P50, P90 se dicen "pe diez", "pe cincuenta", "pe noventa"). Mantén en inglés Cost Curves, KPI Library, Guide me to a facility, Calculate, Global CAPEX Monitor, Insights, Location Factor, Cost Index, Practitioner.

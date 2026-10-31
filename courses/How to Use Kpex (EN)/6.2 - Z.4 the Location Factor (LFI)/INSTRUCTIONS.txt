@@ -6,7 +6,7 @@ Layout A = large avatar over the dark background 01-bg-dark.jpg.
 Layout B = the attached screenshot full screen and clearly readable, with the avatar small in a circle at the bottom right, not covering the important part of the screenshot. Do not crop or distort the screenshots.
 
 Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
-Scene 2 (paragraph 2): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "196 countries · 6 continents" · "US Gulf Coast = LFI 1.000".
+Scene 2 (paragraph 2): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "197 countries · 6 continents" · "US Gulf Coast = LFI 1.000".
 Scene 3 (paragraph 3): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "E = A × (B + C + D) / 3" · "A country · B procurement · C labour · D engineering".
 Scene 4 (paragraph 4): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "Applied factor = LFI(destination) ÷ LFI(origin)" · "example numbers: made up".
 Scene 5 (paragraph 5): Layout B. Background: 02-6.2-z4-pagina-pais.png. On-screen text: "Country dossier · factors · profile · major projects with published CAPEX".

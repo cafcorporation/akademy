@@ -1,6 +1,6 @@
 Picture this: you have the cost of a plant, but it was built from US Gulf Coast data, and your project is on another continent. How do you move it? With the Location Factor. I'm Carlos Fuenmayor, and in this lesson we look at Z four, the engine that takes any cost to any location on earth.
 
-The CAF LFI, the Location Factor Index, adjusts any base cost to any location on earth. It covers one hundred and ninety-six countries across six continents. Its reference point is the US Gulf Coast, which equals one: the AACE standard. Above one, costlier than the Gulf Coast; below one, cheaper.
+The CAF LFI, the Location Factor Index, adjusts any base cost to any location on earth. It covers one hundred and ninety-seven countries across six continents. Its reference point is the US Gulf Coast, which equals one: the AACE standard. Above one, costlier than the Gulf Coast; below one, cheaper.
 
 Each country's final factor combines four components: the country's own drivers, procurement with duty and freight, labour, and engineering. Procurement, labour and engineering are averaged, and that average is multiplied by the country drivers. That's the formula you see on screen.
 

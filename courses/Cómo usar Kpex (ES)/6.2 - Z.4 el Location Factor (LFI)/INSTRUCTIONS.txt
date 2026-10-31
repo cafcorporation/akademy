@@ -6,7 +6,7 @@ Layout A = avatar grande sobre el fondo oscuro 01-bg-dark.jpg.
 Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pequeño en un círculo abajo a la derecha, sin tapar la zona importante de la imagen. No recortes ni deformes las imágenes.
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
-Escena 2 (párrafo 2): Layout B. Fondo: 02-6.2-z4-pagina-pais.png. Texto en pantalla: "196 países · 6 continentes" · "Costa del Golfo de EE. UU. = LFI 1,000".
+Escena 2 (párrafo 2): Layout B. Fondo: 02-6.2-z4-pagina-pais.png. Texto en pantalla: "197 países · 6 continentes" · "Costa del Golfo de EE. UU. = LFI 1,000".
 Escena 3 (párrafo 3): Layout B. Fondo: 02-6.2-z4-pagina-pais.png. Texto en pantalla: "E = A × (B + C + D) / 3" · "A país · B compras · C mano de obra · D ingeniería".
 Escena 4 (párrafo 4): Layout B. Fondo: 02-6.2-z4-pagina-pais.png. Texto en pantalla: "Factor aplicado = LFI(destino) ÷ LFI(origen)" · "números del ejemplo: inventados".
 Escena 5 (párrafo 5): Layout B. Fondo: 02-6.2-z4-pagina-pais.png. Texto en pantalla: "Dossier de país · factores · perfil · grandes proyectos con CAPEX publicado".

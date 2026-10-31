@@ -8,8 +8,8 @@ Layout B = the attached screenshot full screen and clearly readable, with the av
 Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation".
 Scene 2 (paragraph 2): Layout B. Background: 02-5.2-curva-de-costo.png. On-screen text: "Module B · Historical Benchmarks & Cost Curves" · "653 curves · 10 sectors · 60 families".
 Scene 3 (paragraph 3): Layout B. Background: 02-5.2-curva-de-costo.png. On-screen text: "C = a·Qⁿ" · "n < 1 → unit cost falls with size" · "magnitude-aware".
-Scene 4 (paragraph 4): Layout B. Background: 03-5.3-facility-cbs.png. On-screen text: "Facility = whole plant ↔ Module C" · "Functional Unit = process unit".
-Scene 5 (paragraph 5): Layout B. Background: 02-5.2-curva-de-costo.png. On-screen text: "B.2 · P10/P50/P90 ranges · KPI Library" · "KPEX-HF Allowances → Module A".
+Scene 4 (paragraph 4): Layout B. Background: 03-5.3-facility-cbs.png. On-screen text: "Component → Functional Unit → Facility" · "Facility = whole plant ↔ Module C".
+Scene 5 (paragraph 5): Layout B. Background: 02-5.2-curva-de-costo.png. On-screen text: "KPI Library · low/mid/high ranges" · "KPEX-HF (4th tab) · P10/P50/P90 → Module A".
 Scene 6 (paragraph 6): Layout A. Background: 04-bg-light.jpg. On-screen text: "The bigger the project, the lower the cost per unit" · "Next: 5.3 · Module C".
 
-Pronunciation: set up Kpex, KPI (spelled out), LFI, P10 / P50 / P90 ("P ten", "P fifty", "P ninety"), and the UI names (Cost Curves, Find your facility, Functional Unit, KPI Library, KPEX-HF Allowances, magnitude-aware) in HeyGen's dictionary. Generate scene 3 first (the formula one) and listen.
+Pronunciation: set up Kpex, KPI (spelled out), LFI, P10 / P50 / P90 ("P ten", "P fifty", "P ninety"), and the UI names (Cost Curves, Guide me to a facility, Component, Functional Unit, Construction Costs, Benchmark Data, KPI Library, KPEX-HF Allowances, magnitude-aware) in HeyGen's dictionary. Generate scene 3 first (the formula one) and listen.

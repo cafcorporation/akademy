@@ -8,8 +8,8 @@ Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pe
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
 Escena 2 (párrafo 2): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "Módulo B · Historical Benchmarks & Cost Curves" · "653 curvas · 10 sectores · 60 familias".
 Escena 3 (párrafo 3): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "C = a·Qⁿ" · "n < 1 → el costo por unidad baja con el tamaño" · "magnitude-aware".
-Escena 4 (párrafo 4): Layout B. Fondo: 03-5.3-facility-cbs.png. Texto en pantalla: "Facility = planta completa ↔ Módulo C" · "Functional Unit = unidad de proceso".
-Escena 5 (párrafo 5): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "B.2 · rangos P10/P50/P90 · KPI Library" · "KPEX-HF Allowances → Módulo A".
+Escena 4 (párrafo 4): Layout B. Fondo: 03-5.3-facility-cbs.png. Texto en pantalla: "Component → Functional Unit → Facility" · "Facility = planta completa ↔ Módulo C".
+Escena 5 (párrafo 5): Layout B. Fondo: 02-5.2-curva-de-costo.png. Texto en pantalla: "KPI Library · rangos bajo/medio/alto" · "KPEX-HF (4.ª pestaña) · P10/P50/P90 → Módulo A".
 Escena 6 (párrafo 6): Layout A. Fondo: 04-bg-light.jpg. Texto en pantalla: "Cuanto más grande el proyecto, menor el costo por unidad" · "Siguiente: 5.3 · Módulo C".
 
-Pronunciación: configura en el diccionario de HeyGen Kpex, KPI (deletreado, "ka-pe-i"), LFI, P10 / P50 / P90 ("pe diez", "pe cincuenta", "pe noventa"), y los nombres en inglés (Cost Curves, Find your facility, Functional Unit, KPI Library, KPEX-HF Allowances, magnitude-aware). Genera primero la escena 3 (la de la fórmula) y escúchala.
+Pronunciación: configura en el diccionario de HeyGen Kpex, KPI (deletreado, "ka-pe-i"), LFI, P10 / P50 / P90 ("pe diez", "pe cincuenta", "pe noventa"), y los nombres en inglés (Cost Curves, Guide me to a facility, Component, Functional Unit, Construction Costs, Benchmark Data, KPI Library, KPEX-HF Allowances, magnitude-aware). Genera primero la escena 3 (la de la fórmula) y escúchala.
