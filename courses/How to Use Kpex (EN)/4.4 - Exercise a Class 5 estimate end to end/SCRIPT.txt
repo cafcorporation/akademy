@@ -4,7 +4,7 @@ Step one: in the sidebar you open Intelligence, Benchmarks, Cost Curves. Step tw
 
 Step three: you enter the inputs. A project name for the report; the capacity, one hundred; and the destination country, Chile. As soon as you pick the country, Kpex fills in the destination Location Factor and shows you the model's country of origin. Keep the contingency the platform suggests for Class 5.
 
-Step four: you click Calculate. Kpex returns the total installed cost with its band and plots your point on the curve, with a fixed value label. You'll see three cards: the AACE Low, at minus fifty percent; the point estimate with contingency; and the AACE High, at plus one hundred percent. Escalation to the current month is already included. Step five: you click Print Class 5 report and save the one-page report.
+Step four: you click Calculate. Kpex returns the total installed cost with its band and plots your point on the curve, with a fixed value label. You'll see three cards: the AACE Low, at minus fifty percent; the point estimate with contingency; and the AACE High, at plus one hundred percent. Escalation to the current month is already included. Step five: you click Class 5 report, with the printer icon, and save the one-page report.
 
 Step six, and this is the one that marks out a professional: cross-check your number against history. Open the KPI Library and find the total-installed-cost-per-megawatt-peak indicator for the solar family. Divide your point estimate by one hundred and see where it lands against the tenth, fiftieth and ninetieth percentiles. If it falls between the tenth and the ninetieth, your estimate is defensible.
 

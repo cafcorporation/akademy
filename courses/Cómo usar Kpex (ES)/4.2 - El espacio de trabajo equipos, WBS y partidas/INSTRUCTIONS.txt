@@ -7,7 +7,7 @@ Layout B = la imagen adjunta a pantalla completa, bien legible, con el avatar pe
 
 Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótulo inferior: "Carlos Fuenmayor · Facilitador · CAF Corporation".
 Escena 2 (párrafo 2): Layout B. Fondo: 02-4.2-estimate-workspace.png. Texto en pantalla: "AACE Classification · Basis of Estimate · Cost Adjustments · WBS Cost Breakdown".
-Escena 3 (párrafo 3): Layout B. Fondo: 02-4.2-estimate-workspace.png. Texto en pantalla: "Continue Estimate · Mature to Class N · WBS Builder · Edit · Procurement (Clase 3)".
+Escena 3 (párrafo 3): Layout B. Fondo: 02-4.2-estimate-workspace.png. Texto en pantalla: "Continue Estimate · Mature to Class N · WBS Builder · Edit · Procurement (Clase 2 y 3)".
 Escena 4 (párrafo 4): Layout B. Fondo: 03-5.1-modulo-a-catalogo.png. Texto en pantalla: "Equipment List Builder" · "WBS Build → Equipment List → DC Method (KPEX-HF / Lang Factor)".
 Escena 5 (párrafo 5): Layout B. Fondo: 02-4.2-estimate-workspace.png. Texto en pantalla: "WBS Builder" · "Facility → Area → Unit → Cost Item" · "alineada con AACE TCM + PMI".
 Escena 6 (párrafo 6): Layout A. Fondo: 04-bg-light.jpg. Texto en pantalla: "Z.4 LFI (global o por partida) · Z.5 Cost Index" · "El asistente crea; el espacio de trabajo llena".

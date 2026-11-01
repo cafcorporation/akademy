@@ -9,7 +9,7 @@ Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: low
 Scene 2 (paragraph 2): Layout B. Background: 02-4.1-estimate-wizard.png. On-screen text: "Estimate Identity → Estimate Currency" · "Base in USD · frozen rate (ECB)".
 Scene 3 (paragraph 3): Layout B. Background: 03-3.2-cost-curves.png. On-screen text: "Metric ⇄ Imperial" · "read-only · model and prices unchanged".
 Scene 4 (paragraph 4): Layout B. Background: 04-6.4-pdri.png. On-screen text: "Support Tools (Z) → Z.6 Assessment Tools" · "7 variants · 0–1000, lower = better".
-Scene 5 (paragraph 5): Layout B. Background: 05-4.3-estimate-pdf.png. On-screen text: "Preview / Print PDF" · "branded Excel workbook · 1G session · 2G estimate" · "cover · basis · summary · components · sources".
+Scene 5 (paragraph 5): Layout B. Background: 05-4.3-estimate-pdf.png. On-screen text: "Preview / Print PDF" · "branded Excel workbook · 1G session · 2G estimate" · "cover · basis · summary · class 5 basis · equipment list · ISBL bulk · WBS detail".
 Scene 6 (paragraph 6): Layout A. Background: 06-bg-light.jpg. On-screen text: "Download Excel · colours (Professional)" · "How much + how accurate, where, when and definition".
 Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "Next: 4.4 · Exercise: a Class 5 estimate end to end".
 

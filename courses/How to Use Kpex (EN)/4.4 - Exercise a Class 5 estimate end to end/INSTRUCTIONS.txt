@@ -8,9 +8,9 @@ Layout B = the attached screenshot full screen and clearly readable, with the av
 Scene 1 (paragraph 1): Layout A. Background: 01-bg-dark.jpg. On-screen text: lower-third: "Carlos Fuenmayor · Facilitator · CAF Corporation" · "Case: 100 MWp · Solar PV · Chile".
 Scene 2 (paragraph 2): Layout B. Background: 02-5.2-curva-de-costo.png. On-screen text: "Intelligence → Benchmarks → Cost Curves" · "Guide me to a facility · Solar PV — Utility Scale (EPC)".
 Scene 3 (paragraph 3): Layout B. Background: 02-5.2-curva-de-costo.png. On-screen text: "Capacity: 100 · Country: Chile" · "Destination LFI + Model origin automatic".
-Scene 4 (paragraph 4): Layout B. Background: 03-4.4-class5-result.png. On-screen text: "Calculate" · "AACE Low (−50%) · Point + Contingency · AACE High (+100%)" · "Print Class 5 report (PDF)".
+Scene 4 (paragraph 4): Layout B. Background: 03-4.4-class5-result.png. On-screen text: "Calculate" · "AACE Low (−50%) · Point + Contingency · AACE High (+100%)" · "Class 5 report".
 Scene 5 (paragraph 5): Layout B. Background: 03-4.4-class5-result.png. On-screen text: "KPI Library · Solar PV TIC per MWp" · "point ÷ 100 → between P10 and P90?".
 Scene 6 (paragraph 6): Layout B. Background: 04-4.1-estimate-wizard.png. On-screen text: "Create Class 5 Estimate with this Curve" · "Deliverables: table · PDF · 2 sentences".
 Scene 7 (paragraph 7): Layout A. Background: 01-bg-dark.jpg. On-screen text: "A number with its band, calibrated, checked and documented" · "Next: Module 5 · The Cost Modules".
 
-Pronunciation: set up Kpex, AACE, LFI, TIC, MWp ("megawatts peak"), KPI, PDF, EPC, and the UI names (Cost Curves, Guide me to a facility, Solar PV — Utility Scale (EPC), Calculate, Print Class 5 report, KPI Library, Create Class 5 Estimate with this Curve) in HeyGen's dictionary. Say "P ten / P fifty / P ninety" for the percentiles. Generate scene 4 first and listen.
+Pronunciation: set up Kpex, AACE, LFI, TIC, MWp ("megawatts peak"), KPI, PDF, EPC, and the UI names (Cost Curves, Guide me to a facility, Solar PV — Utility Scale (EPC), Calculate, Class 5 report, KPI Library, Create Class 5 Estimate with this Curve) in HeyGen's dictionary. Say "P ten / P fifty / P ninety" for the percentiles. Generate scene 4 first and listen.

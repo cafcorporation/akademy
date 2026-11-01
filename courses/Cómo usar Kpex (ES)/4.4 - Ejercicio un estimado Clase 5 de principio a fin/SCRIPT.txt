@@ -4,7 +4,7 @@ Primer paso: en la barra lateral abres Intelligence, Benchmarks, Cost Curves. Se
 
 Tercer paso: introduces los datos. Un nombre de proyecto para el reporte; la capacidad, cien; y el país de destino, Chile. En cuanto eliges el país, Kpex rellena el Location Factor de destino y te muestra el país de origen del modelo. Deja la contingencia que la plataforma propone para Clase 5.
 
-Cuarto paso: pulsas Calculate. Kpex devuelve el costo total instalado con su banda y marca tu punto sobre la curva, con una etiqueta de valor fija. Verás tres tarjetas: el AACE Low, a menos cincuenta por ciento; el punto estimado con contingencia; y el AACE High, a más cien por ciento. La escalación al mes actual ya está incluida. Quinto paso: pulsas Print Class 5 report y guardas el reporte de una página.
+Cuarto paso: pulsas Calculate. Kpex devuelve el costo total instalado con su banda y marca tu punto sobre la curva, con una etiqueta de valor fija. Verás tres tarjetas: el AACE Low, a menos cincuenta por ciento; el punto estimado con contingencia; y el AACE High, a más cien por ciento. La escalación al mes actual ya está incluida. Quinto paso: pulsas Class 5 report, con el icono de impresora, y guardas el reporte de una página.
 
 Sexto paso, y es el que separa a un profesional: contrasta tu número con la historia. Abre la KPI Library y busca el indicador de costo total instalado por megavatio pico de la familia solar. Divide tu punto estimado entre cien y comprueba dónde cae respecto de los percentiles diez, cincuenta y noventa. Si cae entre el diez y el noventa, tu estimado es defendible.
 

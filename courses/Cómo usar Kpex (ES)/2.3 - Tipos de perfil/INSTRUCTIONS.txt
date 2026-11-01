@@ -9,7 +9,7 @@ Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótu
 Escena 2 (párrafo 2): Layout B. Fondo: 02-2.3-sidebar-by-profile.png. Texto en pantalla: "Consultant / Estimator · Owner / Operator · Vendor · Data Partner".
 Escena 3 (párrafo 3): Layout B. Fondo: 03-1.1-dashboard.png. Texto en pantalla: "Estimator: barra completa + Project Portfolio" · "Owner: EPC Cost Estimates · Procurement (My RFQs · New RFQ)".
 Escena 4 (párrafo 4): Layout B. Fondo: 02-2.3-sidebar-by-profile.png. Texto en pantalla: "Vendor Portal: My Products · Add Product · Browse RFQs" · "Data Partner: My Datasets" · "Común: Dashboard + Kpex Exchange".
-Escena 5 (párrafo 5): Layout B. Fondo: 04-1.2-sidebar.png. Texto en pantalla: "Cuentas nuevas = Consultant / Estimator" · "Cambiar en My Account → Profile" · "Data Partner: por invitación de CAF Corporation".
+Escena 5 (párrafo 5): Layout B. Fondo: 04-1.2-sidebar.png. Texto en pantalla: "Cuentas nuevas = Consultant / Estimator" · "Tipo de perfil: en el onboarding, no autoservicio" · "Data Partner: por invitación de CAF Corporation".
 Escena 6 (párrafo 6): Layout A. Fondo: 05-bg-light.jpg. Texto en pantalla: "Perfil = qué secciones ves" · "Membresía = cuáles están desbloqueadas".
 Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 3.1 · Las clases AACE en Kpex".
 

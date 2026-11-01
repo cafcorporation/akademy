@@ -9,7 +9,7 @@ Escena 1 (párrafo 1): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: rótu
 Escena 2 (párrafo 2): Layout B. Fondo: 02-4.1-estimate-wizard.png. Texto en pantalla: "Estimate Identity → Estimate Currency" · "Base en USD · tasa congelada (BCE)".
 Escena 3 (párrafo 3): Layout B. Fondo: 03-3.2-cost-curves.png. Texto en pantalla: "Métrico ⇄ Imperial" · "solo lectura · no cambia modelo ni precios".
 Escena 4 (párrafo 4): Layout B. Fondo: 04-6.4-pdri.png. Texto en pantalla: "Support Tools (Z) → Z.6 Assessment Tools" · "7 variantes · 0–1000, más bajo = mejor".
-Escena 5 (párrafo 5): Layout B. Fondo: 05-4.3-estimate-pdf.png. Texto en pantalla: "Preview / Print PDF" · "libro Excel de marca · 1G sesión · 2G estimado" · "cover · basis · summary · components · sources".
+Escena 5 (párrafo 5): Layout B. Fondo: 05-4.3-estimate-pdf.png. Texto en pantalla: "Preview / Print PDF" · "libro Excel de marca · 1G sesión · 2G estimado" · "cover · basis · summary · class 5 basis · equipment list · ISBL bulk · WBS detail".
 Escena 6 (párrafo 6): Layout A. Fondo: 06-bg-light.jpg. Texto en pantalla: "Download Excel · color (Professional)" · "Cuánto + con qué precisión, dónde, cuándo y definición".
 Escena 7 (párrafo 7): Layout A. Fondo: 01-bg-dark.jpg. Texto en pantalla: "Siguiente: 4.4 · Ejercicio Clase 5 de principio a fin".
 
