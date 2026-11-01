@@ -6,6 +6,13 @@
     "file": "Kpex_1G",
     "secs": 103
   },
+  "2g": {
+    "code": "Kpex 2G",
+    "title": "Capital Cost Intelligence",
+    "intro": "Kpex 2G brings the six cost modules into one platform — components, benchmarks, facilities, OPEX, ABEX and the support tools — for AACE Class 5 to Class 2 estimates in 197 countries, and how it differs from Kpex 1G.",
+    "file": "Kpex_2G",
+    "secs": 122
+  },
   "reports": {
     "code": "Kpex",
     "title": "One report format: your brand, your client",

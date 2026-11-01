@@ -21,7 +21,7 @@ const VIMEO = {
 
 // lesson id → videos, in viewing order
 const MAP = {
-  '1.2': ['1g'],
+  '1.2': ['2g', '1g'],
   '4.2': ['vimeo:class4'],
   '4.3': ['reports'],
   '4.4': ['vimeo:class5'],
