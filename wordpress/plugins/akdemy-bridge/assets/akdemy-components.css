@@ -210,3 +210,14 @@
 
 /* Top intro video: the lesson's primary module tour, shown full-width above the text (not in the grid). */
 .kpex-vid.kpex-intro { max-width: 900px; margin: 2px 0 26px; }
+
+/* Cross-reference to a KPEX Cost Intelligence report — an optional sales pointer at the foot of a lesson. */
+.kpex-report-ref { margin: 32px 0 6px; padding: 20px 22px; background: var(--akdemy-cream); border: 1.5px solid var(--akdemy-line); border-left: 4px solid var(--akdemy-orange); border-radius: 12px; }
+.kpex-report-ref .eyebrow { margin: 0 0 6px; font-size: 11.5px; letter-spacing: .09em; font-weight: 700; color: var(--akdemy-orange); text-transform: uppercase; }
+.kpex-report-ref h3 { margin: 0 0 8px; font-size: 18px; line-height: 1.3; color: var(--akdemy-ink); }
+.kpex-report-ref p { margin: 0 0 10px; color: var(--akdemy-gray); }
+.kpex-report-ref ul { margin: 0 0 10px; padding-left: 20px; }
+.kpex-report-ref li { margin: 5px 0; color: var(--akdemy-gray); }
+.kpex-report-ref a { color: var(--akdemy-orange); font-weight: 600; text-decoration: none; }
+.kpex-report-ref a:hover { text-decoration: underline; }
+.kpex-report-ref .foot { margin: 6px 0 0; font-size: 14px; }
