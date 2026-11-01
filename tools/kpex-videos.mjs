@@ -8,6 +8,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const lang = process.argv[2] || 'en';
+// Optional staged rollout: `node tools/kpex-videos.mjs es 6.1,6.2` touches only those lessons; others stay untouched.
+const only = (process.argv[3] || '').split(',').map(s => s.trim()).filter(Boolean);
 const BASE = process.env.KPEX_VIDEO_BASE || '/wp-content/uploads/kpex-videos/';   // Akdemy's own copy (tools/sync-kpex-videos.sh)
 const ROOT = path.resolve('courses/kpex-user-course');
 const cat = JSON.parse(fs.readFileSync(path.join(ROOT, 'video/kpex-navigation-videos.json'), 'utf8'));
@@ -58,20 +60,33 @@ function block(key) {
     + `<figcaption><strong>${esc(v.code)} · ${esc(v.title)}</strong> · ${mmss(v.secs)}</figcaption></figure>`;
 }
 
-const START = '<!-- kpex-videos:start -->', END = '<!-- kpex-videos:end -->';
+const START = '<!-- kpex-videos:start -->', END = '<!-- kpex-videos:end -->';           // bottom gallery
+const ISTART = '<!-- kpex-intro:start -->', IEND = '<!-- kpex-intro:end -->';           // top intro video
 const dir = path.join(ROOT, lang);
 let done = 0;
 for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.md'))) {
   const id = f.split('-')[0];
+  if (only.length && !only.includes(id)) continue;                        // staged rollout: leave the rest untouched
   const file = path.join(dir, f);
   let md = fs.readFileSync(file, 'utf8');
-  md = md.replace(new RegExp(`\\n?${START}[\\s\\S]*?${END}\\n?`), '\n');   // remove a previous section
+  md = md.replace(new RegExp(`\\n?${ISTART}[\\s\\S]*?${IEND}\\n?`), '\n');  // remove a previous intro
+  md = md.replace(new RegExp(`\\n?${START}[\\s\\S]*?${END}\\n?`), '\n');    // remove a previous gallery
   if (!MAP[id]) { fs.writeFileSync(file, md); continue; }
-  const section = `${START}\n## ${T.h}\n\n${T.p}\n\n<div class="kpex-vids">\n${MAP[id].map(block).join('\n')}\n</div>\n${END}\n`;
-  const at = md.indexOf(`\n## ${T.key}`);
-  md = at >= 0 ? md.slice(0, at + 1) + section + '\n' + md.slice(at + 1) : md.trimEnd() + '\n\n' + section;
+
+  // The lesson's primary video becomes the top intro (full-width); any extras stay in the bottom gallery.
+  const [intro, ...rest] = MAP[id];
+  const introFig = block(intro).replace('class="kpex-vid"', 'class="kpex-vid kpex-intro"');
+  const introSec = `${ISTART}\n${introFig}\n${IEND}\n`;
+  const fm = md.match(/^(---\n[\s\S]*?\n---\n)/);                           // insert right after the front matter
+  md = fm ? fm[1] + '\n' + introSec + md.slice(fm[1].length) : introSec + md;
+
+  if (rest.length) {
+    const section = `${START}\n## ${T.h}\n\n${T.p}\n\n<div class="kpex-vids">\n${rest.map(block).join('\n')}\n</div>\n${END}\n`;
+    const at = md.indexOf(`\n## ${T.key}`);
+    md = at >= 0 ? md.slice(0, at + 1) + section + '\n' + md.slice(at + 1) : md.trimEnd() + '\n\n' + section;
+  }
   fs.writeFileSync(file, md);
   done++;
-  console.log(`${lang}/${f}: ${MAP[id].length} video(s)`);
+  console.log(`${lang}/${f}: intro=${intro} gallery=${rest.length}`);
 }
 console.log(`${done} lessons updated`);
