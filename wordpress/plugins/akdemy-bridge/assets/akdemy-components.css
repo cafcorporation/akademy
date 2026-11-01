@@ -147,7 +147,7 @@
 .akdemy-pending, .akdemy-shot-pending { font-family: var(--akdemy-font); }
 /* Lesson screenshots: framed like an app window */
 .content-item-description img.akdemy-shot, .entry-content img.akdemy-shot {
-  display: block; width: 100%; height: auto; margin: 1.4em 0;
+  display: block; width: auto; max-width: 100%; height: auto; max-height: 600px; margin: 1.4em auto;
   border: 1px solid var(--akdemy-line-strong); border-radius: 12px;
   box-shadow: 0 14px 40px rgba(0,0,0,.12);
 }
@@ -193,7 +193,7 @@
   margin: 1.2em 0; padding: 14px 18px; font-style: normal; font-weight: 600;
 }
 .course-description blockquote::before { display: none; }
-.course-description img.akdemy-shot { display: block; width: 100%; height: auto; margin: 1.4em 0; border-radius: 12px; box-shadow: 0 14px 40px rgba(0,0,0,.18); }
+.course-description img.akdemy-shot { display: block; width: auto; max-width: 100%; height: auto; max-height: 600px; margin: 1.4em auto; border-radius: 12px; box-shadow: 0 14px 40px rgba(0,0,0,.18); }
 .course-description ul li::marker { color: var(--akdemy-orange); }
 
 /* «Watch it in Kpex» — navigation videos of the real platform inside the Kpex course lessons
